@@ -37,8 +37,10 @@ if the medical test cases are get Fit will be updated as complete.
 
 After get complete the Medical test and Labour charge for IQAMA then the New Employee Request creation process will start 
 
--	**New** – create the request for the New Employee and
+-	**New** – create the request for the New Employee
+-	
 In The action field is following to,
+
 Institutional Quarantine - is forward the subject in to Quarantine.
 Under Documentation – is Proceed to work on documentation procedure for new employee.
 

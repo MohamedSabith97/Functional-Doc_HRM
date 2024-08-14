@@ -165,6 +165,8 @@ For all employee will be renewed Iqama identification in yearly once.
 
    The system can start the renewal process in less then 60 days to employee for expire the Iqama validation, and creating the new request to start the Iqama renewal process.
 
+  **Mandatory to update the number of Renewal Count of Iqama Renewal for entire individual employee**
+
   the user can process the request to move into Payment Request after completed in Newly required.
 
    *In The action field is following to,*
@@ -175,6 +177,10 @@ For all employee will be renewed Iqama identification in yearly once.
 
    The customer and user can creat  e the request for Iqama renewal process in Customer approval and Case and Task management. And the customer or User use to create the request for urgent basis to get Iqama card for employee.
    
+
+  **In this stage Iqama Validity period should be selected to complete the request for Iqama Renewal process.**
+
+
    The customer can request for an emergency basis;
 
    *In The action field is following to,*
@@ -188,9 +194,11 @@ For all employee will be renewed Iqama identification in yearly once.
 
 -	**3-IQAMA LESS THEN30 DAYS** : -
 
-     The request is moved by system automation working from **Newly required Renewal**l to **Iqama less then 30 Days** before 30 days to expire the Iqama validation for employee.
+     The request is moved by system automation working from **Newly required Renewal**l and **Customer Approval** to **Iqama less then 30 Days** before 30 days to expire the Iqama validation for employee.
 
-     And filtered the cases and divide the requests with two categories:
+    **In this stage Iqama Validity period should be selected to complete the request for Iqama Renewal process.**
+
+     The request complete to move by the User into -
 
     -*Work Permit* / *Priority Finance Approval*
 
@@ -200,12 +208,26 @@ For all employee will be renewed Iqama identification in yearly once.
 
     *Priority Finance Approval* - The User can verify the case status and complete to get **Priority Finance Approval**.
 
-**After processed the case is moved to either** **Work Permit** or **Priority Finance Approval**.
+**After processed the case is moved to either** **Work Permit** or **Priority Finance Approval.**
 
 
 -	**4-AGREE** : -
 
     In Iqama renewal will receive for process the request in this stage after completed the request in Newly Required and Customer Approval. And User can validate request in this stage and proceed to agree for payment request or decline.
+
+     **Listed Employee status are (Escaped / Final Exit / Retirement Request / and Transferred by Sponsor) shouldn’t approve to Iqama Payment for Iqama Renewal process.**
+
+    **In this stage Iqama Validity period should be selected to complete the request for Iqama Renewal process.**
+
+    
+    **Employee should be authenticated have approve and agree for process to Iqama Renewal in Mudad.**
+
+    **Mudad expiry date don’t be less than 2 months to agree for Iqama Renewal process.** 
+
+    **Employee shouldn’t authenticate in case of resides outside kingdom.**
+
+    **In this all conditions User can’t agree to approve the Iqama Renewal for Employee.**
+
 
     *In The action field is following to,*
 
@@ -221,12 +243,24 @@ For all employee will be renewed Iqama identification in yearly once.
 
     Renewal process is progress on Work Permit and the request received from **Iqama less then 30 Days** to complete with urgent basis.
 
+**Listed Employee status are (Escaped / Final Exit / Retirement Request / and Transferred by Sponsor) shouldn’t approve to Iqama Payment for Iqama Renewal process.**
+
 **After this stage is completed then request has moved to request on _**Iqama Payment**_.**
 
 
 - **6-PRIORITY FINANCE APPROVAL** : -
 
+
   User has to follow and define the status of the request into the Finance department.
+
+  **Mandatory to User should validate this before approve the request to move for Priority Request:**
+
+  **ERE request – Employee request for Vocational leave in ERE.**
+
+  **Family Visa - Employee require extending the Iqama validity for to Apply Family Visa and Required attachment**
+
+  **VIP Client –VIP Customer expect to extend Iqama Validity. No reason required.**
+
 
    *In The action field is following to,*
 
@@ -270,6 +304,11 @@ For all employee will be renewed Iqama identification in yearly once.
 -	**10-IQAMA RENEWAL** : -
 
     The employee Iqama will be import to update in HRM portal after the renewal process is completed in Iqama renewal stage
+
+    **Using for upload to Import the Iqama extended validity data into HRM portal for Employee.**
+
+    **System can create Muqeem status in Iqama Renewal, If doesn’t complete the Muqeem creation by system  in Iqama Renewal stage process , then and verify by the user, the user can perform to create the Muqeem status manually.**
+
 
 
     *In The action field is following to,*

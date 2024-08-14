@@ -374,3 +374,26 @@ Then moved on **Hold**.
     *Complete without Envelope* - user can **Complete without Envelope** to processing the request is complete with ATM Card Received in Lodging. for Employee staying in Lodging location.
 
 
+
+-	**5-PUT IN ENVELOPE** : -
+
+    And then user request to prepare the Card on transport for deliver to employee working location. 
+
+    *In The action field is following to,*
+
+       *Complete* - User can complete the request with ATM Card arrange for deliver to employee.
+-	**6-HOLD** : -
+
+    User will complete the request on **Hold** after getting the requirements for processing the ATM Card renewal request. And move forward the request for Approval.
+
+
+    *In The action field is following to,*
+
+    *Move to Approval* - user can complete the request with **Move to Approval** for request to get Approval from Finance Dept Approval to process the renewal of ATM Card.
+
+
+-	**7-COMPLETE** : -
+
+    The Request for ATM Card Renewal process has been completed after the ATM Card delivers from lodging location to the Employee working location.
+
+

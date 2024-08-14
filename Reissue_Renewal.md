@@ -305,7 +305,7 @@ For all employee will be renewed Iqama identification in yearly once.
 
     The employee Iqama will be import to update in HRM portal after the renewal process is completed in Iqama renewal stage
 
-    **Using for upload to Import the Iqama extended validity data into HRM portal for Employee.**
+    **In this stage is  Using for upload to Import the Iqama extended validity data into HRM portal for Employee.**
 
     **System can create Muqeem status in Iqama Renewal, If doesn’t complete the Muqeem creation by system  in Iqama Renewal stage process , then and verify by the user, the user can perform to create the Muqeem status manually.**
 

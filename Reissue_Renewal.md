@@ -320,7 +320,6 @@ For all employee will be renewed Iqama identification in yearly once.
 
     In this stage, the user perform to complete the request and move into **Completed** stage.
 
-**In this Renewal stage system will create the muqeem in automation function. if still not created or finding error while performing to create muqeem, then the user will create the muqeem status manually and proceed complete the request in Iqama Renewal.**
 
 - **11-CASES HOLD** : -
 

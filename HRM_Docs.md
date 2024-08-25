@@ -2,9 +2,7 @@
 
 > ### **Medical Test:**
 
-Medical test and Insurance process will be start in arrival stage.
-
-In the arrival process of employee then the medical test procedure will start immediately for all new employees to get complete the Medical Test.
+In the arrival stage of employee at same the medical test procedure will start immediately for all new employees to get complete the Medical Test.
 
 > **1-Newly required:**
 
@@ -44,14 +42,21 @@ Then will process start for he Labour office charge cost for new employee iqama 
 
 > ### **New Employee Request:**
 
-After get complete the Medical test and Labour charge for IQAMA then the New Employee Request creation process will start 
+Employee Request creation process will start at same time of Medical Test procedure is on goning.
 
 > **1-New:**
 
-create the request for the New Employee and
+create the request for the New Employee refer the request next stage.
+
 In The action field is following to,
-Institutional Quarantine - is forward the subject in to Quarantine.
-Under Documentation – is Proceed to work on documentation procedure for new employee.
+
+*Institutional Quarantine* - is request complete the **Institutional Quarantine** stage.
+
+*Under Documentation* – is Proceed to work on documentation procedure for new employee.
+
+> **Institutional Quarantine**
+
+In this stage,the employee request for under Quarantine. the refer to **Under Documentation** stage.
 
 > **2-Under Documentation:**
 

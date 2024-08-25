@@ -41,7 +41,7 @@ if the medical test cases are get Fit will be updated as complete.
 Then will process start for he Labour office charge cost for new employee iqama issuance.
 
 -------------------------------------------------------------------------
-----------------------------------------------------------------------
+
 > ### **New Employee Request:**
 
 After get complete the Medical test and Labour charge for IQAMA then the New Employee Request creation process will start 
@@ -83,7 +83,7 @@ New Employee work status and assign the type of working mode by the category wis
 
 Completee stage is to track the employee status to see the who are in complete the stage and bring into Lodging facility.
 
---------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------
 
 > ### **Labour Office:**
 
@@ -120,7 +120,7 @@ To track the all The cases are completed in the Lobour office stage.
 IQAMA issuance is the next stage for new employee after the Labour office payment request stage has completed.
 
 -------------------------------------------------------------------------
-------------------------------------------------------------------------
+
 
 > ### **Insurance:**
 
@@ -173,7 +173,7 @@ Complete the insurance contract stage to update the Iqama details for employee.
 
 And uses to track the all completed cases in Insurance stage.
 
--------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------
 
 > ### **Iqama Issue:**
 
@@ -219,7 +219,6 @@ And uses to track the all completed cases in Iqama issuance stage.
 **(Insurance, ATM facility and Gosi process will start after the employee getting the Iqama ID)**
 
 -------------------------------------------------------------------------
--------------------------------------------------------------------------
 
 > ### **ATM:**
 
@@ -249,7 +248,7 @@ The ATM Card required to send for working emloyee with Individual customer will 
 
 *Complete* -Compete the rquest and Moved to **Completed** stage.
 
---------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------
 
 > ### **REISSUE:**
 
@@ -360,7 +359,6 @@ The Request for Iqama reissue process has been completed after the Iqama Card de
 *Complete* - the user can complete to closing the request to Iqama reissuance and delivered to employee.
 
 ------------------------------------------------------------------------
-------------------------------------------------------------------------
 
 > ### **ATM:**
 
@@ -399,7 +397,6 @@ user can verify and complete In this stage, the ATM Card dispatched from Lodging
 
 The Request for ATM Card reissue process has been completed after the ATM Card delivers from Lodging location to the Employee working location.
 
--------------------------------------------------------------------------
 -------------------------------------------------------------------------
 
 > ### **RENEWAL:**
@@ -558,7 +555,6 @@ The Request is processed and moved by user from **Agree** Stage waiting to get c
 User will process to complete the request in this stage with renewal process for Iqama Renewal to employee.
 
 -------------------------------------------------------------------------
--------------------------------------------------------------------------
 
 
 > ### **LABOUR CONTRACT:**
@@ -582,7 +578,6 @@ In case  missing the requirements then request will reject to return.
 > **4-COMPLETED**
 User complete stage after validate on **Mudad Upload** the request is completed.
 
--------------------------------------------------------------------------
 -------------------------------------------------------------------------
 
 > ### **ATM:**
@@ -635,7 +630,6 @@ After ATM card received in Lodging location then ATM Card data using to import i
 
 *Complete without Envelope* - user can **Complete without Envelope** to processing the request is complete with ATM Card Received in Lodging. for Employee staying in Lodging location.
 
--------------------------------------------------------------------------
 -------------------------------------------------------------------------
 
 > ### **Leave Management: -**
@@ -760,8 +754,6 @@ In this stage, awaited All pending and Rejected requests by user.
 All completed Request has been moved to Completed Stage, after all arrangements completed for Employee Vacation.
 
 -------------------------------------------------------------------------
--------------------------------------------------------------------------
-
 
 > ### **Vacation Settlement:**
 
@@ -834,7 +826,6 @@ All pending request has reject to **Client Rejection** and hold the all request 
 
 All completed Request has been moved to Completed Stage, After the Settlement request completed by the User.
 
-------------------------------------------------------------------------
 ------------------------------------------------------------------------
 
 > ### **Vacation Return:**
@@ -910,8 +901,6 @@ Employees who lefted from vacation are Listed to tracking purposes.
 All completed Request has been moved to Completed Stage, After the Vacation return process completed by the User.
 
 -------------------------------------------------------------------------
--------------------------------------------------------------------------
-
 
 > ### **Leave Reject Request**
 
@@ -945,8 +934,7 @@ Travel Request will be Cancel as per Customer request in **Leave Reject Request*
 
 All completed Request has been moved to Completed Stage, After the Leave Reject process have completed by the User.
 
--------------------------------------------------------------------------
--------------------------------------------------------------------------
+------------------------------------------------------------------------
 
 > ## **Travel:-**
 
@@ -1005,7 +993,7 @@ Incompleted request are Holding for Query in this stage, after clarifies the que
 *Release* - User Complete this stage after confirmation then **Release** to **Under Processing** stage to process the **Visa Request**.
 
 ------------------------------------------------------------------------
-------------------------------------------------------------------------
+
 
 
 
@@ -1067,7 +1055,6 @@ All Pending request is waiting to be take action status by user in **Hold** Stag
 *Resume* - User Resume the request and move to **Request** stage and Restart the request from early stage of **Travel Request**.
 
 ------------------------------------------------------------------------
-------------------------------------------------------------------------
 
 > ### **ERE Extend:**
 
@@ -1111,7 +1098,6 @@ All completed Request has to moved in Completed Stage, After the ERE Extend Requ
 
 All Rejected request is visible to show the Status of the ERE Extend.
 
-----------------------------------------------------------------------
 ----------------------------------------------------------------------
 
 
@@ -1180,7 +1166,7 @@ Pending and Rejected Request have showing in this **Client Rejection** stage. an
 All completed Request has to moved in **Complete** Stage, After the Final Settltment process is completed.
 
 -------------------------------------------------------------------------
--------------------------------------------------------------------------
+
 
 > ## **Retirement Request:**
 
@@ -1248,7 +1234,7 @@ In this stage, the Employee waiting to receive and update on information of trav
 
 
 ------------------------------------------------------------------------
-------------------------------------------------------------------------
+
 
 
 > ### **REISSUE:**
@@ -1257,7 +1243,7 @@ In this stage, the Employee waiting to receive and update on information of trav
 Reissue is service have to process for provide the Iqama ID Card, ATM Card and Insurance services for employee as replacement due to missing or damaging the id card or Employee service products.
 
 
-> ### **IQAMA:**A
+> ### **IQAMA:**
 
 The Iqama is a Residencial permit for the all resident, and it is identification for residence is provided by KSA Government.
 In case of missing or damaged the Iqama ID card then user can raise a request to process reissue the ID card with service charge payment in HRM portal and Case and Task Management.
@@ -1360,7 +1346,7 @@ The Request for Iqama reissue process has been completed after the Iqama Card de
 *Complete* - the user can complete to closing the request to Iqama reissuance and delivered to employee.
 
 -------------------------------------------------------------------------
--------------------------------------------------------------------------
+
 
 > ### **ATM:**
 
@@ -1402,7 +1388,7 @@ The Request for ATM Card reissue process has been completed after the ATM Card d
 > ### **Insurance:**
 
 -------------------------------------------------------------------------
-------------------------------------------------------------------------
+
 
 > ### **RENEWAL:**
 
@@ -1613,7 +1599,7 @@ The Request is processed and moved by user from **Agree** Stage, for related enq
 User will process to complete the request in this stage with renewal process for Iqama Renewal to employee.
 
 ------------------------------------------------------------------------
------------------------------------------------------------------------
+
 
 > ### **LABOUR CONTRACT:**
 
@@ -1638,7 +1624,7 @@ In case  missing the requirements then request will reject to return.
 User complete stage after validate on **Mudad Upload** the request is completed.
 
 ------------------------------------------------------------------------
-------------------------------------------------------------------------
+
 > ### **ATM:**
 
 ATM card is using for Employee payment transaction through online and other necessities , and after get expired the ATM Card will request start the Renewal Process for ATM Card for Employee.
@@ -1651,7 +1637,7 @@ User has created the request to get approval from the Finance department. After 
 
 *Approve* - User will approve the request in this stage to forward the request to **Manpower Department Approval**
 
-*Hold* - In case of the request is need any requirements 
+*Hold* - In case of the request is need any requirements
 Then moved on **Hold**.
 
 > **2-MANPOWER DEPARTMENT APPROVAL**
@@ -1713,7 +1699,6 @@ User will complete the request on **Hold** after getting the requirements for pr
 
 The Request for ATM Card Renewal process has been completed after the ATM Card delivers from lodging location to the Employee working location.
 
--------------------------------------------------------------------------
 -------------------------------------------------------------------------
 
 

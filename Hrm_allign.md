@@ -22,7 +22,9 @@
 
 Medical Test and following procedure is initiated for New Employee in the Arrival stage.
 
+
 <br>
+
 
 - ### **1-Newly required:**
 
@@ -32,7 +34,9 @@ Medical Test and following procedure is initiated for New Employee in the Arriva
 
            **1**- **Complete** - User Complete the Request and refer to [Waiting for Result](#2-waiting-for-result).
 
-           <br>
+
+<br>
+
 
 -  ### **2-Waiting for result:**
 
@@ -45,8 +49,10 @@ Medical Test and following procedure is initiated for New Employee in the Arriva
         
 
         **2**- [Not fit](#3-not-fit) - User reject the request and move to Not Fit Stage.
-        
+
+
 <br>
+
 
 - ### **3-Not Fit:**
 
@@ -60,14 +66,15 @@ Medical Test and following procedure is initiated for New Employee in the Arriva
 
            **2**-[Fit](#4-complete)   –  User Complete the request and refer to Completed Stage.
 
+
 <br>
-        
 
 
 - ### **4-Complete:**
 
     - All Completetd request for Medical Test is visible to see in this stage.
     - Then begins the [Labour office](#labour-office) Payment for employee.
+
 
 <br>
 
@@ -86,7 +93,9 @@ Medical Test and following procedure is initiated for New Employee in the Arriva
 
          **2**-[Under Documentation](#3-under-documentation) - User Complete the request and moved to **Under Docummentation** stage.
 
-         <br>
+
+<br>
+
 
  - ### **2-Institutional Quarantine**
 
@@ -98,7 +107,9 @@ Medical Test and following procedure is initiated for New Employee in the Arriva
 
           **2**-[Under Docuementation](#3-under-documentation) - User complete the request and refer to Under Documentation stage.
 
-     <br>
+
+<br>
+
 
 -  ### **3-Under Documentation:**
 
@@ -114,6 +125,8 @@ Medical Test and following procedure is initiated for New Employee in the Arriva
           **1**-Complete- User complete the request and refer [Under Training](#4-under-training) stage.
 
 
+<br>
+
 
  - ### **4-Under Training:**
 
@@ -125,7 +138,9 @@ Medical Test and following procedure is initiated for New Employee in the Arriva
 
            **1**-**Complete** - User complete the request and refer to [Waiting for Action](#5-waiting-for-action) stage.
 
+
 <br>
+
 
 - ### **5-Waiting For Action:**
 
@@ -139,7 +154,9 @@ Medical Test and following procedure is initiated for New Employee in the Arriva
 
           **Reserved for VIP**- Selected employee will be pre-reserved for an VIP customer.
 
+
 <br>
+
 
 - ### **6-Completed:**
 

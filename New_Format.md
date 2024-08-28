@@ -419,9 +419,7 @@ Reissue is service have to process for provide the Iqama ID Card, ATM Card and I
 
 **The Iqama Reissue process will be request for working employee to Individual customers only**
 
-[IQAMA Reissue](#iqama)
-
-[ATM Reissue](#atm-1)
+| [IQAMA Reissue](#iqama) | [ATM Reissue](#atm-1) |
 
 
 ### **[IQAMA](#reissue):**
@@ -635,9 +633,7 @@ Reissue request service is to process to provide ATM Card, new Iqama Id card and
 
 Renewal process has processing the renewal to extend the validation of Iqama Id Card, ATM Card and Insurance services for employee.
 
-[IQAMA Renewal](#iqama-1)
-
-[ATM Renewal](#atm-2)
+| [IQAMA Renewal](#iqama-1) | [ATM Renewal](#atm-2) |
 
 > ## **[IQAMA](#renewal):**
 

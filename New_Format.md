@@ -19,7 +19,7 @@
 
 Medical Test and following procedure is initiated for New Employee in the Arrival stage.
 
-[ [Newly Required](#newly-required) > [Waiting for Result](#waiting-for-result) > [Not Fit](#not-fit) > [Complete](#complete) ]
+| [Newly Required](#newly-required) > [Waiting for Result](#waiting-for-result) > [Not Fit](#not-fit) > [Complete](#complete) |
 
 <br>
 
@@ -75,7 +75,7 @@ Medical Test and following procedure is initiated for New Employee in the Arriva
 
 <br>
 
-[ [Home](#human-resource-management) | [Main](#on-boarding) | [Back](#medical-test) ]
+| [Home](#human-resource-management) | [Main](#on-board) | [Back](#medical-test) |
 
 <br>
 
@@ -164,7 +164,7 @@ Medical Test and following procedure is initiated for New Employee in the Arriva
 
     - In this stage, completed request of New employee is visible to track the New request status.
 
-| [Home](#human-resource-management) | [Main](#on-boarding) |  [Back](#new-employee-request) |
+| [Home](#human-resource-management) | [Main](#on-board) |  [Back](#new-employee-request) |
 
 <br>
 
@@ -226,7 +226,7 @@ User use to compare data on the payment requested in between the Labour Office a
   - [IQAMA Issue](#iqama-issue) is the next stage for employee after the Labour office payment request stage has completed.
 
 
-| [Home](#human-resource-management) | [Main](#on-boarding) | [Back](#labour-office) |
+| [Home](#human-resource-management) | [Main](#on-board) | [Back](#labour-office) |
 
 <br>
 
@@ -298,7 +298,7 @@ Newly initiate the request to Employee for insurance policy.
     - In the stage, use to track the all completed request in Insurance stage.
 
 
-| [Home](#human-resource-management) | [Main](#on-boarding) | [Back](#insurance) |
+| [Home](#human-resource-management) | [Main](#on-board) | [Back](#insurance) |
 
 
 
@@ -355,7 +355,7 @@ In this stage, process the Iqama(Resident Identity) for Employee.
 
     - In this stage, User using to track the all completed request in Iqama issuance stage.
 
-| [Home](#human-resource-management) | [Main](#on-boarding) | [Back](#iqama-issue) |
+| [Home](#human-resource-management) | [Main](#on-board) | [Back](#iqama-issue) |
 
 
 
@@ -418,7 +418,7 @@ New request is initiated for ATM card for Employee.
 
     - In this stage,User using to track the all completed request in ATM stage.
 
-| [Home](#human-resource-management) | [Main](#on-boarding) | [Back](#atm) |
+| [Home](#human-resource-management) | [Main](#on-board) | [Back](#atm) |
 
 
 

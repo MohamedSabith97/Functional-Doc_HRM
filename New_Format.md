@@ -334,7 +334,7 @@ In this stage, process the Iqama(Resident Identity) for Employee.
 
      - *In The action field is following to,*
 
-       **1-[Complete](#put-in-envelope)** - User complete and refer to  [Put in Envelope](#3-put-in-envelope) stage.
+       **1-[Complete](#put-in-envelope)** - User complete and refer to  [Put in Envelope](#put-in-envelope) stage.
 
        **2-Reject** - User reject and complete the request.
 
@@ -378,7 +378,7 @@ New request is initiated for ATM card for Employee.
 
      - *In The action field is following to,*
 
-        **1-[Complete](#2-payment-requested-1)** - User complete the request and refer to Payment Requested stage.
+        **1-[Complete](#payment-requested-1)** - User complete the request and refer to Payment Requested stage.
 
 
 
@@ -400,7 +400,7 @@ New request is initiated for ATM card for Employee.
 
          - *In The action field is following to,*
 
-           **1-[Complete](#put-in-envelope)** - User complete the request and refer [Put in Envelope](#put-in-envelope-1) stage.
+           **1-[Complete](#put-in-envelope-1)** - User complete the request and refer [Put in Envelope](#put-in-envelope-1) stage.
 
 
 
@@ -410,7 +410,7 @@ New request is initiated for ATM card for Employee.
 
      - *In The action field is following to,*
 
-       **1-[Complete](#5-completed)** -Complete the request and Moved to **[Completed](#5-completed)** stage.
+       **1-[Complete](#completed-4)** -Complete the request and Moved to **[Completed](#completed-4)** stage.
 
 
 
@@ -439,7 +439,7 @@ New request is initiated for ATM card for Employee.
 
 **(Iqama Expiry date must be more then 150 days in between calaculated Return Date of Employee)**
 
-| [ARCO Approval](#arco-approval) > [Customer Approval](#customer-approval) > [Under Processing](#under-processing) > [Customer Clearance](#customer-clearance) > [ARCO Clearance](#arco-clearance) > [Travel Arrangement](#travel-arrangements) > [Waiting for Travel](#waiting-for-travel) > [Rejected Request](#rejected-request) > [Completed](#completed-6) |
+| [ARCO Approval](#arco-approval) > [Customer Approval](#customer-approval) > [Under Processing](#under-processing) > [Customer Clearance](#customer-clearance) > [ARCO Clearance](#arco-clearance) > [Travel Arrangement](#travel-arrangements) > [Waiting for Travel](#waiting-for-travel) > [Rejected Request](#rejected-request) > [Completed](#completed-5) |
 
 <br>
 
@@ -455,7 +455,7 @@ New request is initiated for ATM card for Employee.
 
         **2-[Reject](#rejected-request)** - User reject the request to [Rejected Request](#rejected-request) stage. for Client clarification.
 
-        **3-    [Escape](#completed)** - User reject and complete the request as Escape to [completed](#completed) stage.
+        **3-    [Escape](#completed-5)** - User reject and complete the request as Escape to [completed](#completed-5) stage.
 
 - ### **Customer Approval:**
 
@@ -518,7 +518,7 @@ New request is initiated for ATM card for Employee.
 
       - *In The action field is following to,*
 
-        **1-[Complete](#completed)** - User complete the request and moved to [Completed](#completed) Stage.
+        **1-[Complete](#completed-5)** - User complete the request and moved to [Completed](#completed-5) Stage.
 
         **2-[Reject](#rejected-request)**   - User reject the request to **[Rejected Request](#rejected-request)** stage. and holding for the requirements.
 
@@ -528,7 +528,7 @@ New request is initiated for ATM card for Employee.
 
       - *In The action field is following to,*
 
-        **1-[Reject](#completed)** - User complete the Request to [Completed](#completed) stage.
+        **1-[Reject](#completed-5)** - User complete the Request to [Completed](#completed-5) stage.
 
 - ### **Completed:**
 
@@ -547,7 +547,7 @@ New request is initiated for ATM card for Employee.
 ## **[Vacation Settlement:](#leave-management)**
 
 
-| [Requested](#requested) > [Clearance Process](#clearance_process) > [Approval](#approval) > [Client_Confirmation](#client_confirmation) > [Payment](#payment) > [Client Rejection](#client-rejection) > [Complete](#complete) |
+| [Requested](#requested) > [Clearance Process](#clearance_process) > [Approval](#approval) > [Client_Confirmation](#client_confirmation) > [Payment](#payment) > [Client Rejection](#client-rejection) > [Completed](#completed-6) |
 
 <br>
 
@@ -598,7 +598,7 @@ New request is initiated for ATM card for Employee.
 
        - *In The action field is following to,*
 
-         **1-[Complete](#complete)** - User complete this request and move to [Complete](#complete) Stage.
+         **1-[Complete](#complete-1)** - User complete this request and move to [Complete](#complete-1) Stage.
 
          **2-[ReCalculate](#clearance_process)** - User reject the request and moved to [Clearance _Process](#clearance_process) stage. for Payment Clearance.
 
@@ -628,7 +628,7 @@ New request is initiated for ATM card for Employee.
 
 ## **[Vacation Return:](#leave-management)**
 
-| [On Vacation](#on-vacation) > [Waiting for Return](#waiting-for-return) > [Not Return](#not-return) > [Return from Vacation](#not-return) > [Visa Expired](#visa-expired) > [Iqama Approval Cancellation](#iqama-approval-cancellation) > [Iqama Expired](#iqama-expired) > [Left Not Return](#leftnotreturn) > [Complete](#complete) |
+| [On Vacation](#on-vacation) > [Waiting for Return](#waiting-for-return) > [Not Return](#not-return) > [Return from Vacation](#return-from-vacation) > [Visa Expired](#visa-expired) > [Iqama Approval Cancellation](#iqama-approval-cancellation) > [Iqama Expired](#iqama-expired) > [Left Not Return](#leftnotreturn) > [Completed](#completed-6) |
 
 <br>
 
@@ -665,7 +665,7 @@ New request is initiated for ATM card for Employee.
 
         - *In The action field is following to,*
 
-          **1-[Complete](#complete)** - User Complete the request and refer to [Complete](#complete) Stage.
+          **1-[Complete](#completed-6)** - User Complete the request and refer to [Completed](#completed-6) Stage.
 
 - ### **Visa Expired:**
 
@@ -714,7 +714,7 @@ New request is initiated for ATM card for Employee.
 
 The Leave Reject Request only can be Raise or Approve in **Waiting for Travel** stage.
 
-| [Vacation Settlement](#vacation-settlement-1) > [Visa Request](#visa-request) > [Travel Request](#travel-request) > [Completed](#completed-2) |
+| [Vacation Settlement](#vacation-settlement-1) > [Visa Request](#visa-request) > [Travel Request](#travel-request) > [Completed](#completed-7) |
 
 <br>
 
@@ -740,7 +740,7 @@ The Leave Reject Request only can be Raise or Approve in **Waiting for Travel** 
 
        - *In The action field is following to,*
 
-         **1-[Complete](#completed-2)** - User complete the request and moved to [Completed](#completed-2) stage.
+         **1-[Complete](#completed-7)** - User complete the request and moved to [Completed](#completed-7) stage.
 
 - ### **Completed:**
 
@@ -769,7 +769,7 @@ Reissue is service have to process for provide the Iqama ID Card, ATM Card and I
 The Iqama is a Residential permit for resident in KSA, and this KSA Government identification for residence.
 In case of missing or damaged the Iqama ID card, then employee can raise a request to reissue the ID card.
 
-| [Newly Requested Reissue](#newly-requested-reissue) > [Followup Dept Approval](#followup-department-approval) > [Manpower Dept Approval](#manpower-department-approval) > [Payment Requested](#payment-requested-2) > [Waiting for Issue](#waiting-for-issue) > [Receive in Lodging](#receive-in-lodging-1) > [Put in Envelope](#put-in-envelope-2) > [Completed](#completed-5) |
+| [Newly Requested Reissue](#newly-requested-reissue) > [Followup Dept Approval](#followup-department-approval) > [Manpower Dept Approval](#manpower-department-approval) > [Payment Requested](#payment-requested-2) > [Waiting for Issue](#waiting-for-issue) > [Receive in Lodging](#receive-in-lodging-1) > [Put in Envelope](#put-in-envelope-2) > [Completed](#completed-8) |
 
 
 <br>
@@ -879,7 +879,7 @@ the Iqama Card is received in Lodging Location of Employee. and it will prepare 
 
         - *In The action field is following to,*
 
-          **1-[Complete](#completed-5)** - User Complete the Request and moved to [Completed](#completed-5) Stage.
+          **1-[Complete](#completed-8)** - User Complete the Request and moved to [Completed](#completed-8) Stage.
 
 - ### **Completed**
 
@@ -898,7 +898,7 @@ the Iqama Card is received in Lodging Location of Employee. and it will prepare 
 
 Reissue request service is to process to provide ATM Card, new Iqama Id card and Insurance services for employee as replacement due to missing or damaging the id copy or Employee service products.
 
-| [Newly Required Reissue](#newly-required-reissue) > [Finance Department Approval](#finance-department-approval) > [Payment Requested](#payment-requested-3) > [Receive in Lodging](#receive-in-lodging-2) > [Put in Envelope](#put-in-envelope-3) > [Complete](#complete-1) |
+| [Newly Required Reissue](#newly-required-reissue) > [Finance Department Approval](#finance-department-approval) > [Payment Requested](#payment-requested-3) > [Receive in Lodging](#receive-in-lodging-2) > [Put in Envelope](#put-in-envelope-3) > [Complete](#complete-2) |
 
 <br>
 
@@ -957,7 +957,7 @@ Reissue request service is to process to provide ATM Card, new Iqama Id card and
 
       - *In The action field is following to,*
 
-        **1-[Complete](#completed-5)** - User Complete the request and moved to [Completed](#completed-5) stage.
+        **1-[Complete](#complete-2)** - User Complete the request and moved to [Completed](#complete-2) stage.
 
 
 
@@ -987,7 +987,7 @@ Iqama is essential identification for all individual residents in KSA for reside
 
 For all employee will be renewed Iqama identification in yearly once.
 
-| [Newly Required Renewal](#newly-required-renewal) > [Customer Approval](#customer-approval) > [Iqama Less Then 30 Days](#iqama-less-then-30-days) > [Agree](#agree) > [Work Permit](#work-permit) > [Priority_FinanceApproval](#priority-finance-approval) > [Priority_Request](#priority-request) > [Waiting For Reference Number](#waiting-for-reference-number) > [Iqama Payment](#iqama-payment) > [Iqama Renewal](#iqama-renewal) > [Cases Hold](#cases-hold) > [Not Agree](#not-agree) > [Complete](#complete-2) |
+| [Newly Required Renewal](#newly-required-renewal) > [Customer Approval](#customer-approval-1) > [Iqama Less Then 30 Days](#iqama-less-then-30-days) > [Agree](#agree) > [Work Permit](#work-permit) > [Priority_FinanceApproval](#priority-finance-approval) > [Priority_Request](#priority-request) > [Waiting For Reference Number](#waiting-for-reference-number) > [Iqama Payment](#iqama-payment) > [Iqama Renewal](#iqama-renewal) > [Cases Hold](#cases-hold) > [Not Agree](#not-agree) > [Complete](#complete-3) |
 
 <br>
 
@@ -999,7 +999,7 @@ For all employee will be renewed Iqama identification in yearly once.
 
        - *In The action field is following to,*
 
-           **1-[Complete](#customer-approval)** - User complete the request and refer [Customer
+           **1-[Complete](#customer-approval)** - User complete the request and refer [Customer Approval](#customer-approval-1) stage.
 
 - ### **Customer Approval:**
 
@@ -1054,7 +1054,7 @@ For all employee will be renewed Iqama identification in yearly once.
 
           **1-[Complete](#iqama-payment)** - User Complete the request and refer [Iqama Payment](#iqama-payment) stage.
 
-          **2-[Not Agree](#not-agree)** - User reject the request and refer [Not Agree](#not-agree)
+          **2-[Not Agree](#not-agree)** - User reject the request and refer [Not Agree](#not-agree) stage.
 
           **3-[Waiting For Refernce Number](#waiting-for-reference-number)** - User Hold the request and refer to [Waiting For Refernce Number](#waiting-for-reference-number) stage.
 
@@ -1067,7 +1067,7 @@ For all employee will be renewed Iqama identification in yearly once.
 
           **1-[Approve](#priority-request)** - User approve and complete the request and refer to [Priority Request](#priority-request) stage.
 
-         **2-[Reject – Previous Stage](#customer-approval)** - User Reject and return the request refer to [Customer Approval](#customer-approval) stage. In case of this request is required clarificaion.
+         **2-[Reject – Previous Stage](#customer-approval-1)** - User Reject and return the request refer to [Customer Approval](#customer-approval-1) stage. In case of this request is required clarificaion.
 
       **In this stage the user complete the stage and create the request as priority request to complete the payment request on priority**
 
@@ -1082,7 +1082,7 @@ For all employee will be renewed Iqama identification in yearly once.
 
         **1-[Payment](#iqama-payment)** - User complete this request and refer the request to [Iqama Payment](#iqama-payment) stage.
 
-        **2-[Customer Approval](#customer-approval)** - User reject the request to [customer Approval](#customer-approval) stage, for customer confirmation fo process the Iqama Renewal.
+        **2-[Customer Approval](#customer-approval-1)** - User reject the request to [customer Approval](#customer-approval-1) stage, for customer confirmation fo process the Iqama Renewal.
 
         **3-[Waiting for Reference Number](#waiting-for-reference-number)** - User Hold the Request and moved to [Waiting for Reference Number](#waiting-for-reference-number) stage.
 
@@ -1118,7 +1118,7 @@ For all employee will be renewed Iqama identification in yearly once.
       - *In The action field is following to,*
 
 
-        **1-[Complete](#complete-2)** – User complete the request and moved into [Complete](#complete-2) stage.
+        **1-[Complete](#complete-3)** – User complete the request and moved into [Complete](#complete-3) stage.
 
         **2-[Hold](#cases-hold)** - User hldthe request and moved to [Cases Hold](#cases-hold) stage.
 
@@ -1136,7 +1136,7 @@ For all employee will be renewed Iqama identification in yearly once.
 
        **1-[Resume](#iqama-renewal)** - User complete the request and refer [Iqama Renewal](#iqama-renewal) stage.
 
-       **2-[Reject](#complete-2)** - Usr complete the request and moved into [Complete](#complete-2) stage.
+       **2-[Reject](#complete-3)** - Usr complete the request and moved into [Complete](#complete-3) stage.
 
 
 - ### **Not Agree:**
@@ -1169,11 +1169,11 @@ For all employee will be renewed Iqama identification in yearly once.
 
 ATM card is using for Employee payment transaction through online and other necessities , and after get expired the ATM Card will request start the Renewal Process for ATM Card for Employee.
 
-| [Finance Department Approval](#finance-department-approval) > [Manpower Department Approval](#manpower-department-approval-1) > [Payment Requested](#payment-requested-4) > [Receive in Lodging](#receive-in-lodging-3) > [Put in Envelope](#put-in-envelope-4) > [Hold](#hold) > [Complete](#complete-3) |
+| [Finance Department Approval](#finance-department-approval-1) > [Manpower Department Approval](#manpower-department-approval-1) > [Payment Requested](#payment-requested-4) > [Receive in Lodging](#receive-in-lodging-3) > [Put in Envelope](#put-in-envelope-4) > [Hold](#hold) > [Complete](#complete-4) |
 
 <br>
 
-- ### **Finance Dept Approval**
+- ### **Finance Department Approval**
 
     - User create the request to get approval from the Finance department. After the request approved by finance department will start Renewal process of ATM Card for Employee.
 
@@ -1222,7 +1222,7 @@ ATM card is using for Employee payment transaction through online and other nece
 
           **2-Reject** - User Reject and complete the request.
 
-          **3-[Complete without Envelope](#complete-3)** - User Complete the request without Envelope and moved to [complete](#complete-3) stage.
+          **3-[Complete without Envelope](#complete-4)** - User Complete the request without Envelope and moved to [complete](#complete-4) stage.
 
 
 
@@ -1233,7 +1233,7 @@ ATM card is using for Employee payment transaction through online and other nece
 
        - *In The action field is following to,*
 
-         **1-[Complete](#complete-3)** - User complete the request and moved to [Complete](#complete-3) stage.
+         **1-[Complete](#complete-4)** - User complete the request and moved to [Complete](#complete-4) stage.
 
 
 - ### **Hold**
@@ -1242,7 +1242,7 @@ ATM card is using for Employee payment transaction through online and other nece
 
       - *In The action field is following to,*
 
-         **1-[Move to Approval](#finance-department-approval)** - User complete the request and refer to [Finance Department Aproval](#finance-department-approval) stage.
+         **1-[Move to Approval](#finance-department-approval-1)** - User complete the request and refer to [Finance Department Aproval](#finance-department-approval-1) stage.
 
 
 - ### **Complete**

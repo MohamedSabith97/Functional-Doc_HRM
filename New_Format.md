@@ -1,7 +1,7 @@
 
-# **Human Resource Management:**
+# **Human Resource Management**
 
-| Employee | [On Board](#on-boarding) | [Leave Management](#leave-management) | Travel | Employee Retirement | Loan | [Reissue](#reissue) | [Renewal](#renewal) |
+| Employee | [On Board](#on-board) | [Leave Management](#leave-management) | Travel | Employee Retirement | Loan | [Reissue](#reissue) | [Renewal](#renewal) |
 
 <br>
 
@@ -427,7 +427,332 @@ New request is initiated for ATM card for Employee.
 <br>
 <br>
 
--------------------------------------------------------------------------
+
+# **[Leave Management](#human-resource-management)**
+
+| [Leave Request](#leave-request) | [Vacation Settlement](#vacation-settlement) | [Vacation Return](#vacation-return) | [Leave Reject Request](#leave-reject-request) |
+
+<br>
+
+## **[Leave Request:](#leave-management)**
+
+
+**(Iqama Expiry date must be more then 150 days in between calaculated Return Date of Employee)**
+
+| [ARCO Approval](#arco-approval) > [Customer Approval](#customer-approval) > [Under Processing](#under-processing) > [Customer Clearance](#customer-clearance) > [ARCO Clearance](#arco-clearance) > [Travel Arrangement](#travel-arrangements) > [Waiting for Travel](#waiting-for-travel) > [Rejected Request](#rejected-request) > [Completed](#completed-6) |
+
+<br>
+
+
+- ### **ARCO Approval:**
+
+    - New Request initiated  by user or customer to get ARCO approval for Employee vacation. And system validate the employee working and residence status in this stage and moved request into next stage.
+
+
+      - *In The action field is following to,*
+
+         **1-[Complete](#customer-approval)** - User complete this request and refer to [Customer Approval](#customer-approval) Stage. After customer status verified.
+
+        **2-[Reject](#rejected-request)** - User reject the request to [Rejected Request](#rejected-request) stage. for Client clarification.
+
+        **3-    [Escape](#completed)** - User reject and complete the request as Escape to [completed](#completed) stage.
+
+- ### **Customer Approval:**
+
+    - In Customer Approval stage, raise to get appproval from customer and then request has moved to appropriate stage.
+
+      - *In The action field is following to,*
+
+          **1-[Reject](#rejected-request)** -  User Hold the request and refer to [Rejected Request](#rejected-request) stage. for Clarification
+
+          **2-[Complete](#under-processing)** - User refer this request and complete to [Under Processing](#under-processing) stage. for Vacation process.
+
+
+- ### **Under Processing:**
+
+    - The [Vacation Settlement](#vacation-settlement) process is begins in **Under Processing** with System Integration if the customer request for Vacation Settlement in Leave Request.
+
+    - **(Paid Vacation / Local Vacation / Vacation Encashment have apply to proceed for Vacation settlement.)**
+
+    - **(Unpaid vacation is not Applicable to apply for Vacation settlement.)**
+
+       - *In The action field is following to,*
+
+         **1-[Reject](#rejected-request)** - user reject the request and refer [Rejected Request](#rejected-request) stage. and holding for customer confirmation.
+
+         **2-[Complete](#customer-clearance)** - user complete the task and drive the request for [Customer Clearance](#customer-clearance) stage.
+
+- ### **Customer Clearance:**
+
+    - The request is initiated for validate the Clearance of Settlement to Employee in this stage on payment clearance.
+
+
+      - *In The action field is following to,*
+
+        **1-[Complete](#arco-clearance)** - User complete the stage and refer the [ARCO Clearance](#arco-clearance) stage.
+
+         **2-[Reject](#rejected-request)** - User reject the request to [Rejected Request](#rejected-request) stage. and holding for requirements.
+
+
+- ### **Arco Clearance:**
+
+    - In this stage, the user process the Arco clearance on settlement payment of Employee.
+
+      - *In The action field is following to,*
+
+        **1-[Complete](#waiting-for-travel)** - User complete the request and refer [Waiting for Travel](#waiting-for-travel) stage.
+
+        **2-[Reject](#rejected-request)**   - User reject the request to [Rejected Request](#rejected-request) stage. and holding for requirements.
+
+- ### **Travel Arrangements:**
+
+    - In this stage, User use to track the status of pre-arrangements of Travel, in case of the customer required Travel Arrangements by Arco. then Arco organize the Travel Arrangements for Employees with accommodate in Lodging Location.
+
+      - *In The action field is following to,*
+
+        **1-[Complete](#waiting-for-travel)** - User complete this task and refer the request into [Waiting for Travel](#waiting-for-travel) stage.
+
+- ### **Waiting for Travel:**
+
+    - In this stage, the customer waiting to receive the information of Travel wise Date, Departure and Airline details. and then User complete the stage to appropriate stage after the request completion.
+
+      - *In The action field is following to,*
+
+        **1-[Complete](#completed)** - User complete the request and moved to [Completed](#completed) Stage.
+
+        **2-[Reject](#rejected-request)**   - User reject the request to **[Rejected Request](#rejected-request)** stage. and holding for the requirements.
+
+- ### **Rejected Request:**
+
+    - In this stage, awaited All pending and Rejected requests by user.
+
+      - *In The action field is following to,*
+
+        **1-[Reject](#completed)** - User complete the Request to [Completed](#completed) stage.
+
+- ### **Completed:**
+
+    - All completed Request has been moved to Completed Stage, after all arrangements completed for Employee Vacation.
+
+
+| [Home](#human-resource-management) | [Main](#leave-management) | [Back](#leave-request) |
+
+
+
+
+
+
+<br>
+
+## **[Vacation Settlement:](#leave-management)**
+
+
+| [Requested](#requested) > [Clearance Process](#clearance_process) > [Approval](#approval) > [Client_Confirmation](#client_confirmation) > [Payment](#payment) > [Client Rejection](#client-rejection) > [Complete](#complete) |
+
+<br>
+
+- ### **Requested:**
+
+    - New request initiated for Vacation Settlement of Employee as customer Requested.
+
+       - *In The action field is following to,*
+
+         **1-[Move to Clearance](#clearance_process)** - User complete the request and refer into [Clearance_Process](#clearance_process) stage.
+
+- ### **Clearance_Process:**
+
+    - User process the clearance on settlement Amount of Employee and refer to [Approval](#approval) stage. for Vacation Settlement.
+
+      - *In The action field is following to,*
+
+        **1-[Complete](#approval)** - User complete the task and refer the request for [Approval](#approval) stage.
+
+
+- ### **Approval:**
+
+    - In this stage, user process the request for Approval and refer to [Payment](#payment) Clearance_Process for Vacation Settlement.
+
+
+      - *In The action field is following to,*
+
+        **1-[Approve](#client_confirmation)** - User complete the request and refer to [Client Confirmation](#client_confirmation) stage. for Vacation settlement Payment.
+
+        **2-[Re-Calculate Clearance](#clearance_process)** - user reject the request and return to [Clearance_Process](#clearance_process) stage. for recalculation of clearance.
+
+- ### **Client_Confirmation:**
+
+    - User raise the request for get **Client_Confirmation** on Payment Clearance and the User commplete the task and refer to appropriate stage.
+
+      - *In The action field is following to,*
+
+        **1-[Complete](#payment)** - User complete the request and approve with **Client_Confirmation** then refer the [Payment](#payment) stage.
+
+
+- ### **Payment:**
+
+    - In payment stage, After Vacation settlement payment is completed by the user in Finance Department, then request has been moved to **Completed** stage.
+
+    - User can use to compare the Payment status of Vacation Settlement in between the payment in **[Vacation Settlement](#vacation-settlement)** and Payment Request in **Finance Department**.
+
+      Settlement payment have disbursed in Finace Department to Employee.
+
+       - *In The action field is following to,*
+
+         **1-[Complete](#complete)** - User complete this request and move to [Complete](#complete) Stage.
+
+         **2-[ReCalculate](#clearance_process)** - User reject the request and moved to [Clearance _Process](#clearance_process) stage. for Payment Clearance.
+
+- ### **Client Rejection:**
+
+     - All pending request has reject to **Client Rejection** and hold the all request for process to **Client Confirmation** and **Re Calculate Clearance** stage.
+
+       - *In The action field is following to,*
+
+         **1-[ReSend - CustomerConfirmation](#client_confirmation)** - User return the request, **Resend for Customer Confirmation** to [Client Confirmation](#client_confirmation) stage.
+
+         **2-[Re Calculate Clearance](#clearance_process)** - User Return the request to [Clearance_Process](#clearance_process) stage. for **Re Calculate Clearance** on Vacation Settlement.
+
+- ### **Complete:**
+
+    - All completed Request has been moved to Completed Stage, After the Settlement request completed by the User.
+
+| [Home](#human-resource-management) | [Main](#leave-management) | [Back](#vacation-settlement) |
+
+
+
+
+
+
+
+<br>
+
+## **[Vacation Return:](#leave-management)**
+
+| [On Vacation](#on-vacation) > [Waiting for Return](#waiting-for-return) > [Not Return](#not-return) > [Return from Vacation](#not-return) > [Visa Expired](#visa-expired) > [Iqama Approval Cancellation](#iqama-approval-cancellation) > [Iqama Expired](#iqama-expired) > [Left Not Return](#leftnotreturn) > [Complete](#complete) |
+
+<br>
+
+
+- ### **On Vacation:**
+
+     - System scheduled the Return Date of Employee in Vacation Return. Employee return date, System integration update the status of the Employee by the Check-in process in Lodging Location. and then request has refer to Return from Vacation.
+
+       - *In The action field is following to,*
+
+         **1-[Complete](#return-from-vacation)** - User Complete the Request and refer [Return From Vacation](#return-from-vacation) stage.
+
+- ### **Waiting for Return:**
+
+    - User complete the request manually after employee check-in process is completed. from vacation and refer for **Return from Vacation** stage.
+
+      - *In The action field is following to,*
+
+        **1-[Return](#return-from-vacation)** - User decide to complete this request and refer [Return from Vacation](#return-from-vacation) stage.
+
+- ### **Not Return:**
+
+    - System integration is scheduled the Employee who didn’t arrive on the Date of Return in Lodging is refer to [Waiting For Return](#waiting-for-return) stage.
+
+      - *In The action field is following to,*
+
+        **1-[Move to  Waiting for Return](#waiting-for-return)** - User dicided and refer to [Waiting for Return](#waiting-for-return) stage. if employee does'nt return on date.
+
+
+- ### **Return From Vacation:**
+
+    - In the regular check-in process for Employee on return from Vacation, User verified and then request complete and refer to **Completed**stage.
+
+
+        - *In The action field is following to,*
+
+          **1-[Complete](#complete)** - User Complete the request and refer to [Complete](#complete) Stage.
+
+- ### **Visa Expired:**
+
+    - Validate the Iqama and Visa validity of Employee, and User decides to refer with appropriate queue.
+
+
+        - *In The action field is following to,* decision
+
+          **1-[Iqama Expired](#iqama-expired)** - User complete and refer the request with [Iqama Expiry](#iqama-expired) stage.
+
+          **2-[Move_To_WaitingForReturn](#waiting-for-return)** - User decide to complete the request and refer the [Waiting For Return](#waiting-for-return) stage.
+
+
+- ### **Iqama Approval Cancellation:**
+
+     - User validate the Iqama approval cancellation and moved to **Waiting For Return** stage.
+
+        - *In The action field is following to,*
+
+          **1-[Waiting for Return](#waiting-for-return)** - User complete the task and moved to [Waiting for Return](#waiting-for-return) stage. for Iqama approval cancellation.
+
+- ### **Iqama Expired:**
+
+    - Validate the Iqama Expiry date and move the task to **Waiting for Return** stage. if the Iqama validation is expired.
+
+       - *In The action field is following to,*
+
+         **1-[Waiting for Return](#waiting-for-return)** - User complete the Task refer to [Waiting for Return](#waiting-for-return) stage. for Iqama approval cancellation.
+
+- ### **LeftNotReturn:**
+
+     - Employees who lefted and not return from on vacation are Listed for Tracking purposes.
+
+- ### **Completed:**
+
+     - All completed Request has been moved to Completed Stage, After the Vacation return process completed by the User.
+
+| [Home](#human-resource-management) | [Main](#leave-management) | [Back](#vacation-return) |
+
+
+
+
+<br>
+
+## **[Leave Reject Request:](#leave-management)**
+
+The Leave Reject Request only can be Raise or Approve in **Waiting for Travel** stage.
+
+| [Vacation Settlement](#vacation-settlement-1) > [Visa Request](#visa-request) > [Travel Request](#travel-request) > [Completed](#completed-2) |
+
+<br>
+
+- ### **Vacation Settlement:**
+
+    - After Cancel process of the Vacation Settlement is completed, then user moved to **Visa Request** stage.
+
+       - *In The action field is following to,*
+
+          **1-[Complete](#visa-request)** - User complete the request and refer to [Visa Request](#visa-request) stage. for Cancel the Visa Request.
+
+- ### **Visa Request:**
+
+    - Visa Request will be cancel as per customer request in **[Leave Reject Request](#leave-reject-request)** stage.
+
+      - *In The action field is following to,*
+
+        **1- [Complete](#travel-request)** - User complete the request and Moved to [Travel Request](#travel-request) stage. for Cancel the Travel Arrangements Request.
+
+- ### **Travel Request:**
+
+     - Travel Request will be Cancel as per Customer request in [Leave Reject Request](#leave-reject-request) stage.
+
+       - *In The action field is following to,*
+
+         **1-[Complete](#completed-2)** - User complete the request and moved to [Completed](#completed-2) stage.
+
+- ### **Completed:**
+
+   - All completed Request has been moved to Completed Stage, After the Leave Reject process have completed.
+
+| [Home](#human-resource-management) | [Main](#leave-management) | [Back](#leave-reject-request) |
+
+
+<br>
+<br>
+<br>
+
 
 # **[REISSUE](#human-resource-management)**
 
@@ -930,329 +1255,6 @@ ATM card is using for Employee payment transaction through online and other nece
 <br>
 <br>
 <br>
-
-
-# **[Leave Management](#human-resource-management)**
-
-| [Leave Request](#leave-request) | [Vacation Settlement](#vacation-settlement) | [Vacation Return](#vacation-return) | [Leave Reject Request](#leave-reject-request) |
-
-<br>
-
-## **[Leave Request:](#leave-management)**
-
-
-**(Iqama Expiry date must be more then 150 days in between calaculated Return Date of Employee)**
-
-| [ARCO Approval](#arco-approval) > [Customer Approval](#customer-approval) > [Under Processing](#under-processing) > [Customer Clearance](#customer-clearance) > [ARCO Clearance](#arco-clearance) > [Travel Arrangement](#travel-arrangements) > [Waiting for Travel](#waiting-for-travel) > [Rejected Request](#rejected-request) > [Completed](#completed-6) |
-
-<br>
-
-
-- ### **ARCO Approval:**
-
-    - New Request initiated  by user or customer to get ARCO approval for Employee vacation. And system validate the employee working and residence status in this stage and moved request into next stage.
-
-
-      - *In The action field is following to,*
-
-         **1-[Complete](#customer-approval)** - User complete this request and refer to [Customer Approval](#customer-approval) Stage. After customer status verified.
-
-        **2-[Reject](#rejected-request)** - User reject the request to [Rejected Request](#rejected-request) stage. for Client clarification.
-
-        **3-    [Escape](#completed)** - User reject and complete the request as Escape to [completed](#completed) stage.
-
-- ### **Customer Approval:**
-
-    - In Customer Approval stage, raise to get appproval from customer and then request has moved to appropriate stage.
-
-      - *In The action field is following to,*
-
-          **1-[Reject](#rejected-request)** -  User Hold the request and refer to [Rejected Request](#rejected-request) stage. for Clarification
-
-          **2-[Complete](#under-processing)** - User refer this request and complete to [Under Processing](#under-processing) stage. for Vacation process.
-
-
-- ### **Under Processing:**
-
-    - The [Vacation Settlement](#vacation-settlement) process is begins in **Under Processing** with System Integration if the customer request for Vacation Settlement in Leave Request.
-
-    - **(Paid Vacation / Local Vacation / Vacation Encashment have apply to proceed for Vacation settlement.)**
-
-    - **(Unpaid vacation is not Applicable to apply for Vacation settlement.)**
-
-       - *In The action field is following to,*
-
-         **1-[Reject](#rejected-request)** - user reject the request and refer [Rejected Request](#rejected-request) stage. and holding for customer confirmation.
-
-         **2-[Complete](#customer-clearance)** - user complete the task and drive the request for [Customer Clearance](#customer-clearance) stage.
-
-- ### **Customer Clearance:**
-
-    - The request is initiated for validate the Clearance of Settlement to Employee in this stage on payment clearance.
-
-
-      - *In The action field is following to,*
-
-        **1-[Complete](#arco-clearance)** - User complete the stage and refer the [ARCO Clearance](#arco-clearance) stage.
-
-         **2-[Reject](#rejected-request)** - User reject the request to [Rejected Request](#rejected-request) stage. and holding for requirements.
-
-
-- ### **Arco Clearance:**
-
-    - In this stage, the user process the Arco clearance on settlement payment of Employee.
-
-      - *In The action field is following to,*
-
-        **1-[Complete](#waiting-for-travel)** - User complete the request and refer [Waiting for Travel](#waiting-for-travel) stage.
-
-        **2-[Reject](#rejected-request)**   - User reject the request to [Rejected Request](#rejected-request) stage. and holding for requirements.
-
-- ### **Travel Arrangements:**
-
-    - In this stage, User use to track the status of pre-arrangements of Travel, in case of the customer required Travel Arrangements by Arco. then Arco organize the Travel Arrangements for Employees with accommodate in Lodging Location.
-
-      - *In The action field is following to,*
-
-        **1-[Complete](#waiting-for-travel)** - User complete this task and refer the request into [Waiting for Travel](#waiting-for-travel) stage.
-
-- ### **Waiting for Travel:**
-
-    - In this stage, the customer waiting to receive the information of Travel wise Date, Departure and Airline details. and then User complete the stage to appropriate stage after the request completion.
-
-      - *In The action field is following to,*
-
-        **1-[Complete](#completed)** - User complete the request and moved to [Completed](#completed) Stage.
-
-        **2-[Reject](#rejected-request)**   - User reject the request to **[Rejected Request](#rejected-request)** stage. and holding for the requirements.
-
-- ### **Rejected Request:**
-
-    - In this stage, awaited All pending and Rejected requests by user.
-
-      - *In The action field is following to,*
-
-        **1-[Reject](#completed)** - User complete the Request to [Completed](#completed) stage.
-
-- ### **Completed:**
-
-    - All completed Request has been moved to Completed Stage, after all arrangements completed for Employee Vacation.
-
-
-| [Home](#human-resource-management) | [Main](#leave-management) | [Back](#leave-request) |
-
-
-
-
-
-
-<br>
-
-## **[Vacation Settlement:](#leave-management)**
-
-
-| [Requested](#requested) > [Clearance Process](#clearance_process) > [Approval](#approval) > [Client_Confirmation](#client_confirmation) > [Payment](#payment) > [Client Rejection](#client-rejection) > [Complete](#complete) |
-
-<br>
-
-- ### **Requested:**
-
-    - New request initiated for Vacation Settlement of Employee as customer Requested.
-
-       - *In The action field is following to,*
-
-         **1-[Move to Clearance](#clearance_process)** - User complete the request and refer into [Clearance_Process](#clearance_process) stage.
-
-- ### **Clearance_Process:**
-
-    - User process the clearance on settlement Amount of Employee and refer to [Approval](#approval) stage. for Vacation Settlement.
-
-      - *In The action field is following to,*
-
-        **1-[Complete](#approval)** - User complete the task and refer the request for [Approval](#approval) stage.
-
-
-- ### **Approval:**
-
-    - In this stage, user process the request for Approval and refer to [Payment](#payment) Clearance_Process for Vacation Settlement.
-
-
-      - *In The action field is following to,*
-
-        **1-[Approve](#client_confirmation)** - User complete the request and refer to [Client Confirmation](#client_confirmation) stage. for Vacation settlement Payment.
-
-        **2-[Re-Calculate Clearance](#clearance_process)** - user reject the request and return to [Clearance_Process](#clearance_process) stage. for recalculation of clearance.
-
-- ### **Client_Confirmation:**
-
-    - User raise the request for get **Client_Confirmation** on Payment Clearance and the User commplete the task and refer to appropriate stage.
-
-      - *In The action field is following to,*
-
-        **1-[Complete](#payment)** - User complete the request and approve with **Client_Confirmation** then refer the [Payment](#payment) stage.
-
-
-- ### **Payment:**
-
-    - In payment stage, After Vacation settlement payment is completed by the user in Finance Department, then request has been moved to **Completed** stage.
-
-    - User can use to compare the Payment status of Vacation Settlement in between the payment in **[Vacation Settlement](#vacation-settlement)** and Payment Request in **Finance Department**.
-
-      Settlement payment have disbursed in Finace Department to Employee.
-
-       - *In The action field is following to,*
-
-         **1-[Complete](#complete)** - User complete this request and move to [Complete](#complete) Stage.
-
-         **2-[ReCalculate](#clearance_process)** - User reject the request and moved to [Clearance _Process](#clearance_process) stage. for Payment Clearance.
-
-- ### **Client Rejection:**
-
-     - All pending request has reject to **Client Rejection** and hold the all request for process to **Client Confirmation** and **Re Calculate Clearance** stage.
-
-       - *In The action field is following to,*
-
-         **1-[ReSend - CustomerConfirmation](#client_confirmation)** - User return the request, **Resend for Customer Confirmation** to [Client Confirmation](#client_confirmation) stage.
-
-         **2-[Re Calculate Clearance](#clearance_process)** - User Return the request to [Clearance_Process](#clearance_process) stage. for **Re Calculate Clearance** on Vacation Settlement.
-
-- ### **Complete:**
-
-    - All completed Request has been moved to Completed Stage, After the Settlement request completed by the User.
-
-| [Home](#human-resource-management) | [Main](#leave-management) | [Back](#vacation-settlement) |
-
-
-
-
-
-
-
-<br>
-
-## **[Vacation Return:](#leave-management)**
-
-| [On Vacation](#on-vacation) > [Waiting for Return](#waiting-for-return) > [Not Return](#not-return) > [Return from Vacation](#not-return) > [Visa Expired](#visa-expired) > [Iqama Approval Cancellation](#iqama-approval-cancellation) > [Iqama Expired](#iqama-expired) > [Left Not Return](#leftnotreturn) > [Complete](#complete) |
-
-<br>
-
-
-- ### **On Vacation:**
-
-     - System scheduled the Return Date of Employee in Vacation Return. Employee return date, System integration update the status of the Employee by the Check-in process in Lodging Location. and then request has refer to Return from Vacation.
-
-       - *In The action field is following to,*
-
-         **1-[Complete](#return-from-vacation)** - User Complete the Request and refer [Return From Vacation](#return-from-vacation) stage.
-
-- ### **Waiting for Return:**
-
-    - User complete the request manually after employee check-in process is completed. from vacation and refer for **Return from Vacation** stage.
-
-      - *In The action field is following to,*
-
-        **1-[Return](#return-from-vacation)** - User decide to complete this request and refer [Return from Vacation](#return-from-vacation) stage.
-
-- ### **Not Return:**
-
-    - System integration is scheduled the Employee who didn’t arrive on the Date of Return in Lodging is refer to [Waiting For Return](#waiting-for-return) stage.
-
-      - *In The action field is following to,*
-
-        **1-[Move to  Waiting for Return](#waiting-for-return)** - User dicided and refer to [Waiting for Return](#waiting-for-return) stage. if employee does'nt return on date.
-
-
-- ### **Return From Vacation:**
-
-    - In the regular check-in process for Employee on return from Vacation, User verified and then request complete and refer to **Completed**stage.
-
-
-        - *In The action field is following to,*
-
-          **1-[Complete](#complete)** - User Complete the request and refer to [Complete](#complete) Stage.
-
-- ### **Visa Expired:**
-
-    - Validate the Iqama and Visa validity of Employee, and User decides to refer with appropriate queue.
-
-
-        - *In The action field is following to,* decision
-
-          **1-[Iqama Expired](#iqama-expired)** - User complete and refer the request with [Iqama Expiry](#iqama-expired) stage.
-
-          **2-[Move_To_WaitingForReturn](#waiting-for-return)** - User decide to complete the request and refer the [Waiting For Return](#waiting-for-return) stage.
-
-
-- ### **Iqama Approval Cancellation:**
-
-     - User validate the Iqama approval cancellation and moved to **Waiting For Return** stage.
-
-        - *In The action field is following to,*
-
-          **1-[Waiting for Return](#waiting-for-return)** - User complete the task and moved to [Waiting for Return](#waiting-for-return) stage. for Iqama approval cancellation.
-
-- ### **Iqama Expired:**
-
-    - Validate the Iqama Expiry date and move the task to **Waiting for Return** stage. if the Iqama validation is expired.
-
-       - *In The action field is following to,*
-
-         **1-[Waiting for Return](#waiting-for-return)** - User complete the Task refer to [Waiting for Return](#waiting-for-return) stage. for Iqama approval cancellation.
-
-- ### **LeftNotReturn:**
-
-     - Employees who lefted and not return from on vacation are Listed for Tracking purposes.
-
-- ### **Completed:**
-
-     - All completed Request has been moved to Completed Stage, After the Vacation return process completed by the User.
-
-| [Home](#human-resource-management) | [Main](#leave-management) | [Back](#vacation-return) |
-
-
-
-
-<br>
-
-## **[Leave Reject Request:](#leave-management)**
-
-The Leave Reject Request only can be Raise or Approve in **Waiting for Travel** stage.
-
-| [Vacation Settlement](#vacation-settlement-1) > [Visa Request](#visa-request) > [Travel Request](#travel-request) > [Completed](#completed-2) |
-
-<br>
-
-- ### **Vacation Settlement:**
-
-    - After Cancel process of the Vacation Settlement is completed, then user moved to **Visa Request** stage.
-
-       - *In The action field is following to,*
-
-          **1-[Complete](#visa-request)** - User complete the request and refer to [Visa Request](#visa-request) stage. for Cancel the Visa Request.
-
-- ### **Visa Request:**
-
-    - Visa Request will be cancel as per customer request in **[Leave Reject Request](#leave-reject-request)** stage.
-
-      - *In The action field is following to,*
-
-        **1- [Complete](#travel-request)** - User complete the request and Moved to [Travel Request](#travel-request) stage. for Cancel the Travel Arrangements Request.
-
-- ### **Travel Request:**
-
-     - Travel Request will be Cancel as per Customer request in [Leave Reject Request](#leave-reject-request) stage.
-
-       - *In The action field is following to,*
-
-         **1-[Complete](#completed-2)** - User complete the request and moved to [Completed](#completed-2) stage.
-
-- ### **Completed:**
-
-   - All completed Request has been moved to Completed Stage, After the Leave Reject process have completed.
-
-| [Home](#human-resource-management) | [Main](#leave-management) | [Back](#leave-reject-request) |
-
-
 
 
 

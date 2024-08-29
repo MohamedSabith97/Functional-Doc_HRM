@@ -1,7 +1,7 @@
 
 # **Human Resource Management:**
 
-| Employee | [On Board](#on-boarding) | [Leave Mangement](#leave-management) | Travel | Employee Retirement | Loan | [Reissue](#reissue) | [Renewal](#renewal) |
+| Employee | [On Board](#on-boarding) | [Leave Management](#leave-management) | Travel | Employee Retirement | Loan | [Reissue](#reissue) | [Renewal](#renewal) |
 
 <br>
 

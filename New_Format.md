@@ -14,7 +14,7 @@
 <br>
 
 
-> ## **[Medical Test:](#on-boarding)**
+> ## **[Medical Test:](#on-board)**
 
 
 Medical Test and following procedure is initiated for New Employee in the Arrival stage.
@@ -80,7 +80,7 @@ Medical Test and following procedure is initiated for New Employee in the Arriva
 <br>
 
 
-> ## **[New Employee Request:](#on-boarding)**
+> ## **[New Employee Request:](#on-board)**
 
    New Employee creation is initiated for Employee in the arrival stage.
 
@@ -169,7 +169,7 @@ Medical Test and following procedure is initiated for New Employee in the Arriva
 <br>
 
 
-> ## **[Labour Office:](#on-boarding)**
+> ## **[Labour Office:](#on-board)**
 
 In this stage initiate new request for the Labour Office Payment.
 
@@ -230,7 +230,7 @@ User use to compare data on the payment requested in between the Labour Office a
 
 <br>
 
-> ## **[Insurance:](#on-boarding)**
+> ## **[Insurance:](#on-board)**
 
 Newly initiate the request to Employee for insurance policy.
 
@@ -306,7 +306,7 @@ Newly initiate the request to Employee for insurance policy.
 <br>
 
 
-> ## **[Iqama Issue:](#on-boarding)**
+> ## **[Iqama Issue:](#on-board)**
 
 In this stage, process the Iqama(Resident Identity) for Employee.
 
@@ -362,7 +362,7 @@ In this stage, process the Iqama(Resident Identity) for Employee.
 
 <br>
 
-> ## **[ATM:](#on-boarding)**
+> ## **[ATM:](#on-board)**
 
 The ATM Card process is initiated after the Iqama issaunce stage is completed for Employee in HRM.
 

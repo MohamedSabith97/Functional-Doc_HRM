@@ -33,7 +33,6 @@ Medical Test and following procedure is initiated for New Employee in the Arriva
            **1**- **[Complete](#waiting-for-result)** - User Complete the Request and refer to [Waiting for Result](#waiting-for-result).
 
 
-<br>
 
 
 -  ### **Waiting for result:**
@@ -49,7 +48,7 @@ Medical Test and following procedure is initiated for New Employee in the Arriva
         **2**- [Not fit](#not-fit) - User reject the request and move to Not Fit Stage.
 
 
-<br>
+
 
 
 - ### **Not Fit:**
@@ -65,7 +64,7 @@ Medical Test and following procedure is initiated for New Employee in the Arriva
            **2**-[Fit](#complete)   –  User Complete the request and refer to Completed Stage.
 
 
-<br>
+
 
 
 - ### **Complete:**
@@ -96,10 +95,10 @@ Medical Test and following procedure is initiated for New Employee in the Arriva
          **2**-[Under Documentation](#under-documentation) - User Complete the request and moved to **Under Docummentation** stage.
 
 
-<br>
 
 
- - ### **Institutional Quarantine**
+
+- ### **Institutional Quarantine**
 
      - In this stage, User dicide as per the Quarantine status, and refer to appropriate stage.
 
@@ -107,10 +106,10 @@ Medical Test and following procedure is initiated for New Employee in the Arriva
 
           **1**-[New](#new) - User reject the request and refer to [New](#new) stage.
 
-          **2**-[Under Docuementation](#under-documentation) - User complete the request and refer to Under Documentation stage.
+          **2**-[Under Docuementation](#under-documentation) - User complete the request and refer to [Under Documentation](#under-documentation) stage.
 
 
-<br>
+
 
 
 -  ### **Under Documentation:**
@@ -121,13 +120,13 @@ Medical Test and following procedure is initiated for New Employee in the Arriva
 
     - **(did'nt process the Documentation for new employee until to complete medical test)**
 
-   
+
         * In The action field is following to,
 
-          **[Complete](#under-training)** - User complete the request and refer [Under Training](#under-training) stage.
+          **1-[Complete](#under-training)** - User complete the request and refer [Under Training](#under-training) stage.
 
 
-<br>
+
 
 
  - ### **Under Training:**
@@ -141,7 +140,7 @@ Medical Test and following procedure is initiated for New Employee in the Arriva
            **1**-**[Complete](#waiting-for-action)** - User complete the request and refer to [Waiting for Action](#waiting-for-action) stage.
 
 
-<br>
+
 
 
 - ### **Waiting For Action:**
@@ -157,7 +156,6 @@ Medical Test and following procedure is initiated for New Employee in the Arriva
           **3-Reserved for VIP**- Selected employee will be pre-reserved for an VIP customer.
 
 
-<br>
 
 
 - ### **Completed:**
@@ -191,7 +189,7 @@ User use to compare data on the payment requested in between the Labour Office a
 
             **2-[On Hold](#on-hold)** - User rejecta and refer the request [On Hold](#on-hold) stage.
 
-<br>
+
 
 
 - ### **Payment Requested:**
@@ -204,9 +202,9 @@ User use to compare data on the payment requested in between the Labour Office a
 
        - *In The action field is following to,*
 
-         **[Complete](#completed-1)** - User Complete the request and moved to [Completed](#completed-1)
+         **1-[Complete](#completed-1)** - User Complete the request and moved to [Completed](#completed-1)
 
-<br>
+
 
 - ### **On Hold:**
 
@@ -214,9 +212,9 @@ User use to compare data on the payment requested in between the Labour Office a
 
       - *In The action field is following to,*
 
-        **[Resume](#newly-required-3)** - User resume and refer to [Newly Required](#newly-required-2) stage.
+        **1-[Resume](#newly-required-3)** - User resume and refer to [Newly Required](#newly-required-2) stage.
   
-<br>
+
 
 - ### **Completed:**
 
@@ -240,7 +238,7 @@ Newly initiate the request to Employee for insurance policy.
 
      - *In The action field is following to,*
 
-       **[Complete](#under-preparation)** - User complete the request an refer to [Under Preparation](#under-preparation) stage.
+       **1-[Complete](#under-preparation)** - User complete the request an refer to [Under Preparation](#under-preparation) stage.
 
 <br>
 
@@ -250,11 +248,11 @@ Newly initiate the request to Employee for insurance policy.
 
      - *In The action field is following to,*
 
-       **[Complete](#issued-and-waiting-to-be-linked-to-cchi)** - User complete the request and refert to [Issued and waiting to be linked to CCHI](#issued-and-waiting-to-be-linked-to-cchi) stage.
+       **1-[Complete](#issued-and-waiting-to-be-linked-to-cchi)** - User complete the request and refert to [Issued and waiting to be linked to CCHI](#issued-and-waiting-to-be-linked-to-cchi) stage.
 
-       **[Return](#newly-required-2)**   - user reject the request and moved to [Newly required](#newly-required-2) stage.
+       **2-[Return](#newly-required-2)**   - user reject the request and moved to [Newly required](#newly-required-2) stage.
 
-<br>
+
 
 - ### **Issued and waiting to be linked to CCHI:**
 
@@ -262,9 +260,9 @@ Newly initiate the request to Employee for insurance policy.
 
       - *In The action field is following to,*
 
-        **[Complete](#linked-to-cchi-waiting-for-iqama)** - User Complete the request and moved to [Linked to CCHI waiting for Iqama](#linked-to-cchi-waiting-for-iqama) Stage.
+        **1-[Complete](#linked-to-cchi-waiting-for-iqama)** - User Complete the request and moved to [Linked to CCHI waiting for Iqama](#linked-to-cchi-waiting-for-iqama) Stage.
 
-<br>
+
 
 - ### **Linked to CCHI waiting for Iqama:**
 
@@ -273,9 +271,9 @@ Newly initiate the request to Employee for insurance policy.
 
         - *In The action field is following to,*
 
-          **Complete** - User complete the request and refer to [Iqama issued and update iqama](#iqama-issued-update-iqama) stage.
+          **1-[Complete](#iqama-issued-update-iqama)** - User complete the request and refer to [Iqama issued update iqama](#iqama-issued-update-iqama) stage.
 
-          **Reject** - User reject and complete the request.
+          **2-Reject** - User reject and complete the request.
 
 <br>
 
@@ -286,7 +284,7 @@ Newly initiate the request to Employee for insurance policy.
 
      - *In The action field is following to,*
 
-       **[Complete](#completed-2)** - User Complete the request and moved into [Completed](#completed-2) stage.
+       **1-[Complete](#completed-2)** - User Complete the request and moved into [Completed](#completed-2) stage.
 
 <br>
 
@@ -317,9 +315,8 @@ In this stage, process the Iqama(Resident Identity) for Employee.
 
      - *In The action field is following to,*
 
-       **[Complete](#waiting-to-receive)** - User complete the request and refer to [Waiting to Receive](#waiting-to-receive) stage.
+       **1-[Complete](#waiting-to-receive)** - User complete the request and refer to [Waiting to Receive](#waiting-to-receive) stage.
 
-<br>
 
 - ### **Waiting to Receive:**
 
@@ -331,7 +328,7 @@ In this stage, process the Iqama(Resident Identity) for Employee.
 
        **2-Reject** - User reject and complete the request.
 
-<br>
+
 
 - ### **Put in Envelope:**
 
@@ -340,9 +337,9 @@ In this stage, process the Iqama(Resident Identity) for Employee.
 
      - *In The action field is following to,*
 
-       **[Complete](#completed-3)** - user complete the request and refer to Completed stage.
+       **1-[Complete](#completed-3)** - user complete the request and refer to Completed stage.
 
-<br>
+
 
 - ### **Completed:**
 
@@ -366,9 +363,9 @@ New request is initiated for ATM card for Employee.
 
      - *In The action field is following to,*
 
-        **[Complete](#2-payment-requested-1)** - User complete the request and refer to Payment Requested stage.
+        **1-[Complete](#2-payment-requested-1)** - User complete the request and refer to Payment Requested stage.
 
-<br>
+
 
 - ### **Payment Requested:**
 
@@ -378,9 +375,9 @@ New request is initiated for ATM card for Employee.
 
      - *In The action field is following to,*
 
-       **[Complete](#receive-in-lodging)** - User complete the request and refer to [Receive in lodging](#receive-in-lodging) stage.
+       **1-[Complete](#receive-in-lodging)** - User complete the request and refer to [Receive in lodging](#receive-in-lodging) stage.
 
-<br>
+
 
 - ### **Receive in Lodging:**
 
@@ -388,9 +385,9 @@ New request is initiated for ATM card for Employee.
 
          - *In The action field is following to,*
 
-           **[Complete](#put-in-envelope)** - User complete the request and refer [Put in Envelope](#put-in-envelope-1) stage.
+           **1-[Complete](#put-in-envelope)** - User complete the request and refer [Put in Envelope](#put-in-envelope-1) stage.
 
-<br>
+
 
 - ### **Put in Envelope:**
 
@@ -398,9 +395,9 @@ New request is initiated for ATM card for Employee.
 
      - *In The action field is following to,*
 
-       **[Complete](#5-completed)** -Complete the request and Moved to **[Completed](#5-completed)** stage.
+       **1-[Complete](#5-completed)** -Complete the request and Moved to **[Completed](#5-completed)** stage.
 
-<br>
+
 
 - ### **Completed:**
 
@@ -428,6 +425,7 @@ The Iqama is a Residential permit for resident in KSA, and this KSA Government i
 In case of missing or damaged the Iqama ID card, then employee can raise a request to reissue the ID card.
 
 | [Newly Requested Reissue](#newly-requested-reissue) > [Followup Dept Approval](#followup-department-approval) > [Manpower Dept Approval](#manpower-department-approval) > [Payment Requested](#payment-requested-2) > [Waiting for Issue](#waiting-for-issue) > [Receive in Lodging](#receive-in-lodging-1) > [Put in Envelope](#put-in-envelope-2) > [Completed](#completed-5) |
+
 
 <br>
 
@@ -480,7 +478,6 @@ In case of missing or damaged the Iqama ID card, then employee can raise a reque
 
       **After the request get approved by the user, the request moved into Payment Request.**
 
-<br>
 
 - ### **Payment Requested**
 
@@ -491,7 +488,7 @@ In case of missing or damaged the Iqama ID card, then employee can raise a reque
 
         - *In The action field is following to,*
 
-        **[Complete](#waiting-for-issue)** - User Complete the request and refer [Waiting for Issue](#waiting-for-issue) stage.
+          **1-[Complete](#waiting-for-issue)** - User Complete the request and refer [Waiting for Issue](#waiting-for-issue) stage.
 
 
 
@@ -499,7 +496,6 @@ In case of missing or damaged the Iqama ID card, then employee can raise a reque
 
     - **After Payment is completed to Goverment for issuing the Iqama id card, the user will wait for Iqama card to update the details in HRM portal.**
 
-<br>
 
 - ### **Waiting for Issue**
 
@@ -510,13 +506,12 @@ In case of missing or damaged the Iqama ID card, then employee can raise a reque
 
       - *In The action field is following to,*
 
-        **1-Complete** - User Complete the request and refer [Receive in Lodging](#receive-in-lodging-1)cstage.
+        **1-[Complete](#receive-in-lodging-1)** - User Complete the request and refer [Receive in Lodging](#receive-in-lodging-1) stage.
 
         **2-Reject** - User reject and Complete the Request.
 
       **The Card will send to Lodging location of employee**
 
-<br>
 
 - ### **Receive in Lodging**
 
@@ -525,7 +520,7 @@ the Iqama Card is received in Lodging Location of Employee. and it will prepare 
 
       - *In The action field is following to,*
 
-        **[Complete](#put-in-envelope-2)** - User Complete the Request and refer [Put in Envelope](#put-in-envelope-2) stage.
+        **1-[Complete](#put-in-envelope-2)** - User Complete the Request and refer [Put in Envelope](#put-in-envelope-2) stage.
 
 
        **After complete the Receiving in Lodging stage the request moves to Put in Envelope.**
@@ -539,14 +534,13 @@ the Iqama Card is received in Lodging Location of Employee. and it will prepare 
 
         - *In The action field is following to,*
 
-          **[Complete](#completed-5)** - User Complete the Request and moved to Completed Stage.
+          **1-[Complete](#completed-5)** - User Complete the Request and moved to [Completed](#completed-5) Stage.
 
 - ### **Completed**
 
      - Completed request have received to track The Request for Iqama reissue status.
 
-
-------------------------------------------------------------------------
+<br>
 
 > ## **[ATM](#reissue):**
 
@@ -568,7 +562,6 @@ Reissue request service is to process to provide ATM Card, new Iqama Id card and
 
          **2-Reject**  - User reject and complete the Request.
 
-<br>
 
 - ### **Finance Department Approval**
 
@@ -580,7 +573,7 @@ Reissue request service is to process to provide ATM Card, new Iqama Id card and
 
           **2-Reject** - User reject and Complete the request.
 
-<br>
+
 
 - ### **Payment Requested**
 
@@ -591,10 +584,9 @@ Reissue request service is to process to provide ATM Card, new Iqama Id card and
 
       - *In The action field is following to,*
 
-        **Complete** - User Complete the request and refer [Receive in Lodging](#receive-in-lodging-2) stage.
+        **1-[Complete](#receive-in-lodging-2)** - User Complete the request and refer [Receive in Lodging](#receive-in-lodging-2) stage.
 
 
-<br>
 
 - ### **Receive in Lodging**
 
@@ -604,9 +596,8 @@ Reissue request service is to process to provide ATM Card, new Iqama Id card and
 
         - *In The action field is following to,*
 
-          **[Complete](#put-in-envelope-3)** - User Complete the request and refer [Put in Envelope](#put-in-envelope-3)
+          **1-[Complete](#put-in-envelope-3)** - User Complete the request and refer [Put in Envelope](#put-in-envelope-3)
 
-<br>
 
 - ### **Put in Envelope**
 
@@ -614,9 +605,9 @@ Reissue request service is to process to provide ATM Card, new Iqama Id card and
 
       - *In The action field is following to,*
 
-        **[Complete](#completed-5)** - User Complete the request and moved to [Completed](#completed-5) stage.
+        **1-[Complete](#completed-5)** - User Complete the request and moved to [Completed](#completed-5) stage.
 
-  <br>
+
 
 - ### **Complete**
 
@@ -653,9 +644,7 @@ For all employee will be renewed Iqama identification in yearly once.
 
        - *In The action field is following to,*
 
-           **[Complete](#customer-approval)** - User complete the request and refer [Customer Approval](#customer-approval) stage.
-
-<br>
+           **1-[Complete](#customer-approval)** - User complete the request and refer [Customer
 
 - ### **Customer Approval:**
 
@@ -669,7 +658,6 @@ For all employee will be renewed Iqama identification in yearly once.
 
        **3-[Priority Finance Approval](#priority-finance-approval)** - User verify the request and complete to refer [Priority Finance Approval](#priority-finance-approval) stage.
 
-<br>
 
 - ### **Iqama Less then 30 Days:**
 
@@ -687,8 +675,6 @@ For all employee will be renewed Iqama identification in yearly once.
 
     **After processed the case is moved to either** **Work Permit** or **Priority Finance Approval**.
 
-<br>
-
 - ### **Agree:**
 
      - In Iqama renewal will receive for process the request in this stage after completed the request in Newly Required and Customer Approval. And User can validate request in this stage and proceed to agree for payment request or decline.
@@ -702,7 +688,6 @@ For all employee will be renewed Iqama identification in yearly once.
 
           **3-[Priority Finance Approval](#priority-finance-approval)** - User refer the request to [Priority Finance Approval](#priority-finance-approval) stage. For processing the request as Priority Request.
 
-<br>
 
 - ### **Work Permit:**
 
@@ -718,7 +703,6 @@ For all employee will be renewed Iqama identification in yearly once.
 
           **3-[Waiting For Refernce Number](#waiting-for-reference-number)** - User Hold the request and refer to [Waiting For Refernce Number](#waiting-for-reference-number) stage.
 
-<br>
 
 - ### **Priority Finance Approval:**
 
@@ -732,7 +716,6 @@ For all employee will be renewed Iqama identification in yearly once.
 
       **In this stage the user complete the stage and create the request as priority request to complete the payment request on priority**
 
-<br>
 
 - ### **Priority Request:**
 
@@ -750,7 +733,6 @@ For all employee will be renewed Iqama identification in yearly once.
 
       **And then user will raise the request with _Iqama Payment_**
 
-<br>
 
 - ### **Waiting For Reference Number:**
 
@@ -759,9 +741,7 @@ For all employee will be renewed Iqama identification in yearly once.
 
       - *In The action field is following to,*
 
-        **[Complete](#iqama-payment)** - User Complete the request and refer [Iqama Payment](#iqama-payment) stage.
-
-<br>
+        **1-[Complete](#iqama-payment)** - User Complete the request and refer [Iqama Payment](#iqama-payment) stage.
 
 
 - ### **Iqama Payment:**
@@ -772,9 +752,8 @@ For all employee will be renewed Iqama identification in yearly once.
 
      - *In The action field is following to,*
 
-       **[Paid](#iqama-renewal)** - User complete the request and refer to [Iqama Renewal](#iqama-renewal) stage.
+       **1-[Paid](#iqama-renewal)** - User complete the request and refer to [Iqama Renewal](#iqama-renewal) stage.
 
-<br>
 
 - ### **Iqama Renewal:**
 
@@ -792,7 +771,6 @@ For all employee will be renewed Iqama identification in yearly once.
 
       **In this Renewal stage system will create the muqeem in automation function. if still not created or finding error while performing to create muqeem, then the user will create the muqeem status manually and proceed complete the request in Iqama Renewal.**
 
-<br>
 
 - ### **Cases Hold:**
 
@@ -805,7 +783,6 @@ For all employee will be renewed Iqama identification in yearly once.
 
        **2-[Reject](#complete-2)** - Usr complete the request and moved into [Complete](#complete-2) stage.
 
-<br>
 
 - ### **Not Agree:**
 
@@ -815,11 +792,11 @@ For all employee will be renewed Iqama identification in yearly once.
 
        - *In The action field is following to,*
 
-         **[Agree](#agree)** - User complete the the request and refer [Agree](#agree) stage.
+         **1-[Agree](#agree)** - User complete the the request and refer [Agree](#agree) stage.
 
-         **Reject** - User reject and complete the request.
+         **2-Reject** - User reject and complete the request.
 
-<br>
+
 
 - ### **Complete:**
 
@@ -847,7 +824,6 @@ ATM card is using for Employee payment transaction through online and other nece
 
         **2-[Hold](#hold)** - User hold the request and refer [Hold](#hold) stage, In case of the request is need any requirements.
 
-<br>
 
 - ### **Manpower Department Approval**
 
@@ -855,11 +831,11 @@ ATM card is using for Employee payment transaction through online and other nece
 
       - *In The action field is following to,*
 
-        **[Approve](#payment-requested-4)** - User approve the request and refer the [Payment Requested](#payment-requested-4) stage
+        **1-[Approve](#payment-requested-4)** - User approve the request and refer the [Payment Requested](#payment-requested-4) stage
 
-        **[Hold](#hold)** - User Hold the request and refer to [Hold](#hold) stage.
+        **2-[Hold](#hold)** - User Hold the request and refer to [Hold](#hold) stage.
 
-<br>
+
 
 - ### **Payment Requested**
 
@@ -869,12 +845,11 @@ ATM card is using for Employee payment transaction through online and other nece
 
       - *In The action field is following to,*
 
-        **[Paid](#receive-in-lodging-3)** - User complete the request and refer [Receive in Lodging](#receive-in-lodging-3) stage.
+        **1-[Paid](#receive-in-lodging-3)** - User complete the request and refer [Receive in Lodging](#receive-in-lodging-3) stage.
 
 
     **After this stage completed by user then moves to **Receive in Lodging** stage**
 
-<br>
 
 - ### **Receive in Lodging**
 
@@ -884,13 +859,13 @@ ATM card is using for Employee payment transaction through online and other nece
 
         - *In The action field is following to,*
 
-          **[Complete](#put-in-envelope-4)** -  User complete this request and refer to [Put in Envelope](#put-in-envelope-4) stage.
+          **1-[Complete](#put-in-envelope-4)** -  User complete this request and refer to [Put in Envelope](#put-in-envelope-4) stage.
 
-          **Reject** - User Reject and complete the request.
+          **2-Reject** - User Reject and complete the request.
 
-          **[Complete without Envelope](#complete-3)** - User Complete the request without Envelope and moved to [complete](#complete-3) stage.
+          **3-[Complete without Envelope](#complete-3)** - User Complete the request without Envelope and moved to [complete](#complete-3) stage.
 
-<br>
+
 
 
 - ### **Put in Envelope**
@@ -899,9 +874,8 @@ ATM card is using for Employee payment transaction through online and other nece
 
        - *In The action field is following to,*
 
-         **[Complete](#complete-3)** - User complete the request and moved to [Complete](#complete-3) stage.
+         **1-[Complete](#complete-3)** - User complete the request and moved to [Complete](#complete-3) stage.
 
-<br>
 
 - ### **Hold**
 
@@ -909,9 +883,8 @@ ATM card is using for Employee payment transaction through online and other nece
 
       - *In The action field is following to,*
 
-         **[Move to Approval](#finance-department-approval)** - User complete the request and refer to [Finance Department Aproval](#finance-department-approval) stage.
+         **1-[Move to Approval](#finance-department-approval)** - User complete the request and refer to [Finance Department Aproval](#finance-department-approval) stage.
 
-<br>
 
 - ### **Complete**
 

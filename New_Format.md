@@ -1,7 +1,7 @@
 
 # **Human Resource Management**
 
-| Employee | [On Board](#on-board) | [Leave Management](#leave-management) | Travel | Employee Retirement | Loan | [Reissue](#reissue) | [Renewal](#renewal) |
+| Employee | [On Board](#on-board) | [Leave Management](#leave-management) | [Travel](#travel) | Employee Retirement | Loan | [Reissue](#reissue) | [Renewal](#renewal) |
 
 <br>
 
@@ -707,7 +707,6 @@ New request is initiated for ATM card for Employee.
 
 
 
-
 <br>
 
 ## **[Leave Reject Request:](#leave-management)**
@@ -748,6 +747,201 @@ The Leave Reject Request only can be Raise or Approve in **Waiting for Travel** 
 
 | [Home](#human-resource-management) | [Main](#leave-management) | [Back](#leave-reject-request) |
 
+
+<br>
+<br>
+<br>
+
+
+# **[Travel](#human-resource-management)**
+
+ Travel Process will intiated in between the **Travel Arrangements** in **Leave Request.** in case of customer requested Travel Arrangements by ARCO.
+
+| [Visa Request](#visa-request) | [Travel Request](#travel-request) | [ERE Extend](#ere-extend) |
+
+<br>
+
+> ## **[Visa Request:](#travel)**
+
+
+| [Requested](#requested) > [Approval](#approval) > [Payment](#payment) > [Under Processing](#under-processing) > [Hold](#hold) > [Completed](#completed) |
+
+- ### **Requested:**
+
+     - Visa Request initiated in Travel Request in between the Travel Arrangements stage begins in **Leave Request** process.
+
+         - *In The action field is following to,*
+
+           **1-[Requested](#approval)** - User complete the request and refer to [Approval](#approval) stage.
+
+- ### **Approval:**
+
+     - User Validate the request for Visa payment process to approve the request and complete this stage.
+
+       - *In The action field is following to,*
+
+         **1-[Approved](#payment)** - User complete and approved this request then refer to [Payment](#payment) stage.
+
+- ### **Payment:**
+
+     - After payment completed by the user in Finance Department, the payment request moved to **Under Processing** stage.
+
+     - User can use to compare the Payment status in between the payment in **Visa Request** and Payment Request in **Finance Department**.
+
+       - *In The action field is following to,*
+
+         **1-[Auto](#under-processing)** - The request will be completed once **Payment** Request is completed in Finance Department Portal. and Moved to [Under Processing](#under-processing) stage.
+
+- ### **Under Processing:**
+
+    - In Under Processing stage is Visa Issuance process of Employee In Government Authority.
+
+      - *In The action field is following to,*
+
+        **1-[Complete](#completed)** - User complete this request tand moved  [completed](#completed) stage.
+
+        **2-[Hold](#hold)** - User Hold the request and moved to [Hold](#hold) stage. for need of clarification or query from customer.
+
+
+- ### **Hold:**
+
+    - Incompleted request are Holding for Query in this stage, after clarifies the queries by relevent department then user complete this stage.
+
+      - *In The action field is following to,*
+
+        **1-[Release](#under-processing)** - User return this request and refer to [Under Processing](#under-processing) stage.
+
+- ### **Completed:**
+
+     - All completed Request has to moved in Completed Stage, After the Visa Request process is completed.
+
+| [Home](#human-resource-management) | [Main](#travel) | [Back](#visa-request) |
+
+
+<br>
+
+
+> ## **[Travel Request:](#travel)**
+
+
+| [Requested](#requested-1) > [Travel Arrangements](#travel-arrangements) > [Approval](#approval-1) > [Payment](#payment-1) > [Complete](#complete) > [Hold](#hold-1) |
+
+- ### **Requested:**
+
+     - Travel Request initiated in between the Travel Arrangements stage begins in **Leave Request** process.
+
+       - *In The action field is following to,*
+
+         **1-[Complete](#travel-arrangements)** - User create and complete the New travel request and moved to for [Travel Arrangements](#travel-arrangements) stage.
+
+         **2-[Hold](#hold-1)** - User moved the request to [Hold](#hold-1) stage. for query requirements.
+
+         **3-Reject** - User Reject and Complete the request.
+
+
+- ### **Travel Arrangements:**
+
+    - User validate the Travel Informations of employee wise Ticket status, Airlines details. then user complete this stage.
+
+      - *In The action field is following to,*
+
+         **1-[Complete](#approval-1)** - User Complete this request and refer to [Approval](#approval-1) Stage.
+
+        **2-[Hold](#hold-1)** - User Hold the request and refer to [Hold](#hold-1) for the query confirmation.
+
+
+- ### **Approval:**
+
+     - User Validate the Approval request for payment process and then approve and complete the request in this stage.
+
+       - *In The action field is following to,*
+
+         **1-[Approve](#payment-1)** - User Approve and complete this request and refer to [Payment](#payment-1) stage. for Travel payment process.
+
+- ### **Payment:**
+
+     - After payment completed by the user in Finance Department,then the payment request updated and moved to **Completed** stage.
+
+     - User can use to compare the Payment status in between the payment in **Travel Request** and Payment Request in **Finance Department**.
+
+        - *In The action field is following to,*
+
+          **1-[Complete](#complete)** - User Complete the Request and moved to [Complete](#complete) stage.
+
+- ### **Complete:**
+
+  - All completed Request has to moved in Completed Stage, After the Travel Request process is completed.
+
+- ### **Hold:**
+
+     - All Pending request is waiting to be take action status by user in **Hold** Stage.
+
+       - *In The action field is following to,*
+
+         **1-[Resume](#requested-1)** - User Resume the request and refer to [Requested](#requested-1) stage. and review the request from beginning stage.
+
+
+| [Home](#human-resource-management) | [Main](#travel) | [Back](#travel-request) |
+
+<br>
+
+
+> ## **[ERE Extend:](#travel)**
+
+Initiated the request for the Exit Re-Entry Visa to Employee in this **ERE Extend** stage.
+
+| [Requested](#requested-2) > [Manpower Approval](#manpower-approval) > [Finance Approval](#finance-approval) > [Update In MOL](#update-in-mol) > [Completed](#completed-1) > [Rejected](#rejected) |
+
+- ### **Requested:**
+
+    - In this stage, Newly required request is received to waiting for action.
+
+      - *In The action field is following to,*
+
+        **1-[Complete](#manpower-approval)** - User complete the request and refer for [Manpower Approval](#manpower-approval) stage.
+
+        **2-[Reject](#rejected)** - User Reject the request and moved to [Rejected](#rejected) stage. and hold the Request for Requirements.
+
+
+- ### **Manpower Approval:**
+
+     - User validate the status of **Manpower Approval** from Manpower Department. And then user complete the request in this stage.
+
+       - *In The action field is following to,*
+
+         **1-[Complete](#finance-approval)** - User Complete the request and refer to [Finance Approval](#finance-approval) stage.
+
+         **2-[Reject](#rejected)** - User Reject the request and moved to [Rejected](#rejected) stage. and hold the request for Query purpose and Requirements.
+
+- ### **Finance Approval:**
+
+     - In this stage, user complete this request after Authenticated and finalised with the Finance Approval for ERE Extend in Finance Department.
+
+       - *In The action field is following to,*
+
+         **1-[Complete](#update-in-mol)** - User complete the request and refer to [Update In MOL](#update-in-mol) stage.
+
+         **2-[Reject](#rejected)** - User reject the request and moved to [Rejected](#rejected) Stage.
+
+
+- ### **Update in MOL:**
+
+     - In this stage.
+
+          - *In The action field is following to,*
+
+            **1-[Complete](#completed-1)** - User complete the request and moved to [Completed](#completed-1) stage.
+
+- ### **Completed:**
+
+    - In this stage, User use to track the status of Completed request in ERE Visa request.
+
+- ### **Rejected:**
+
+     - User use to track the all rejected request in this stage for ERE Extend Visa.
+
+
+| [Home](#human-resource-management) | [Main](#travel) | [Back](#ere-extend) |
 
 <br>
 <br>

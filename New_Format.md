@@ -1,8 +1,145 @@
 
 # **Human Resource Management**
 
-| Employee | [On Board](#on-board) | [Leave Management](#leave-management) | [Travel](#travel) | Employee Retirement | Loan | [Reissue](#reissue) | [Renewal](#renewal) |
+| [Employee](#employee) | [On Board](#on-board) | [Leave Management](#leave-management) | [Travel](#travel) | [Employee Retirement](#employee-retirement) | Loan | [Reissue](#reissue) | [Renewal](#renewal) |
 
+<br>
+
+# **[Employee](#human-resource-management)**
+
+
+| [Employee List](#employee-list) | [Employee Contract](#employee-contract) | [Employee Profile Search](#employee-profile-search) | [Employee Inquiry](#employee-inquiry) | [Mudad Contract Import](#mudad-contract-import) | [Mudad Contract Status](#mudad-contract-status) | [Hourly Assignment](#hourly-assignment) | [PayGroup Assignment](#paygroup-assignment) |
+
+<br>
+
+> ## **[Employee List:](#employee)**
+
+User use to update the Employee details and requirements in this stage, like Iqama Reissue, ATM Reissue, Insurance Reissue, Iqama Renewal update mobile number.
+
+
+ - **The action field is following**:
+
+      - **Iqama Reissue** - Reissue the Iqama since it damaged or required reissue for new with uploding the Reissue Attchement.
+
+      - **Insurance Reissue** - Reissue the Insurance since it damaged or required reissue for new with uploding the Reissue Attchement.
+
+      - **ATM Reissue** - Reissue the ATM since it damaged or required reissue for new with uploding the Reissue Attchement.
+
+      - **Iqama Renewal** - Renewal the ATM since it damaged or required renewal for new.
+
+      - **Update Mobile Number** - Use to update the Employee Mobile number.
+
+ - **Temparary Iqama** - Using to get print a temparary iqama for Employee.
+
+ - **Profile Update** - Using to Update the Employee Profile data, and modify the changes.
+
+| [Home](#human-resource-management) | [Main](#employee) | [Back](#employee-list) |
+
+<br>
+
+> ## **[Employee Contract:](#employee)**
+
+User can use to track the Contract status of Employee.
+
+   - Active - opt with active is filter to show the all Active status contracts of Employee.
+
+   - Near to Expire - opt with Near to Expire is filter to show the all Near to Expire status contracts of Employee.
+
+   - Expired - opt with Expired is filter to show the all Expired status contracts of Employee.
+
+| [Home](#human-resource-management) | [Main](#employee) | [Back](#employee-contract) |
+
+<br>
+
+> ## **[Employee Profile search:](#employee)**
+
+
+This filter to search and track the employees information by Profile details creates by Arco. by Employee type, nationality wise, age wise, experienced in work and, types of skills, availability etc.
+
+* **Business** - Recruiting the persons for business, wise **Business Customer** based services like Hotel, factory etc.
+
+* **individual** - Individual is the persons recruiting for **Individual Customer** to work for Individual Driver / House Maid.
+
+* **Gender** - search with gender as Male / Female.
+
+| [Home](#human-resource-management) | [Main](#employee) | [Back](#employee-profile-search) |
+
+
+<br>
+
+> ## **[Employee Inquiry:](#employee)**
+
+* **Search** - Using to filter to search the Employee profile details and Identity Information.
+
+| [Home](#human-resource-management) | [Main](#employee) | [Back](#employee-inquiry) |
+
+
+<br>
+
+> ## **[Mudad Contract Import:](#employee)**
+
+-  **Import** - Using to Import the employee mudad contract details document file into HRM portal with selected Employee.
+
+| [Home](#human-resource-management) | [Main](#employee) | [Back](#mudad-contract-import) |
+
+
+<br>
+
+> ## **[Mudad Contract Status:](#employee)**
+
+Using to track the employees profile with Mudad contract status detailed information.
+
+ * ### **Authenticated Inside KSA:**
+
+    * In this stage Authenticate the Location status of Employee.
+
+        * The action field is following:
+
+
+
+ * ### **Authenticated Outside KSA:**
+
+     * In this stage Authenticated outside the KSA
+
+ * ### **Autenticated but less then 60 days:**
+
+     * In this stage, Authenticated status still Authentication is near to Expire.
+
+ * ### **Not Auntenticated:**
+
+ Not Authenticated the status and required to authentication for Employee.
+
+ * ### **Agreed to Renewal:**
+
+
+ 
+ * ### **Non Renewal:**
+
+
+
+ * ### **InActive:**
+
+| [Home](#human-resource-management) | [Main](#employee) | [Back](#mudad-contract-status) |
+
+
+<br>
+
+
+> ## **[Hourly Assignment:](#employee)**
+
+
+| [Home](#human-resource-management) | [Main](#employee) | [Back](#hourly-assignment) |
+
+
+<br>
+
+> ## **[PayGroup Assignment:](#employee)**
+
+| [Home](#human-resource-management) | [Main](#employee) | [Back](#paygroup-assignmenty) |
+
+
+<br>
+<br>
 <br>
 
 # **[On Board](#human-resource-management)**
@@ -42,10 +179,10 @@ Medical Test and following procedure is initiated for New Employee in the Arriva
       - *The action field is following*:
 
 
-        **1**- [Fit](#complete) - User Complete the request and move to Completed stage.
+        **1**- [Fit](#complete) - User Complete the request and move to [Complete](#complete) stage.
         
 
-        **2**- [Not fit](#not-fit) - User reject the request and move to Not Fit Stage.
+        **2**- [Not fit](#not-fit) - User reject the request and move to [Not Fit](#not-fit) Stage.
 
 
 
@@ -62,7 +199,7 @@ Medical Test and following procedure is initiated for New Employee in the Arriva
            **1**-**Complete** – User Reject and complete the request. once complete **Not Fit** stage final exit process will create.
             
 
-           **2**-[Fit](#complete)   –  User Complete the request and refer to Completed Stage.
+           **2**-[Fit](#complete)   –  User Complete the request and refer to [Complete](#complete) Stage.
 
 
 
@@ -347,7 +484,7 @@ In this stage, process the Iqama(Resident Identity) for Employee.
 
      - *In The action field is following to,*
 
-       **1-[Complete](#completed-3)** - user complete the request and refer to Completed stage.
+       **1-[Complete](#completed-3)** - user complete the request and refer to [Completed](#complete-3) stage.
 
 
 
@@ -378,7 +515,7 @@ New request is initiated for ATM card for Employee.
 
      - *In The action field is following to,*
 
-        **1-[Complete](#payment-requested-1)** - User complete the request and refer to Payment Requested stage.
+        **1-[Complete](#payment-requested-1)** - User complete the request and refer to [Payment Requested](#payment-requested-1) stage.
 
 
 
@@ -547,7 +684,7 @@ New request is initiated for ATM card for Employee.
 ## **[Vacation Settlement:](#leave-management)**
 
 
-| [Requested](#requested) > [Clearance Process](#clearance_process) > [Approval](#approval) > [Client_Confirmation](#client_confirmation) > [Payment](#payment) > [Client Rejection](#client-rejection) > [Completed](#completed-6) |
+| [Requested](#requested) > [Clearance Process](#clearance_process) > [Approval](#approval) > [Client_Confirmation](#client_confirmation) > [Payment](#payment) > [Client Rejection](#client-rejection) > [Completed](#complete-1) |
 
 <br>
 
@@ -757,14 +894,14 @@ The Leave Reject Request only can be Raise or Approve in **Waiting for Travel** 
 
  Travel Process will intiated in between the **Travel Arrangements** in **Leave Request.** in case of customer requested Travel Arrangements by ARCO.
 
-| [Visa Request](#visa-request) | [Travel Request](#travel-request) | [ERE Extend](#ere-extend) |
+| [Visa Request](#visa-request-1) | [Travel Request](#travel-request) | [ERE Extend](#ere-extend) |
 
 <br>
 
 > ## **[Visa Request:](#travel)**
 
 
-| [Requested](#requested) > [Approval](#approval) > [Payment](#payment) > [Under Processing](#under-processing) > [Hold](#hold) > [Completed](#completed) |
+| [Requested](#requested-1) > [Approval](#approval-1) > [Payment](#payment-1) > [Under Processing](#under-processing-1) > [Hold](#hold) > [Completed](#completed-8) |
 
 - ### **Requested:**
 
@@ -772,7 +909,7 @@ The Leave Reject Request only can be Raise or Approve in **Waiting for Travel** 
 
          - *In The action field is following to,*
 
-           **1-[Requested](#approval)** - User complete the request and refer to [Approval](#approval) stage.
+           **1-[Requested](#approval-1)** - User complete the request and refer to [Approval](#approval-1) stage.
 
 - ### **Approval:**
 
@@ -780,7 +917,7 @@ The Leave Reject Request only can be Raise or Approve in **Waiting for Travel** 
 
        - *In The action field is following to,*
 
-         **1-[Approved](#payment)** - User complete and approved this request then refer to [Payment](#payment) stage.
+         **1-[Approved](#payment-1)** - User complete and approved this request then refer to [Payment](#payment-1) stage.
 
 - ### **Payment:**
 
@@ -790,7 +927,7 @@ The Leave Reject Request only can be Raise or Approve in **Waiting for Travel** 
 
        - *In The action field is following to,*
 
-         **1-[Auto](#under-processing)** - The request will be completed once **Payment** Request is completed in Finance Department Portal. and Moved to [Under Processing](#under-processing) stage.
+         **1-[Auto](#under-processing-1)** - The request will be completed once **Payment** Request is completed in Finance Department Portal. and Moved to [Under Processing](#under-processing-1) stage.
 
 - ### **Under Processing:**
 
@@ -824,7 +961,7 @@ The Leave Reject Request only can be Raise or Approve in **Waiting for Travel** 
 > ## **[Travel Request:](#travel)**
 
 
-| [Requested](#requested-1) > [Travel Arrangements](#travel-arrangements) > [Approval](#approval-1) > [Payment](#payment-1) > [Complete](#complete) > [Hold](#hold-1) |
+| [Requested](#requested-2) > [Travel Arrangements](#travel-arrangements) > [Approval](#approval-1) > [Payment](#payment-1) > [Complete](#complete) > [Hold](#hold-1) |
 
 - ### **Requested:**
 
@@ -942,6 +1079,187 @@ Initiated the request for the Exit Re-Entry Visa to Employee in this **ERE Exten
 
 
 | [Home](#human-resource-management) | [Main](#travel) | [Back](#ere-extend) |
+
+
+<br>
+<br>
+<br>
+
+
+# **[Employee Retirement](#human-resource-management)**
+
+| [Final Settlement](#final-settlement) | [Retirement Request](#retirement-request) |
+
+
+<br>
+
+> ## **[Final Settlement](#employee-retirement):**
+
+| [Requested](#requested)  > [Clearance Process](#clearance-process) > [Approval](#approval) > [Client _ Confirmation](#client_confirmation) > [Payment](#payment) > [Client Rejection](#client-rejection) > [Complete](#complete) |
+
+<br>
+
+- ### **Requested:**
+
+     - User initiated new request for Employee **Final Settlement** in **Employee Retirement** process.
+
+        - *In The action field is following to,*
+
+           **1-[Move to Clearance](#clearance-process)** - User complete the request and *refer for [Clearance process](#clearance-process) stage.
+
+- ### **Clearance Process:**
+
+     - In this stage,  User process Clearance for Employee to calcuclate the **Final Settlement** payment.
+
+        - *In The action field is following to,*
+
+           **1-[Complete](#approval)** - User complete the request and refer to [Approval](#approval) stage. for **Final Settlement** Clearance.
+
+- ### **Approval:**
+
+     - User raised a request to get Finance Approval in Finanace Department for **Final Settlement** to Employee. after Finance Department approved, then user complete the request.
+
+        - *In The action field is following to,*
+
+          **1-[Complete](#client_confirmation)** - User Complete this request and moved For [Client_Confirmation](#client_confirmation)** stage.
+
+           **2-[Re Calculate Clearance](#clearance-process)** - User reject and return the request **Clearance Process** stage. for Re Calculate Clearance amount.
+
+           **3-[Move Without Payment](#complete)** - User complete this request and **Move Without Payment** to [Complete](#complete) Stage.
+
+- ### **Client_Confirmation:**
+
+    - User requested to get **Client Confirmation** for process the Final Settlement **Payment** to Employee in Retirement.
+
+       - *In The action field is following to,*
+
+         **1-[Confirm](#payment)** - User Complete the request and refer to the **Payment** stage.
+
+         **2-[Move to Clearance](#clearance-process)** - User complete and refer the request to [Clearance Process](#clearance-process) stage. for Recalculate the Payment.
+
+- ### **Payment:**
+
+    - Complete the request in Final Settlement after payment status completed in Finance Department,then payment request updated and moved to **Complete** stage.
+
+      - *In The action field is following to,*
+
+        **1-[Complete](#complete)** - User complete the request with Final Settlement **Payment** of Employee is requested for Retirement.
+
+        **2-[ReCalculate](#clearance-process)** - User reject and return the request to [Clearance Process](#clearance-process) for Recalculate the Payment for Final Settlement.
+
+- ### **Client Rejection:**
+
+    - Pending and Rejected Request have showing in this **Client Rejection** stage. and then this rejected request is moved to **Cient_Confirmation** for resume and Resend the request from Reconfirmation of Client.
+
+      - *In The action field is following to,*
+
+        **[Resend Customer Confirmation](#client_confirmation)** - User Resend the Request to Customer for **Customer confirmation** stage to process the Request.
+
+- ### **Complete:**
+
+     - All completed Request has to moved in **Complete** Stage, After the Final Settltment process is completed.
+
+| [Home](#human-resource-management) | [Main](#employee-retirement) | [Back](#final-settlement) |
+
+<br>
+
+> ## **[Retirement Request:](#employee-retirement)**
+
+| [New Request](#new-request) > [Arco Approval](#arco-approval) > [Customer Approval](#customer-approval) > [Under Processing](#under-processing) > [Customer Clearance](#customer-approval) > [Arco Clearance](#arco-clearance) > [Waiting for Travel](#waiting-for-travel) > [RejectedRequest](#rejectedrequest) > [Complete](#complete-1) |
+
+<br>
+ 
+
+- ### **New Request:**
+
+    - User Initiate a New Request to process the Retirement for Employee.
+
+      - *In The action field is following to,*
+
+        **1-[Complete](#arco-approval)** - User Complete the Request and refer to [Arco Approval](#arco-approval) stage.
+
+
+- ### **Arco Approval:**
+
+    - In this stage, User process the request for **Arco Approval** to Employee Retirement Process.
+
+       - *In The action field is following to,*
+
+         **1-[Complete](#customer-approval)** - User Complete the Request in this Arco Approval stage and then refer to [Customer Approval](#customer-approval) Stage.
+
+         **2-[Reject](#rejectedrequest)** - User Reject the request and moved to [Rejected Request](#rejectedrequest) stage.
+
+- ### **Customer Approval:**
+
+    - In this stage, User process the request for Customer Approval and then refer the request to [Under Processing](#under-processing) stage.
+
+      - *In The action field is following to,*
+
+        **1-[Reject](#rejectedrequest)** - User Reject complete the request and refer to [RejectedRequest](#rejectedrequest) stage.
+
+        **2-[Complete](#under-processing)** - User Complete the request and refer to [Under Processing](#under-processing) Stage.
+
+- ### **Under Processing:**
+
+    - In this stage, The Employee Settlement related process is begins as Final Settlement in Retirement.
+
+    - Also created request for Travel Arrangements
+
+       - *In The action field is following to,*
+
+         **1-[Reject](#rejectedrequest)** - User reject the request and moved to [RejectedRequest](#rejectedrequest) stage.
+
+         **2-[Complete](#customer-clearance)** - User complete the requsest and then refer to [Customer Clearance](#customer-clearance) stage.
+
+
+
+- ### **Customer Clearance:**
+
+     - User make action to Request the **Customer Clearance** for Final Settlement process.
+
+       - *In The action field is following to,*
+
+         **1-[Complete](#arco-clearance)** - User complete and refer the request to [Arco Clearance](#arco-clearance) stage.
+
+         **2-[Reject](#rejectedrequest)** - User Reject the request to [RejectedRequest](#rejectedrequest) stage. for holding the request for customer confirmation.
+
+- ### **Arco Clearance:**
+
+  - User process the request to Arco
+
+       - *In the Action field is Following to,*
+
+          **1-[Complete](#waiting-for-travel)** -  User complete the request and refer to [Waiting for Travel](#waiting-for-travel) stage.
+
+          **2-[Reject](#rejectedrequest)** - User reject and complete the request to [Rejected request](#rejectedrequest) stage.
+
+- ### **Waiting for Travel:**
+
+    - In this stage, the Employee waiting to receive and update on information of travel date, Departure and Airline details. and then user complete the stage, since the employee have properly departured.
+
+    - Sent to travel
+      - *In the Action field is Following to,*
+
+        **1-[Complete](#complete-1)** - User complete the request and then refer to [Complete](#complete-1) stage.
+
+        **2-[Reject](#rejectedrequest)** - User Reject and complete the request then moved to [Rejected Request](#rejectedrequest) stage.
+
+- ### **RejectedRequest:**
+
+    - In this stage,
+
+       - *In the Action field is Following to,*
+
+          **1-Reject** - User reject the request and Complete this stage.
+
+- ### **Complete:**
+
+     - In
+
+| [Home](#human-resource-management) | [Main](#employee-retirement) | [Back](#retirement-request) |
+
+
+
 
 <br>
 <br>
@@ -1080,7 +1398,6 @@ the Iqama Card is received in Lodging Location of Employee. and it will prepare 
      - Completed request have received to track The Request for Iqama reissue status.
 
 | [Home](#human-resource-management) | [Main](#reissue) | [Back](#iqama)
-|
 
 
 

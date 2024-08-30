@@ -935,7 +935,7 @@ The Leave Reject Request only can be Raise or Approve in **Waiting for Travel** 
 
       - *In The action field is following to,*
 
-        **1-[Complete](#completed)** - User complete this request tand moved  [completed](#completed) stage.
+        **1-[Complete](#completed-8)** - User complete this request tand moved  [completed](#completed-8) stage.
 
         **2-[Hold](#hold)** - User Hold the request and moved to [Hold](#hold) stage. for need of clarification or query from customer.
 
@@ -946,13 +946,13 @@ The Leave Reject Request only can be Raise or Approve in **Waiting for Travel** 
 
       - *In The action field is following to,*
 
-        **1-[Release](#under-processing)** - User return this request and refer to [Under Processing](#under-processing) stage.
+        **1-[Release](#under-processing-1)** - User return this request and refer to [Under Processing](#under-processing-1) stage.
 
 - ### **Completed:**
 
      - All completed Request has to moved in Completed Stage, After the Visa Request process is completed.
 
-| [Home](#human-resource-management) | [Main](#travel) | [Back](#visa-request) |
+| [Home](#human-resource-management) | [Main](#travel) | [Back](#visa-request-1) |
 
 
 <br>
@@ -961,7 +961,7 @@ The Leave Reject Request only can be Raise or Approve in **Waiting for Travel** 
 > ## **[Travel Request:](#travel)**
 
 
-| [Requested](#requested-2) > [Travel Arrangements](#travel-arrangements) > [Approval](#approval-1) > [Payment](#payment-1) > [Complete](#complete) > [Hold](#hold-1) |
+| [Requested](#requested-2) > [Travel Arrangements](#travel-arrangements-1) > [Approval](#approval-2) > [Payment](#payment-2) > [Complete](#complete-2) > [Hold](#hold-1) |
 
 - ### **Requested:**
 
@@ -969,7 +969,7 @@ The Leave Reject Request only can be Raise or Approve in **Waiting for Travel** 
 
        - *In The action field is following to,*
 
-         **1-[Complete](#travel-arrangements)** - User create and complete the New travel request and moved to for [Travel Arrangements](#travel-arrangements) stage.
+         **1-[Complete](#travel-arrangements-1)** - User create and complete the New travel request and moved to for [Travel Arrangements](#travel-arrangements-1) stage.
 
          **2-[Hold](#hold-1)** - User moved the request to [Hold](#hold-1) stage. for query requirements.
 
@@ -982,7 +982,7 @@ The Leave Reject Request only can be Raise or Approve in **Waiting for Travel** 
 
       - *In The action field is following to,*
 
-         **1-[Complete](#approval-1)** - User Complete this request and refer to [Approval](#approval-1) Stage.
+         **1-[Complete](#approval-2)** - User Complete this request and refer to [Approval](#approval-2) Stage.
 
         **2-[Hold](#hold-1)** - User Hold the request and refer to [Hold](#hold-1) for the query confirmation.
 
@@ -993,7 +993,7 @@ The Leave Reject Request only can be Raise or Approve in **Waiting for Travel** 
 
        - *In The action field is following to,*
 
-         **1-[Approve](#payment-1)** - User Approve and complete this request and refer to [Payment](#payment-1) stage. for Travel payment process.
+         **1-[Approve](#payment-2)** - User Approve and complete this request and refer to [Payment](#payment-2) stage. for Travel payment process.
 
 - ### **Payment:**
 
@@ -1003,7 +1003,7 @@ The Leave Reject Request only can be Raise or Approve in **Waiting for Travel** 
 
         - *In The action field is following to,*
 
-          **1-[Complete](#complete)** - User Complete the Request and moved to [Complete](#complete) stage.
+          **1-[Complete](#complete-2)** - User Complete the Request and moved to [Complete](#complete-2) stage.
 
 - ### **Complete:**
 
@@ -1015,10 +1015,10 @@ The Leave Reject Request only can be Raise or Approve in **Waiting for Travel** 
 
        - *In The action field is following to,*
 
-         **1-[Resume](#requested-1)** - User Resume the request and refer to [Requested](#requested-1) stage. and review the request from beginning stage.
+         **1-[Resume](#requested-2)** - User Resume the request and refer to [Requested](#requested-2) stage. and review the request from beginning stage.
 
 
-| [Home](#human-resource-management) | [Main](#travel) | [Back](#travel-request) |
+| [Home](#human-resource-management) | [Main](#travel) | [Back](#travel-request-1) |
 
 <br>
 
@@ -1027,7 +1027,7 @@ The Leave Reject Request only can be Raise or Approve in **Waiting for Travel** 
 
 Initiated the request for the Exit Re-Entry Visa to Employee in this **ERE Extend** stage.
 
-| [Requested](#requested-2) > [Manpower Approval](#manpower-approval) > [Finance Approval](#finance-approval) > [Update In MOL](#update-in-mol) > [Completed](#completed-1) > [Rejected](#rejected) |
+| [Requested](#requested-3) > [Manpower Approval](#manpower-approval) > [Finance Approval](#finance-approval) > [Update In MOL](#update-in-mol) > [Completed](#completed-9) > [Rejected](#rejected) |
 
 - ### **Requested:**
 
@@ -1067,7 +1067,7 @@ Initiated the request for the Exit Re-Entry Visa to Employee in this **ERE Exten
 
           - *In The action field is following to,*
 
-            **1-[Complete](#completed-1)** - User complete the request and moved to [Completed](#completed-1) stage.
+            **1-[Complete](#completed-9)** - User complete the request and moved to [Completed](#completed-9) stage.
 
 - ### **Completed:**
 
@@ -1095,7 +1095,7 @@ Initiated the request for the Exit Re-Entry Visa to Employee in this **ERE Exten
 
 > ## **[Final Settlement](#employee-retirement):**
 
-| [Requested](#requested)  > [Clearance Process](#clearance-process) > [Approval](#approval) > [Client _ Confirmation](#client_confirmation) > [Payment](#payment) > [Client Rejection](#client-rejection) > [Complete](#complete) |
+| [Requested](#requested-4)  > [Clearance Process](#clearance-process) > [Approval](#approval-3) > [Client _ Confirmation](#client_confirmation-1) > [Payment](#payment-3) > [Client Rejection](#client-rejection-1) > [Complete](#complete-3) |
 
 <br>
 
@@ -1113,7 +1113,7 @@ Initiated the request for the Exit Re-Entry Visa to Employee in this **ERE Exten
 
         - *In The action field is following to,*
 
-           **1-[Complete](#approval)** - User complete the request and refer to [Approval](#approval) stage. for **Final Settlement** Clearance.
+           **1-[Complete](#approval-3)** - User complete the request and refer to [Approval](#approval-3) stage. for **Final Settlement** Clearance.
 
 - ### **Approval:**
 
@@ -1121,11 +1121,11 @@ Initiated the request for the Exit Re-Entry Visa to Employee in this **ERE Exten
 
         - *In The action field is following to,*
 
-          **1-[Complete](#client_confirmation)** - User Complete this request and moved For [Client_Confirmation](#client_confirmation)** stage.
+          **1-[Complete](#client_confirmation-1)** - User Complete this request and moved For [Client_Confirmation](#client_confirmation-1) stage.
 
-           **2-[Re Calculate Clearance](#clearance-process)** - User reject and return the request **Clearance Process** stage. for Re Calculate Clearance amount.
+           **2-[Re Calculate Clearance](#clearance-process)** - User reject and return the request [Clearance Process](#clearance-process) stage. for Re Calculate Clearance amount.
 
-           **3-[Move Without Payment](#complete)** - User complete this request and **Move Without Payment** to [Complete](#complete) Stage.
+           **3-[Move Without Payment](#complete-3)** - User complete this request and **Move Without Payment** to [Complete](#complete-3) Stage.
 
 - ### **Client_Confirmation:**
 
@@ -1133,7 +1133,7 @@ Initiated the request for the Exit Re-Entry Visa to Employee in this **ERE Exten
 
        - *In The action field is following to,*
 
-         **1-[Confirm](#payment)** - User Complete the request and refer to the **Payment** stage.
+         **1-[Confirm](#payment-3)** - User Complete the request and refer to the [Payment](#payment-3) stage.
 
          **2-[Move to Clearance](#clearance-process)** - User complete and refer the request to [Clearance Process](#clearance-process) stage. for Recalculate the Payment.
 
@@ -1143,9 +1143,9 @@ Initiated the request for the Exit Re-Entry Visa to Employee in this **ERE Exten
 
       - *In The action field is following to,*
 
-        **1-[Complete](#complete)** - User complete the request with Final Settlement **Payment** of Employee is requested for Retirement.
+        **1-[Complete](#complete-3)** - User complete the request and moved to [Complete](#complete-3) stage.
 
-        **2-[ReCalculate](#clearance-process)** - User reject and return the request to [Clearance Process](#clearance-process) for Recalculate the Payment for Final Settlement.
+        **2-[ReCalculate](#clearance-process)** - User reject and return the request to [Clearance Process](#clearance-process) stage. for Recalculate the Payment for Final Settlement.
 
 - ### **Client Rejection:**
 
@@ -1153,7 +1153,7 @@ Initiated the request for the Exit Re-Entry Visa to Employee in this **ERE Exten
 
       - *In The action field is following to,*
 
-        **[Resend Customer Confirmation](#client_confirmation)** - User Resend the Request to Customer for **Customer confirmation** stage to process the Request.
+        **[Resend Customer Confirmation](#client_confirmation-1)** - User Resend the Request to Customer for [Client confirmation](#client_confirmation-1) stage to process the Request.
 
 - ### **Complete:**
 
@@ -1165,7 +1165,7 @@ Initiated the request for the Exit Re-Entry Visa to Employee in this **ERE Exten
 
 > ## **[Retirement Request:](#employee-retirement)**
 
-| [New Request](#new-request) > [Arco Approval](#arco-approval) > [Customer Approval](#customer-approval) > [Under Processing](#under-processing) > [Customer Clearance](#customer-approval) > [Arco Clearance](#arco-clearance) > [Waiting for Travel](#waiting-for-travel) > [RejectedRequest](#rejectedrequest) > [Complete](#complete-1) |
+| [New Request](#new-request) > [Arco Approval](#arco-approval-1) > [Customer Approval](#customer-approval-1) > [Under Processing](#under-processing-2) > [Customer Clearance](#customer-clearance-1) > [Arco Clearance](#arco-clearance-1) > [Waiting for Travel](#waiting-for-travel-1) > [RejectedRequest](#rejectedrequest) > [Complete](#complete-4) |
 
 <br>
  
@@ -1176,7 +1176,7 @@ Initiated the request for the Exit Re-Entry Visa to Employee in this **ERE Exten
 
       - *In The action field is following to,*
 
-        **1-[Complete](#arco-approval)** - User Complete the Request and refer to [Arco Approval](#arco-approval) stage.
+        **1-[Complete](#arco-approval-1)** - User Complete the Request and refer to [Arco Approval](#arco-approval-1) stage.
 
 
 - ### **Arco Approval:**
@@ -1185,7 +1185,7 @@ Initiated the request for the Exit Re-Entry Visa to Employee in this **ERE Exten
 
        - *In The action field is following to,*
 
-         **1-[Complete](#customer-approval)** - User Complete the Request in this Arco Approval stage and then refer to [Customer Approval](#customer-approval) Stage.
+         **1-[Complete](#customer-approval-1)** - User Complete the Request in this Arco Approval stage and then refer to [Customer Approval](#customer-approval-1) Stage.
 
          **2-[Reject](#rejectedrequest)** - User Reject the request and moved to [Rejected Request](#rejectedrequest) stage.
 
@@ -1197,7 +1197,7 @@ Initiated the request for the Exit Re-Entry Visa to Employee in this **ERE Exten
 
         **1-[Reject](#rejectedrequest)** - User Reject complete the request and refer to [RejectedRequest](#rejectedrequest) stage.
 
-        **2-[Complete](#under-processing)** - User Complete the request and refer to [Under Processing](#under-processing) Stage.
+        **2-[Complete](#under-processing-2)** - User Complete the request and refer to [Under Processing](#under-processing-2) Stage.
 
 - ### **Under Processing:**
 
@@ -1209,7 +1209,7 @@ Initiated the request for the Exit Re-Entry Visa to Employee in this **ERE Exten
 
          **1-[Reject](#rejectedrequest)** - User reject the request and moved to [RejectedRequest](#rejectedrequest) stage.
 
-         **2-[Complete](#customer-clearance)** - User complete the requsest and then refer to [Customer Clearance](#customer-clearance) stage.
+         **2-[Complete](#customer-clearance-1)** - User complete the requsest and then refer to [Customer Clearance](#customer-clearance-1) stage.
 
 
 
@@ -1219,7 +1219,7 @@ Initiated the request for the Exit Re-Entry Visa to Employee in this **ERE Exten
 
        - *In The action field is following to,*
 
-         **1-[Complete](#arco-clearance)** - User complete and refer the request to [Arco Clearance](#arco-clearance) stage.
+         **1-[Complete](#arco-clearance-1)** - User complete and refer the request to [Arco Clearance](#arco-clearance-1) stage.
 
          **2-[Reject](#rejectedrequest)** - User Reject the request to [RejectedRequest](#rejectedrequest) stage. for holding the request for customer confirmation.
 
@@ -1229,7 +1229,7 @@ Initiated the request for the Exit Re-Entry Visa to Employee in this **ERE Exten
 
        - *In the Action field is Following to,*
 
-          **1-[Complete](#waiting-for-travel)** -  User complete the request and refer to [Waiting for Travel](#waiting-for-travel) stage.
+          **1-[Complete](#waiting-for-travel-1)** -  User complete the request and refer to [Waiting for Travel](#waiting-for-travel-1) stage.
 
           **2-[Reject](#rejectedrequest)** - User reject and complete the request to [Rejected request](#rejectedrequest) stage.
 
@@ -1240,7 +1240,7 @@ Initiated the request for the Exit Re-Entry Visa to Employee in this **ERE Exten
     - Sent to travel
       - *In the Action field is Following to,*
 
-        **1-[Complete](#complete-1)** - User complete the request and then refer to [Complete](#complete-1) stage.
+        **1-[Complete](#complete-4)** - User complete the request and then refer to [Complete](#complete-4) stage.
 
         **2-[Reject](#rejectedrequest)** - User Reject and complete the request then moved to [Rejected Request](#rejectedrequest) stage.
 
@@ -1281,7 +1281,7 @@ Reissue is service have to process for provide the Iqama ID Card, ATM Card and I
 The Iqama is a Residential permit for resident in KSA, and this KSA Government identification for residence.
 In case of missing or damaged the Iqama ID card, then employee can raise a request to reissue the ID card.
 
-| [Newly Requested Reissue](#newly-requested-reissue) > [Followup Dept Approval](#followup-department-approval) > [Manpower Dept Approval](#manpower-department-approval) > [Payment Requested](#payment-requested-2) > [Waiting for Issue](#waiting-for-issue) > [Receive in Lodging](#receive-in-lodging-1) > [Put in Envelope](#put-in-envelope-2) > [Completed](#completed-8) |
+| [Newly Requested Reissue](#newly-requested-reissue) > [Followup Dept Approval](#followup-department-approval) > [Manpower Dept Approval](#manpower-department-approval) > [Payment Requested](#payment-requested-2) > [Waiting for Issue](#waiting-for-issue) > [Receive in Lodging](#receive-in-lodging-1) > [Put in Envelope](#put-in-envelope-2) > [Completed](#completed-10) |
 
 
 <br>
@@ -1391,13 +1391,13 @@ the Iqama Card is received in Lodging Location of Employee. and it will prepare 
 
         - *In The action field is following to,*
 
-          **1-[Complete](#completed-8)** - User Complete the Request and moved to [Completed](#completed-8) Stage.
+          **1-[Complete](#completed-10)** - User Complete the Request and moved to [Completed](#completed-10) Stage.
 
 - ### **Completed**
 
      - Completed request have received to track The Request for Iqama reissue status.
 
-| [Home](#human-resource-management) | [Main](#reissue) | [Back](#iqama)
+| [Home](#human-resource-management) | [Main](#reissue) | [Back](#iqama) |
 
 
 
@@ -1409,7 +1409,7 @@ the Iqama Card is received in Lodging Location of Employee. and it will prepare 
 
 Reissue request service is to process to provide ATM Card, new Iqama Id card and Insurance services for employee as replacement due to missing or damaging the id copy or Employee service products.
 
-| [Newly Required Reissue](#newly-required-reissue) > [Finance Department Approval](#finance-department-approval) > [Payment Requested](#payment-requested-3) > [Receive in Lodging](#receive-in-lodging-2) > [Put in Envelope](#put-in-envelope-3) > [Complete](#complete-2) |
+| [Newly Required Reissue](#newly-required-reissue) > [Finance Department Approval](#finance-department-approval) > [Payment Requested](#payment-requested-3) > [Receive in Lodging](#receive-in-lodging-2) > [Put in Envelope](#put-in-envelope-3) > [Complete](#complete-5) |
 
 <br>
 
@@ -1468,7 +1468,7 @@ Reissue request service is to process to provide ATM Card, new Iqama Id card and
 
       - *In The action field is following to,*
 
-        **1-[Complete](#complete-2)** - User Complete the request and moved to [Completed](#complete-2) stage.
+        **1-[Complete](#complete-5)** - User Complete the request and moved to [Completed](#complete-5) stage.
 
 
 
@@ -1498,7 +1498,7 @@ Iqama is essential identification for all individual residents in KSA for reside
 
 For all employee will be renewed Iqama identification in yearly once.
 
-| [Newly Required Renewal](#newly-required-renewal) > [Customer Approval](#customer-approval-1) > [Iqama Less Then 30 Days](#iqama-less-then-30-days) > [Agree](#agree) > [Work Permit](#work-permit) > [Priority_FinanceApproval](#priority-finance-approval) > [Priority_Request](#priority-request) > [Waiting For Reference Number](#waiting-for-reference-number) > [Iqama Payment](#iqama-payment) > [Iqama Renewal](#iqama-renewal) > [Cases Hold](#cases-hold) > [Not Agree](#not-agree) > [Complete](#complete-3) |
+| [Newly Required Renewal](#newly-required-renewal) > [Customer Approval](#customer-approval-2) > [Iqama Less Then 30 Days](#iqama-less-then-30-days) > [Agree](#agree) > [Work Permit](#work-permit) > [Priority_FinanceApproval](#priority-finance-approval) > [Priority_Request](#priority-request) > [Waiting For Reference Number](#waiting-for-reference-number) > [Iqama Payment](#iqama-payment) > [Iqama Renewal](#iqama-renewal) > [Cases Hold](#cases-hold) > [Not Agree](#not-agree) > [Complete](#complete-6) |
 
 <br>
 
@@ -1510,7 +1510,7 @@ For all employee will be renewed Iqama identification in yearly once.
 
        - *In The action field is following to,*
 
-           **1-[Complete](#customer-approval)** - User complete the request and refer [Customer Approval](#customer-approval-1) stage.
+           **1-[Complete](#customer-approval-2)** - User complete the request and refer [Customer Approval](#customer-approval-2) stage.
 
 - ### **Customer Approval:**
 
@@ -1578,7 +1578,7 @@ For all employee will be renewed Iqama identification in yearly once.
 
           **1-[Approve](#priority-request)** - User approve and complete the request and refer to [Priority Request](#priority-request) stage.
 
-         **2-[Reject – Previous Stage](#customer-approval-1)** - User Reject and return the request refer to [Customer Approval](#customer-approval-1) stage. In case of this request is required clarificaion.
+         **2-[Reject – Previous Stage](#customer-approval-2)** - User Reject and return the request refer to [Customer Approval](#customer-approval-2) stage. In case of this request is required clarificaion.
 
       **In this stage the user complete the stage and create the request as priority request to complete the payment request on priority**
 
@@ -1593,7 +1593,7 @@ For all employee will be renewed Iqama identification in yearly once.
 
         **1-[Payment](#iqama-payment)** - User complete this request and refer the request to [Iqama Payment](#iqama-payment) stage.
 
-        **2-[Customer Approval](#customer-approval-1)** - User reject the request to [customer Approval](#customer-approval-1) stage, for customer confirmation fo process the Iqama Renewal.
+        **2-[Customer Approval](#customer-approval-2)** - User reject the request to [customer Approval](#customer-approval-2) stage, for customer confirmation for Iqama Renewal.
 
         **3-[Waiting for Reference Number](#waiting-for-reference-number)** - User Hold the Request and moved to [Waiting for Reference Number](#waiting-for-reference-number) stage.
 
@@ -1629,7 +1629,7 @@ For all employee will be renewed Iqama identification in yearly once.
       - *In The action field is following to,*
 
 
-        **1-[Complete](#complete-3)** – User complete the request and moved into [Complete](#complete-3) stage.
+        **1-[Complete](#complete-6)** – User complete the request and moved into [Complete](#complete-6) stage.
 
         **2-[Hold](#cases-hold)** - User hldthe request and moved to [Cases Hold](#cases-hold) stage.
 
@@ -1647,7 +1647,7 @@ For all employee will be renewed Iqama identification in yearly once.
 
        **1-[Resume](#iqama-renewal)** - User complete the request and refer [Iqama Renewal](#iqama-renewal) stage.
 
-       **2-[Reject](#complete-3)** - Usr complete the request and moved into [Complete](#complete-3) stage.
+       **2-[Reject](#complete-6)** - Usr complete the request and moved into [Complete](#complete-6) stage.
 
 
 - ### **Not Agree:**
@@ -1680,7 +1680,7 @@ For all employee will be renewed Iqama identification in yearly once.
 
 ATM card is using for Employee payment transaction through online and other necessities , and after get expired the ATM Card will request start the Renewal Process for ATM Card for Employee.
 
-| [Finance Department Approval](#finance-department-approval-1) > [Manpower Department Approval](#manpower-department-approval-1) > [Payment Requested](#payment-requested-4) > [Receive in Lodging](#receive-in-lodging-3) > [Put in Envelope](#put-in-envelope-4) > [Hold](#hold) > [Complete](#complete-4) |
+| [Finance Department Approval](#finance-department-approval-1) > [Manpower Department Approval](#manpower-department-approval-1) > [Payment Requested](#payment-requested-4) > [Receive in Lodging](#receive-in-lodging-3) > [Put in Envelope](#put-in-envelope-4) > [Hold](#hold-2) > [Complete](#complete-7) |
 
 <br>
 
@@ -1692,7 +1692,7 @@ ATM card is using for Employee payment transaction through online and other nece
 
         **1-[Approve](#payment-requested-4)** - User Approve the request and refer to [Payment Requested](#payment-requested-4) stage.
 
-        **2-[Hold](#hold)** - User hold the request and refer [Hold](#hold) stage, In case of the request is need any requirements.
+        **2-[Hold](#hold-2)** - User hold the request and refer [Hold](#hold-2) stage, In case of the request is need any requirements.
 
 
 - ### **Manpower Department Approval**
@@ -1703,7 +1703,7 @@ ATM card is using for Employee payment transaction through online and other nece
 
         **1-[Approve](#payment-requested-4)** - User approve the request and refer the [Payment Requested](#payment-requested-4) stage
 
-        **2-[Hold](#hold)** - User Hold the request and refer to [Hold](#hold) stage.
+        **2-[Hold](#hold-2)** - User Hold the request and refer to [Hold](#hold-2) stage.
 
 
 
@@ -1733,7 +1733,7 @@ ATM card is using for Employee payment transaction through online and other nece
 
           **2-Reject** - User Reject and complete the request.
 
-          **3-[Complete without Envelope](#complete-4)** - User Complete the request without Envelope and moved to [complete](#complete-4) stage.
+          **3-[Complete without Envelope](#complete-7)** - User Complete the request without Envelope and moved to [complete](#complete-7) stage.
 
 
 
@@ -1744,7 +1744,7 @@ ATM card is using for Employee payment transaction through online and other nece
 
        - *In The action field is following to,*
 
-         **1-[Complete](#complete-4)** - User complete the request and moved to [Complete](#complete-4) stage.
+         **1-[Complete](#complete-7)** - User complete the request and moved to [Complete](#complete-7) stage.
 
 
 - ### **Hold**

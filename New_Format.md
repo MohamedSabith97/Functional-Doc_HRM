@@ -415,7 +415,7 @@ Newly initiating the request for Employee medical insurance and this request cre
 
 - ### **Linked to CCHI waiting for Iqama:**
 
-    - In this stage, CCHI is waiting to link with Iqama, once IQAMA isuance is completed and then details will be update and linked with CCHI .
+    - In this stage, CCHI is waiting to link with Iqama, once IQAMA isuance is completed and then iqama details will be update and linked with CCHI .
 
 
         - *In The action field is following to,*
@@ -465,6 +465,8 @@ In this stage, process the Iqama(Resident Identity) for Employee.
 
 - ### **Iqama Issued:**
 
+   - In this stage, the request is completed with Muqeem integration after iqama issuance. and refer to next stage with Iqama number and Expiry date.
+
    - For track the status of Iqama id issuance to Employee, if the iqama details are issued for employee then the iqama details will upload with excel sheet document with import option into HRM. and move forward the case to the waiting to receive stage.
 
      - *In The action field is following to,*
@@ -486,7 +488,7 @@ In this stage, process the Iqama(Resident Identity) for Employee.
 
 - ### **Put in Envelope:**
 
-   - Inthis stage, iqama is prepare for courier transport to Employee work location.
+   - In this stage, Document Delivery process will start to Employee work location.
 
 
      - *In The action field is following to,*
@@ -540,6 +542,9 @@ New request is initiated for ATM card for Employee.
 
 - ### **Receive in Lodging:**
 
+    - 
+    
+        - 
     - Once received the ATM Card for Employee in Lodging then ATM credentials is using to upload in HRM.
 
          - *In The action field is following to,*
@@ -550,7 +555,7 @@ New request is initiated for ATM card for Employee.
 
 - ### **Put in Envelope:**
 
-   - In this stage, ATM card is prepare for Transport to Employee location.
+   - In this stage, ATM card is prepare for deleivery to Employee location.
 
      - *In The action field is following to,*
 
@@ -1281,7 +1286,6 @@ Initiated the request for the Exit Re-Entry Visa to Employee in this **ERE Exten
 
 Reissue is service have to process for provide the Iqama ID Card, ATM Card and Insurance services for employee as replacement due to missing or damaging the id card or Employee service products.
 
-**The Iqama Reissue process will be request for working employee to Individual customers only**
 
 | [IQAMA Reissue](#iqama) | [ATM Reissue](#atm-1) |
 
@@ -1291,6 +1295,9 @@ Reissue is service have to process for provide the Iqama ID Card, ATM Card and I
 The Iqama is a Residential permit for resident in KSA, and this KSA Government identification for residence.
 In case of missing or damaged the Iqama ID card, then employee can raise a request to reissue the ID card.
 
+And this request will create from Case and Task Management by users and customer from portal.
+
+
 | [Newly Requested Reissue](#newly-requested-reissue) > [Followup Dept Approval](#followup-department-approval) > [Manpower Dept Approval](#manpower-department-approval) > [Payment Requested](#payment-requested-2) > [Waiting for Issue](#waiting-for-issue) > [Receive in Lodging](#receive-in-lodging-1) > [Put in Envelope](#put-in-envelope-2) > [Completed](#completed-10) |
 
 
@@ -1299,7 +1306,7 @@ In case of missing or damaged the Iqama ID card, then employee can raise a reque
 
 - ### **Newly Requested Reissue**
 
-    - User can create and raise a request manually to process to get the new id card for Employee.
+    - New required request is initiated from case and task management. that cases refer to newly required stage to process the request.
 
        - *Request Creation for reissue*
 
@@ -1317,7 +1324,7 @@ In case of missing or damaged the Iqama ID card, then employee can raise a reque
 
             **2-Reject** - User Reject and complete the Request.
 
-      **After the stage completed by user to requesting for re-issuance of ID card then it will be moved to get approval from Followup Dept Approval.**
+      **After the stage completed by user the refer thr request for get approval from Followup Dept Approval.**
 
 
 
@@ -1348,7 +1355,8 @@ In case of missing or damaged the Iqama ID card, then employee can raise a reque
 
 - ### **Payment Requested**
 
-    - User can using to compare the Payment status of reissue the Iqama Card to employee in between the Payment Request in Reissue and Payment Request in Finance portal.
+
+    - User can compare the Payment status of Reissue in between Reissue stage and Finance portal stage.
 
     - After the Payment Request is validate by the user in finance portal and then Payment request will be Completed by user in Finance portal for Reissue the Iqama Card.
 
@@ -1364,7 +1372,9 @@ In case of missing or damaged the Iqama ID card, then employee can raise a reque
     - **After Payment is completed to Goverment for issuing the Iqama id card, the user will wait for Iqama card to update the details in HRM portal.**
 
 
-- ### **Waiting for Issue**
+- ### **Waiting for Issue**.
+
+    - After Payment is completed to Goverment for issuing the Iqama id card, the user will wait for Iqama card to update the details in HRM portal.
 
     - In this stage to Waiting for Issue the Iqama card for Employee in Government portal after sucessful payment Request is completed.
 
@@ -1382,8 +1392,11 @@ In case of missing or damaged the Iqama ID card, then employee can raise a reque
 
 - ### **Receive in Lodging**
 
-    - After the Iqama card issued by Government and it will send to Lodging Location of Emloyee. then
-the Iqama Card is received in Lodging Location of Employee. and it will prepare to send the Employee Location.
+    - Iqama card details like Iqama no, Expiry and issue date will import with Excel sheet to upload into HRM.
+
+    - After the Iqama card issued by Government and it will send to Lodging Location of Emloyee.
+
+    - and then Iqama Card is received in Lodging Location of Employee. and it will prepare to send the Employee Location.
 
       - *In The action field is following to,*
 
@@ -1393,6 +1406,8 @@ the Iqama Card is received in Lodging Location of Employee. and it will prepare 
        **After complete the Receiving in Lodging stage the request moves to Put in Envelope.**
 
 - ### **Put in Envelope**
+
+     - In this stage, Iqama document delivery process will start to Employee.
 
      - Thereafter the Card dispatched from Lodging Location to employee working location of individual customers location.
 
@@ -1419,15 +1434,15 @@ the Iqama Card is received in Lodging Location of Employee. and it will prepare 
 
 Reissue request service is to process to provide ATM Card, new Iqama Id card and Insurance services for employee as replacement due to missing or damaging the id copy or Employee service products.
 
+This Request will create from Case Management by Users and request from customer from portal.
+
 | [Newly Required Reissue](#newly-required-reissue) > [Finance Department Approval](#finance-department-approval) > [Payment Requested](#payment-requested-3) > [Receive in Lodging](#receive-in-lodging-2) > [Put in Envelope](#put-in-envelope-3) > [Complete](#complete-5) |
 
 <br>
 
 - ### **Newly Required Reissue**
 
-   - User can create and raise a request manually to process for get the new ATM Card for Employee. and the request moved into Finance dept Approval.
-
-   - And also The user can modify and edit the details of Request Creation document for ATM Card.
+   - Newly initiated Request received from Case and Task management and waiting for action.
 
        - *In The action field is following to,*
 
@@ -1450,9 +1465,9 @@ Reissue request service is to process to provide ATM Card, new Iqama Id card and
 
 - ### **Payment Requested**
 
-   - User can using to compare the Payment status of reissue the ATM Card to employee in between the Payment Request in Reissue and Payment Request in Finance portal.
+   - User can compare the Payment status of reissue in between the  Reissue stage and Finance portal stage.
 
-  - After the Payment Request is validate by the user in finance portal and then Payment request will be Completed by user in Finance portal for Reissue the ATM Card.
+  - After the Payment Request is validate and completed by the user in finance portal for Reissue the ATM Card.
   - user can complete the stage after payment completed.
 
       - *In The action field is following to,*

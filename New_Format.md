@@ -15,6 +15,135 @@
 <br>
 
 
+
+
+> ## **[Employee List:](#employee)**
+
+User use to update the Employee details and requirements in this stage, like Iqama Reissue, ATM Reissue, Insurance Reissue, Iqama Renewal update mobile number.
+
+
+ - **The action field is following**:
+
+      - **Iqama Reissue** - Reissue the Iqama since it damaged or required reissue for new with uploding the Reissue Attchement.
+
+      - **Insurance Reissue** - Reissue the Insurance since it damaged or required reissue for new with uploding the Reissue Attchement.
+
+      - **ATM Reissue** - Reissue the ATM since it damaged or required reissue for new with uploding the Reissue Attchement.
+
+      - **Iqama Renewal** - Renewal the ATM since it damaged or required renewal for new.
+
+      - **Update Mobile Number** - Use to update the Employee Mobile number.
+
+ - **Temparary Iqama** - Using to get print a temparary iqama for Employee.
+
+ - **Profile Update** - Using to Update the Employee Profile data, and modify the changes.
+
+| [Home](#human-resource-management) | [Main](#employee) | [Back](#employee-list) |
+
+<br>
+
+> ## **[Employee Contract:](#employee)**
+
+User can use to track the Contract status of Employee.
+
+   - Active - opt with active is filter to show the all Active status contracts of Employee.
+
+   - Near to Expire - opt with Near to Expire is filter to show the all Near to Expire status contracts of Employee.
+
+   - Expired - opt with Expired is filter to show the all Expired status contracts of Employee.
+
+| [Home](#human-resource-management) | [Main](#employee) | [Back](#employee-contract) |
+
+<br>
+
+> ## **[Employee Profile search:](#employee)**
+
+
+This filter is use search and track the employees information by Profile details created In HRM. by Employee type, nationality wise, age wise, experienced in work and, types of skills, availability etc.
+
+* **Business** - Recruiting the persons for business, wise **Business Customer** based services like Hotel, factory etc.
+
+* **individual** - Individual is the persons recruiting for **Individual Customer** to work for Individual Driver / House Maid.
+
+* **Gender** - search with gender as Male / Female.
+
+| [Home](#human-resource-management) | [Main](#employee) | [Back](#employee-profile-search) |
+
+
+<br>
+
+> ## **[Employee Inquiry:](#employee)**
+
+
+* **Search** - Using to filter to search the Employee profile details and Identity Information.
+
+| [Home](#human-resource-management) | [Main](#employee) | [Back](#employee-inquiry) |
+
+
+<br>
+
+> ## **[Mudad Contract Import:](#employee)**
+
+-  **Import** - Using to Import the employee mudad contract details document file into HRM portal with selected Employee.
+
+| [Home](#human-resource-management) | [Main](#employee) | [Back](#mudad-contract-import) |
+
+
+<br>
+
+> ## **[Mudad Contract Status:](#employee)**
+
+Using to track the employees profile with Mudad contract status detailed information.
+
+ * ### **Authenticated Inside KSA:**
+
+    * In this stage Authenticate the Location status of Employee.
+
+        * The action field is following:
+
+
+
+ * ### **Authenticated Outside KSA:**
+
+     * In this stage Authenticated outside the KSA
+
+ * ### **Autenticated but less then 60 days:**
+
+     * In this stage, Authenticated status still Authentication is near to Expire.
+
+ * ### **Not Auntenticated:**
+
+ Not Authenticated the status and required to authentication for Employee.
+
+ * ### **Agreed to Renewal:**
+
+
+ 
+ * ### **Non Renewal:**
+
+
+
+ * ### **InActive:**
+
+| [Home](#human-resource-management) | [Main](#employee) | [Back](#mudad-contract-status) |
+
+
+<br>
+
+
+> ## **[Hourly Assignment:](#employee)**
+
+
+| [Home](#human-resource-management) | [Main](#employee) | [Back](#hourly-assignment) |
+
+
+<br>
+
+> ## **[PayGroup Assignment:](#employee)**
+
+| [Home](#human-resource-management) | [Main](#employee) | [Back](#paygroup-assignmenty) |
+
+
 <br>
 <br>
 <br>
@@ -185,11 +314,12 @@ Medical Test and following procedure is initiated for New Employee in the Arriva
 
 > ## **[Labour Office:](#on-board)**
 
-In this stage initiate new request for the Labour Office Payment.
+Labour Office payment is begins in arrival stage of new Employee.
 
-Process of Labour office payment for Employee in Labour Office.
+and new request initiating to the Labour Office Payment for new Employee.
 
-User use to compare data on the payment requested in between the Labour Office and Finace Department.
+and this payment process is 
+
 
 | [Newly Required](#newly-required-1) > [Payment Requested](#payment-requested) > [On Hold](#on-hold) > [Completed](#completed-1) |
 
@@ -211,9 +341,6 @@ User use to compare data on the payment requested in between the Labour Office a
 
 - ### **Payment Requested:**
 
-    - New request initiated for New Payment request for Labour Office Payment.
-
-    - User use to track and compare the status of payment request in between Payment request in Labour Office and Payment Request in Finance Department Portal.
 
     - After completion the payment request in Finance Portal, and requete is completed in Laour Office stage.
 
@@ -246,7 +373,10 @@ User use to compare data on the payment requested in between the Labour Office a
 
 > ## **[Insurance:](#on-board)**
 
-Newly initiate the request to Employee for insurance policy.
+In Arrival stage of Emplyoee, the Insurance process is begins to new Employee. and this insurace process is complete since the Iqama is issued for Employee.
+
+Newly initiating the request for Employee medical insurance and this request created in case and task mangement.
+
 
 | [Newly Required](#newly-required-2) > [Under Preparation](#under-preparation) > [Issued and Waiting to be Linked to CCHI](#issued-and-waiting-to-be-linked-to-cchi) > [Linked to CCHI Waiting for Iqama](#linked-to-cchi-waiting-for-iqama) > [Iqama Issued Update Iqama](#iqama-issued-update-iqama) > [Completed](#completed-2) |
 
@@ -285,7 +415,7 @@ Newly initiate the request to Employee for insurance policy.
 
 - ### **Linked to CCHI waiting for Iqama:**
 
-    - In this stage, CCHI is waiting to link with Iqama.
+    - In this stage, CCHI is waiting to link with Iqama, once IQAMA isuance is completed and then details will be update and linked with CCHI .
 
 
         - *In The action field is following to,*
@@ -833,6 +963,9 @@ The Leave Reject Request only can be Raise or Approve in **Waiting for Travel** 
 
 
 <br>
+<br>
+<br>
+
 
 
 > ## **[Travel Request:](#travel)**
@@ -1184,7 +1317,7 @@ In case of missing or damaged the Iqama ID card, then employee can raise a reque
 
             **2-Reject** - User Reject and complete the Request.
 
-      **After the stage completed by user to requesting for reissuance of id card then it will be moved to get approval from Followup Dept Approval.**
+      **After the stage completed by user to requesting for re-issuance of ID card then it will be moved to get approval from Followup Dept Approval.**
 
 
 
@@ -1210,7 +1343,7 @@ In case of missing or damaged the Iqama ID card, then employee can raise a reque
 
         **2-Reject** - User reject and complete the Request.
 
-      **After the request get approved by the user, the request moved into Payment Request.**
+      **After the Request get approved by the user, the request moved into Payment Request.**
 
 
 - ### **Payment Requested**
@@ -1612,7 +1745,10 @@ ATM card is using for Employee payment transaction through online and other nece
 
           **3-[Complete without Envelope](#complete-7)** - User Complete the request without Envelope and moved to [complete](#complete-7) stage.
 
+Today Work:
 
+*Working on Document preparation on HRM Module.
+*Working on 
 
 
 - ### **Put in Envelope**

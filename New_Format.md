@@ -405,7 +405,7 @@ Newly initiating the request for Employee medical insurance and this request cre
 
 - ### **Issued and waiting to be linked to CCHI:**
 
-  - In this stage, insurance details is Waiting to be link with CCHI.
+  - In this stage, insurance policy is Waiting to be link with CCHI.
 
       - *In The action field is following to,*
 
@@ -440,7 +440,7 @@ Newly initiating the request for Employee medical insurance and this request cre
 - ### **Completed:**
 
     - In the stage, use to track the all completed request in Insurance stage.
-
+    - 
 
 | [Home](#human-resource-management) | [Main](#on-board) | [Back](#insurance) |
 
@@ -530,9 +530,9 @@ New request is initiated for ATM card for Employee.
 
 - ### **Payment Requested:**
 
-   - Use to track the Payment status for ATM. In between th Payment request in ATM and Payment request in Finance portal.
+   - Use to track the Payment status for ATM. In between ATM and Finance portal.
 
-  -  Once completed payment in Finace Department and then request is moved to Receive in Lodging stage.
+  -  Once payment completed in Finace Department and then request is moved to Receive in Lodging stage.
 
      - *In The action field is following to,*
 
@@ -542,10 +542,8 @@ New request is initiated for ATM card for Employee.
 
 - ### **Receive in Lodging:**
 
-    - 
-    
-        - 
-    - Once received the ATM Card for Employee in Lodging then ATM credentials is using to upload in HRM.
+
+    - Once received the ATM Card for Employee in Lodging then ATM card details like card number, Issue and Expiry date is import into HRM portal.
 
          - *In The action field is following to,*
 
@@ -555,7 +553,7 @@ New request is initiated for ATM card for Employee.
 
 - ### **Put in Envelope:**
 
-   - In this stage, ATM card is prepare for deleivery to Employee location.
+   - In this stage, ATM card is prepare for delivery to Employee location.
 
      - *In The action field is following to,*
 
@@ -586,8 +584,6 @@ New request is initiated for ATM card for Employee.
 ## **[Leave Request:](#leave-management)**
 
 
-**(Iqama Expiry date must be more then 150 days in between calaculated Return Date of Employee)**
-
 | [ARCO Approval](#arco-approval) > [Customer Approval](#customer-approval) > [Under Processing](#under-processing) > [Customer Clearance](#customer-clearance) > [ARCO Clearance](#arco-clearance) > [Travel Arrangement](#travel-arrangements) > [Waiting for Travel](#waiting-for-travel) > [Rejected Request](#rejected-request) > [Completed](#completed-5) |
 
 <br>
@@ -595,24 +591,28 @@ New request is initiated for ATM card for Employee.
 
 - ### **ARCO Approval:**
 
-    - New Request initiated  by user or customer to get ARCO approval for Employee vacation. And system validate the employee working and residence status in this stage and moved request into next stage.
+    - New Request initiated  by user or customer to get ARCO approval for Employee vacation.
+    
+    - And system validate the employee working and residence status in this stage for the request and moved request into next stage.
 
 
       - *In The action field is following to,*
 
-         **1-[Complete](#customer-approval)** - User complete this request and refer to [Customer Approval](#customer-approval) Stage. After customer status verified.
+         **1-[Complete](#customer-approval)** - User complete this request and refer to [Customer Approval](#customer-approval) Stage. After employee status verified.
 
-        **2-[Reject](#rejected-request)** - User reject the request to [Rejected Request](#rejected-request) stage. for Client clarification.
+        **2-[Reject](#rejected-request)** - User reject the request to [Rejected Request](#rejected-request) stage.
 
-        **3-    [Escape](#completed-5)** - User reject and complete the request as Escape to [completed](#completed-5) stage.
+        **3-[Escape](#completed-5)** - User reject and complete the request as Escape to [completed](#completed-5) stage.
 
 - ### **Customer Approval:**
 
     - In Customer Approval stage, raise to get appproval from customer and then request has moved to appropriate stage.
 
+    - If Employee
+
       - *In The action field is following to,*
 
-          **1-[Reject](#rejected-request)** -  User Hold the request and refer to [Rejected Request](#rejected-request) stage. for Clarification
+          **1-[Reject](#rejected-request)** -  reject the request and complete to [Rejected Request](#rejected-request) stage.
 
           **2-[Complete](#under-processing)** - User refer this request and complete to [Under Processing](#under-processing) stage. for Vacation process.
 
@@ -621,41 +621,56 @@ New request is initiated for ATM card for Employee.
 
     - The [Vacation Settlement](#vacation-settlement) process is begins in **Under Processing** with System Integration if the customer request for Vacation Settlement in Leave Request.
 
+    - Once the Vacation settlement, ERE visa and Travel arrangements is completed, and then request has been moved to completed stage.
+
     - **(Paid Vacation / Local Vacation / Vacation Encashment have apply to proceed for Vacation settlement.)**
 
     - **(Unpaid vacation is not Applicable to apply for Vacation settlement.)**
 
        - *In The action field is following to,*
 
-         **1-[Reject](#rejected-request)** - user reject the request and refer [Rejected Request](#rejected-request) stage. and holding for customer confirmation.
+         **1-[Reject](#rejected-request)** - and reject the request and refer [Rejected Request](#rejected-request) stage.
 
-         **2-[Complete](#customer-clearance)** - user complete the task and drive the request for [Customer Clearance](#customer-clearance) stage.
+         **2-[Complete](#customer-clearance)** - user complete the task and refer the request for [Customer Clearance](#customer-clearance) stage.
 
 - ### **Customer Clearance:**
+
+    - This clearance is only for the required employee who requested the Clearance for settlement in Case and task management.
+
+    - Otherwise this clearance will be skipped and moved the request to completed stage.
 
     - The request is initiated for validate the Clearance of Settlement to Employee in this stage on payment clearance.
 
 
       - *In The action field is following to,*
 
-        **1-[Complete](#arco-clearance)** - User complete the stage and refer the [ARCO Clearance](#arco-clearance) stage.
+        **1-[Complete](#arco-clearance)** -  complete the stage and refer the [ARCO Clearance](#arco-clearance) stage.
 
-         **2-[Reject](#rejected-request)** - User reject the request to [Rejected Request](#rejected-request) stage. and holding for requirements.
-
+         **2-[Reject](#rejected-request)** - User reject the request and complete [Rejected Request](#rejected-request) stage.
 
 - ### **Arco Clearance:**
+
+    - This clearance is only for the required employee who requested the Clearance for settlement in Case and task management.
+
+    - Otherwise this clearance will be skipped and moved the request to completed stage.
 
     - In this stage, the user process the Arco clearance on settlement payment of Employee.
 
       - *In The action field is following to,*
 
-        **1-[Complete](#waiting-for-travel)** - User complete the request and refer [Waiting for Travel](#waiting-for-travel) stage.
+        **1-[Complete](#waiting-for-travel)** - complete the request and refer [Waiting for Travel](#waiting-for-travel) stage.
 
-        **2-[Reject](#rejected-request)**   - User reject the request to [Rejected Request](#rejected-request) stage. and holding for requirements.
+        **2-[Reject](#rejected-request)**   - User reject the request to [Rejected Request](#rejected-request) stage.
 
 - ### **Travel Arrangements:**
 
-    - In this stage, User use to track the status of pre-arrangements of Travel, in case of the customer required Travel Arrangements by Arco. then Arco organize the Travel Arrangements for Employees with accommodate in Lodging Location.
+    - Travel Arrangements is only arrange,organize for who accommodate in lodging.
+
+    - Travel Arrangements is not applicable for who do not accommadate in Lodging.
+
+    - Otherwise the request is moved to Waiting for Travel.
+
+    - In this stage, User can track the status of pre-arrangements of Travel, in case of the customer required Travel Arrangements by Arco. then Arco organize the Travel Arrangements for Employees with accommodate in Lodging Location.
 
       - *In The action field is following to,*
 
@@ -663,7 +678,11 @@ New request is initiated for ATM card for Employee.
 
 - ### **Waiting for Travel:**
 
-    - In this stage, the customer waiting to receive the information of Travel wise Date, Departure and Airline details. and then User complete the stage to appropriate stage after the request completion.
+
+    - In this stage, the customer waiting to receive the information of Travel, as Travel Date, Departure place and time and Airline details. then User complete the stage.
+
+    - When the Employee On Vacation, muqueem status will be update as **OutsideKingdom** status for On vacation.
+
 
       - *In The action field is following to,*
 
@@ -673,15 +692,17 @@ New request is initiated for ATM card for Employee.
 
 - ### **Rejected Request:**
 
-    - In this stage, awaited All pending and Rejected requests by user.
+    - In this stage, rejected request is reject and moved to completed stage.
 
       - *In The action field is following to,*
 
-        **1-[Reject](#completed-5)** - User complete the Request to [Completed](#completed-5) stage.
+        **1-[Reject](#completed-5)** - User reject and complete the Request to [Completed](#completed-5) stage.
 
 - ### **Completed:**
 
     - All completed Request has been moved to Completed Stage, after all arrangements completed for Employee Vacation.
+
+    - Return process will begins, after Leave request is completed for Employee.
 
 
 | [Home](#human-resource-management) | [Main](#leave-management) | [Back](#leave-request) |
@@ -695,6 +716,10 @@ New request is initiated for ATM card for Employee.
 
 ## **[Vacation Settlement:](#leave-management)**
 
+Clearance for Vacation settlement is initiated in Finance portal. and the settlement process will be complete, once the request is completed in finance portal.
+
+-	In case customer required settlement, then it will send for approval to client confirmation, otherwise it will complete without settlement payment.
+
 
 | [Requested](#requested) > [Clearance Process](#clearance_process) > [Approval](#approval) > [Client_Confirmation](#client_confirmation) > [Payment](#payment) > [Client Rejection](#client-rejection) > [Completed](#complete-1) |
 
@@ -702,7 +727,7 @@ New request is initiated for ATM card for Employee.
 
 - ### **Requested:**
 
-    - New request initiated for Vacation Settlement of Employee as customer Requested.
+    - New request initiated for Vacation Settlement of Employee and all new request is received to process in this stage.
 
        - *In The action field is following to,*
 
@@ -736,6 +761,7 @@ New request is initiated for ATM card for Employee.
 
         **1-[Complete](#payment)** - User complete the request and approve with **Client_Confirmation** then refer the [Payment](#payment) stage.
 
+        2-Reject - reject the request and complete the stage.
 
 - ### **Payment:**
 
@@ -777,6 +803,18 @@ New request is initiated for ATM card for Employee.
 
 ## **[Vacation Return:](#leave-management)**
 
+System will change vacation return process automatically based on muqeem status,
+
+when employee on vacation, muqeem status will be on-vacation Outside Kingdom status,
+
+If Employee arrived, muqeem status will change to the valid then vacation return process will move to return from vacation stage.
+
+If Exit Re Entry date is expired and muqeem is expired, then that request is move to Visa Expired stage.
+
+If iqama expiry date is less then 10 days, the request will move to Iqama  Approval cancellation stage,
+
+Then User will register "Left Not Return" in muqeem then move to the iqma expiry date.
+
 | [On Vacation](#on-vacation) > [Waiting for Return](#waiting-for-return) > [Not Return](#not-return) > [Return from Vacation](#return-from-vacation) > [Visa Expired](#visa-expired) > [Iqama Approval Cancellation](#iqama-approval-cancellation) > [Iqama Expired](#iqama-expired) > [Left Not Return](#leftnotreturn) > [Completed](#completed-6) |
 
 <br>
@@ -784,7 +822,14 @@ New request is initiated for ATM card for Employee.
 
 - ### **On Vacation:**
 
-     - System scheduled the Return Date of Employee in Vacation Return. Employee return date, System integration update the status of the Employee by the Check-in process in Lodging Location. and then request has refer to Return from Vacation.
+     - When the employee not return after requested return date, system will move to the Waiting for Return stage.
+
+     -  In case of employee is on vacation, muqeem status will be on-vacation Outside Kingdom status,
+
+     - If Employee arrived, muqeem status will change to the valid then vacation return process will move to return from vacation stage.
+
+     - System will check the muqeem status, until the employee return,
+     if vacation end date is mentioned then moved to Return form Vation stage.
 
        - *In The action field is following to,*
 
@@ -792,7 +837,9 @@ New request is initiated for ATM card for Employee.
 
 - ### **Waiting for Return:**
 
-    - User complete the request manually after employee check-in process is completed. from vacation and refer for **Return from Vacation** stage.
+    - If Employee arrived, muqeem status will change to the valid then vacation return process will move to return from vacation stage.
+
+    - User complete the request manually with employee check-in process, vacation and refer to **Return from Vacation** stage.
 
       - *In The action field is following to,*
 
@@ -800,7 +847,7 @@ New request is initiated for ATM card for Employee.
 
 - ### **Not Return:**
 
-    - System integration is scheduled the Employee who didn’t arrive on the Date of Return in Lodging is refer to [Waiting For Return](#waiting-for-return) stage.
+    - System integration is scheduled the Employee who didn’t arrive on the Date of Return into Lodging is refer to [Waiting For Return](#waiting-for-return) stage.
 
       - *In The action field is following to,*
 
@@ -809,8 +856,9 @@ New request is initiated for ATM card for Employee.
 
 - ### **Return From Vacation:**
 
-    - In the regular check-in process for Employee on return from Vacation, User verified and then request complete and refer to **Completed**stage.
+    - If employee returned, Muqeem status will change to the employee status as inside-kingdom status.
 
+    - If does not complete with muqeem integration, then it will process manually with validate the employee status, and that request complete with reqular check-in process,
 
         - *In The action field is following to,*
 
@@ -818,7 +866,9 @@ New request is initiated for ATM card for Employee.
 
 - ### **Visa Expired:**
 
-    - Validate the Iqama and Visa validity of Employee, and User decides to refer with appropriate queue.
+    - in this stage, request are received like ERE visa expired.
+
+    - and Validate Visa validity of Employee, and User decides to refer with next stage.
 
 
         - *In The action field is following to,* decision
@@ -829,6 +879,8 @@ New request is initiated for ATM card for Employee.
 
 
 - ### **Iqama Approval Cancellation:**
+
+     - If iqama expiry date is less then 10 days, the request will move to Iqama  Approval cancellation stage,
 
      - User validate the Iqama approval cancellation and moved to **Waiting For Return** stage.
 
@@ -846,14 +898,13 @@ New request is initiated for ATM card for Employee.
 
 - ### **LeftNotReturn:**
 
-     - Employees who lefted and not return from on vacation are Listed for Tracking purposes.
+     - Employees who lefted and do not return from on vacation are Listed for Tracking purposes.
 
 - ### **Completed:**
 
      - All completed Request has been moved to Completed Stage, After the Vacation return process completed by the User.
 
 | [Home](#human-resource-management) | [Main](#leave-management) | [Back](#vacation-return) |
-
 
 
 <br>
@@ -1759,11 +1810,6 @@ ATM card is using for Employee payment transaction through online and other nece
           **2-Reject** - User Reject and complete the request.
 
           **3-[Complete without Envelope](#complete-7)** - User Complete the request without Envelope and moved to [complete](#complete-7) stage.
-
-Today Work:
-
-*Working on Document preparation on HRM Module.
-*Working on 
 
 
 - ### **Put in Envelope**

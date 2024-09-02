@@ -1086,65 +1086,6 @@ The Leave Reject Request only can be Raise or Approve in **Waiting for Travel** 
 
 | [Home](#human-resource-management) | [Main](#travel) | [Back](#travel-request-1) |
 
-<br>
-
-
-> ## **[ERE Extend:](#travel)**
-
-Initiated the request for the Exit Re-Entry Visa to Employee in this **ERE Extend** stage.
-
-| [Requested](#requested-3) > [Manpower Approval](#manpower-approval) > [Finance Approval](#finance-approval) > [Update In MOL](#update-in-mol) > [Completed](#completed-9) > [Rejected](#rejected) |
-
-- ### **Requested:**
-
-    - In this stage, Newly required request is received to waiting for action.
-
-      - *In The action field is following to,*
-
-        **1-[Complete](#manpower-approval)** - User complete the request and refer for [Manpower Approval](#manpower-approval) stage.
-
-        **2-[Reject](#rejected)** - User Reject the request and moved to [Rejected](#rejected) stage. and hold the Request for Requirements.
-
-
-- ### **Manpower Approval:**
-
-     - User validate the status of **Manpower Approval** from Manpower Department. And then user complete the request in this stage.
-
-       - *In The action field is following to,*
-
-         **1-[Complete](#finance-approval)** - User Complete the request and refer to [Finance Approval](#finance-approval) stage.
-
-         **2-[Reject](#rejected)** - User Reject the request and moved to [Rejected](#rejected) stage. and hold the request for Query purpose and Requirements.
-
-- ### **Finance Approval:**
-
-     - In this stage, user complete this request after Authenticated and finalised with the Finance Approval for ERE Extend in Finance Department.
-
-       - *In The action field is following to,*
-
-         **1-[Complete](#update-in-mol)** - User complete the request and refer to [Update In MOL](#update-in-mol) stage.
-
-         **2-[Reject](#rejected)** - User reject the request and moved to [Rejected](#rejected) Stage.
-
-
-- ### **Update in MOL:**
-
-     - In this stage.
-
-          - *In The action field is following to,*
-
-            **1-[Complete](#completed-9)** - User complete the request and moved to [Completed](#completed-9) stage.
-
-- ### **Completed:**
-
-    - In this stage, User use to track the status of Completed request in ERE Visa request.
-
-- ### **Rejected:**
-
-     - User use to track the all rejected request in this stage for ERE Extend Visa.
-
-
-| [Home](#human-resource-management) | [Main](#travel) | [Back](#ere-extend) |
 
 
 <br>

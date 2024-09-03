@@ -440,7 +440,6 @@ Newly initiating the request for Employee medical insurance and this request cre
 - ### **Completed:**
 
     - In the stage, use to track the all completed request in Insurance stage.
-    - 
 
 | [Home](#human-resource-management) | [Main](#on-board) | [Back](#insurance) |
 
@@ -582,6 +581,56 @@ New request is initiated for ATM card for Employee.
 <br>
 
 ## **[Leave Request:](#leave-management)**
+
+* ### _Mandatory field to update while request for Leave:_
+
+    **1-  Labour ID,**
+
+   - Unique Identification number provided by organization to employeee.
+
+    **2- Request Date,**
+
+    - Required Date of Request on Vacation
+
+    **3- Return Date,**
+
+   - Required Date of Return on Vacation
+
+    **4- Travel Date,**
+
+    - Date of Travel on Vacation
+
+    **5- Last Working Date,**
+
+    - Leaving Date of on Vacation
+
+
+    **6- Vacation Type,**
+
+   - _**Paid Vacation**_ -
+
+      -	Settlement          – **Applicable**
+      -	Exit Re-Entry       – **Applicable**
+      -	Travel Arrangements – **Applicable**
+
+   - _**Unpaid Vacation**_ -
+
+      -	Settlement          – **Not Applicable**
+      -	Exit Re-Entry       – **Applicable**
+      -	Travel Arrangements – **Applicable**
+
+   - _**Local Vacation**_ -
+
+      -	Settlement          – **Applicable**
+      -	Exit Re-Entry       – **Not Applicable**
+      -	Travel Arrangements – **Not Applicable**
+
+   - _**Vacation Encashment**_ -
+
+      -	Settlement          – **Applicable**
+      -	Exit Re-Entry       – **Not Applicable**
+      -	Travel Arrangements – **Not Applicable**
+
 
 The Leave Request is initiated from Case and Task Management for Employee by user and customer.
 
@@ -1148,7 +1197,7 @@ Travel Arrangements is applicable for Who on accommadation in Lodging.
 > ## **[Final Settlement](#employee-retirement):**
 
 
-User initiate the request for **Settlement** in **Employee Retirement** process from case and task management.
+User initiate the request for **Employee Retirement** process from case and task management. In this stage, Settlement process will begins to 
 
 | [Requested](#requested-4)  > [Clearance Process](#clearance-process) > [Approval](#approval-3) > [Client _ Confirmation](#client_confirmation-1) > [Payment](#payment-3) > [Client Rejection](#client-rejection-1) > [Complete](#complete-3) |
 
@@ -1338,7 +1387,7 @@ The Retirement request is initiated from case and task management for EMployee.
 # **[REISSUE](#human-resource-management)**
 
 
-Reissue is service have to process for provide the Iqama ID Card, ATM Card and Insurance services for employee as replacement due to missing or damaging the id card or Employee service products.
+Reissue is service have to process for provide the Iqama ID Card, ATM Card and Insurance for employee as replacement due to missing or damaging the id card or Employee service products.
 
 
 | [IQAMA Reissue](#iqama) | [ATM Reissue](#atm-1) |
@@ -1714,7 +1763,7 @@ For all employee will be renewed Iqama identification in yearly once.
 
       In this stage, the user complete the request and move into **Completed** stage.
 
-      **In this Renewal stage system will create the muqeem in automation function. if still not created or finding error while performing to create muqeem, then the user will create the muqeem status manually and proceed complete the request in Iqama Renewal.**
+      **In this Renewal stage system will create the muqeem integration will automate. in this process, still not created or finding error while performing to create muqeem, then the user will create the muqeem status manually and proceed complete the request in Iqama Renewal.**
 
 
 - ### **Cases Hold:**
@@ -1797,7 +1846,7 @@ ATM card is using for Employee payment transaction through online and other nece
         **1-[Paid](#receive-in-lodging-3)** - User complete the request and refer [Receive in Lodging](#receive-in-lodging-3) stage.
 
 
-    **After this stage completed by user then moves to **Receive in Lodging** stage**
+      **After this stage completed by user then moves to **Receive in Lodging** stage.**
 
 
 - ### **Receive in Lodging**
@@ -1843,6 +1892,8 @@ ATM card is using for Employee payment transaction through online and other nece
 <br>
 <br>
 <br>
+
+
 
 
 

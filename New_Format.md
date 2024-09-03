@@ -160,7 +160,7 @@ Using to track the employees profile with Mudad contract status detailed informa
 > ## **[Medical Test:](#on-board)**
 
 
-Medical Test and following procedure is initiated for New Employee in the Arrival stage.
+Medical Test Request is initiated for New Employee in the Arrival stage.
 
 | [Newly Required](#newly-required) > [Waiting for Result](#waiting-for-result) > [Not Fit](#not-fit) > [Complete](#complete) |
 
@@ -169,7 +169,7 @@ Medical Test and following procedure is initiated for New Employee in the Arriva
 
 - ### **Newly required:**
 
-    - All Newly required request for Medical Test is visible in this stage, since initiated to process.
+    - All Newly required request for Medical Test is moved in this stage, since initiated to process.
 
        -  _The action field is following to,_
 
@@ -919,7 +919,8 @@ The Leave Reject Request only can be Raise or Approve in **Waiting for Travel** 
 
 - ### **Vacation Settlement:**
 
-    - After Cancel process of the Vacation Settlement is completed, then user moved to **Visa Request** stage.
+
+    - After reject process of Vacation Settlement is completed, then it will send to Visa Request stage.
 
        - *In The action field is following to,*
 
@@ -927,7 +928,7 @@ The Leave Reject Request only can be Raise or Approve in **Waiting for Travel** 
 
 - ### **Visa Request:**
 
-    - Visa Request will be cancel as per customer request in **[Leave Reject Request](#leave-reject-request)** stage.
+    - Visa Request will reject as like cancel the Leave request in **[Leave Reject Request](#leave-reject-request)** stage.
 
       - *In The action field is following to,*
 
@@ -935,7 +936,7 @@ The Leave Reject Request only can be Raise or Approve in **Waiting for Travel** 
 
 - ### **Travel Request:**
 
-     - Travel Request will be Cancel as per Customer request in [Leave Reject Request](#leave-reject-request) stage.
+     - Travel Request will Cancel as cacel the leave request in [Leave Reject Request](#leave-reject-request) stage.
 
        - *In The action field is following to,*
 
@@ -955,22 +956,24 @@ The Leave Reject Request only can be Raise or Approve in **Waiting for Travel** 
 
 # **[Travel](#human-resource-management)**
 
- Travel Process will intiated in between the **Travel Arrangements** in **Leave Request.** in case of customer requested Travel Arrangements by ARCO.
+ Travel Process will intiated in between the **Travel Arrangements** in **Leave Request.** in case of customer requested Travel Arrangements from ARCO.
 
-| [Visa Request](#visa-request-1) | [Travel Request](#travel-request) | [ERE Extend](#ere-extend) |
+| [Visa Request](#visa-request-1) | [Travel Request](#travel-request) | 
 
 <br>
 
 > ## **[Visa Request:](#travel)**
 
 
+  Visa Request initiated in Travel Request in between the Travel Arrangements stage begins in **Leave Request** process.
+
 | [Requested](#requested-1) > [Approval](#approval-1) > [Payment](#payment-1) > [Under Processing](#under-processing-1) > [Hold](#hold) > [Completed](#completed-8) |
 
 - ### **Requested:**
 
-     - Visa Request initiated in Travel Request in between the Travel Arrangements stage begins in **Leave Request** process.
+  - Newly initiated request for Travel is received to process as initial stage.
 
-         - *In The action field is following to,*
+      - *In The action field is following to,*
 
            **1-[Requested](#approval-1)** - User complete the request and refer to [Approval](#approval-1) stage.
 
@@ -986,7 +989,7 @@ The Leave Reject Request only can be Raise or Approve in **Waiting for Travel** 
 
      - After payment completed by the user in Finance Department, the payment request moved to **Under Processing** stage.
 
-     - User can use to compare the Payment status in between the payment in **Visa Request** and Payment Request in **Finance Department**.
+     - User can use to compare the Payment status in between the **Visa Request** and **Finance Department**.
 
        - *In The action field is following to,*
 
@@ -994,7 +997,7 @@ The Leave Reject Request only can be Raise or Approve in **Waiting for Travel** 
 
 - ### **Under Processing:**
 
-    - In Under Processing stage is Visa Issuance process of Employee In Government Authority.
+    - The Visa Issuance process for Employee is begins in Under Processing stage.
 
       - *In The action field is following to,*
 
@@ -1005,7 +1008,7 @@ The Leave Reject Request only can be Raise or Approve in **Waiting for Travel** 
 
 - ### **Hold:**
 
-    - Incompleted request are Holding for Query in this stage, after clarifies the queries by relevent department then user complete this stage.
+    - Incompleted request are Holding for Query in this stage.
 
       - *In The action field is following to,*
 
@@ -1026,12 +1029,14 @@ The Leave Reject Request only can be Raise or Approve in **Waiting for Travel** 
 
 > ## **[Travel Request:](#travel)**
 
+The Travel Request initiate in between the Travel Arrangements stage 
+fo only employees, who requestd the travel arrangement from ARCO.
 
 | [Requested](#requested-2) > [Travel Arrangements](#travel-arrangements-1) > [Approval](#approval-2) > [Payment](#payment-2) > [Complete](#complete-2) > [Hold](#hold-1) |
 
 - ### **Requested:**
 
-     - Travel Request initiated in between the Travel Arrangements stage begins in **Leave Request** process.
+     - Newly initiated request is received for take action in this stage.
 
        - *In The action field is following to,*
 
@@ -1063,9 +1068,9 @@ The Leave Reject Request only can be Raise or Approve in **Waiting for Travel** 
 
 - ### **Payment:**
 
-     - After payment completed by the user in Finance Department,then the payment request updated and moved to **Completed** stage.
+     - After payment completed by the user in Finance Department,then the request completed and moved to **Completed** stage.
 
-     - User can use to compare the Payment status in between the payment in **Travel Request** and Payment Request in **Finance Department**.
+     - User can use to compare the Payment status in between the **Travel Request** and **Finance Department**.
 
         - *In The action field is following to,*
 
@@ -1073,7 +1078,7 @@ The Leave Reject Request only can be Raise or Approve in **Waiting for Travel** 
 
 - ### **Complete:**
 
-  - All completed Request has to moved in Completed Stage, After the Travel Request process is completed.
+  - All completed Request have to received in Completed Stage, After the Travel Request process is completed.
 
 - ### **Hold:**
 
@@ -1102,13 +1107,16 @@ The Leave Reject Request only can be Raise or Approve in **Waiting for Travel** 
 
 > ## **[Final Settlement](#employee-retirement):**
 
+
+User initiate the request for Employee **Final Settlement** in **Employee Retirement** process from case and task management.
+
 | [Requested](#requested-4)  > [Clearance Process](#clearance-process) > [Approval](#approval-3) > [Client _ Confirmation](#client_confirmation-1) > [Payment](#payment-3) > [Client Rejection](#client-rejection-1) > [Complete](#complete-3) |
 
 <br>
 
 - ### **Requested:**
 
-     - User initiated new request for Employee **Final Settlement** in **Employee Retirement** process.
+     - Initiated request for Final settlement is received from Case and task management is waiting to process.
 
         - *In The action field is following to,*
 
@@ -1116,19 +1124,22 @@ The Leave Reject Request only can be Raise or Approve in **Waiting for Travel** 
 
 - ### **Clearance Process:**
 
-     - In this stage,  User process Clearance for Employee to calcuclate the **Final Settlement** payment.
+  - Waiting for the Clearance on Final Settlement for Employee,
+     Once clearnce is completed then it will move to Approval stage.
 
-        - *In The action field is following to,*
+      - *In The action field is following to,*
 
-           **1-[Complete](#approval-3)** - User complete the request and refer to [Approval](#approval-3) stage. for **Final Settlement** Clearance.
+          **1-[Complete](#approval-3)** - User complete the request and refer to [Approval](#approval-3) stage. for **Final Settlement** Clearance.
 
 - ### **Approval:**
 
-     - User raised a request to get Finance Approval in Finanace Department for **Final Settlement** to Employee. after Finance Department approved, then user complete the request.
+     -  Waiting for Finance Approval from Finanace Department for **Final Settlement** to Employee. after Finance Department approved, then user complete the request.
+
+     - If do not have any Final Settlement payment for Employee, then the request complete with **Move without Payment**.
 
         - *In The action field is following to,*
 
-          **1-[Complete](#client_confirmation-1)** - User Complete this request and moved For [Client_Confirmation](#client_confirmation-1) stage.
+          **1-[Complete](#client_confirmation-1)** - Complete this request and moved For [Client_Confirmation](#client_confirmation-1) stage.
 
            **2-[Re Calculate Clearance](#clearance-process)** - User reject and return the request [Clearance Process](#clearance-process) stage. for Re Calculate Clearance amount.
 
@@ -1136,35 +1147,38 @@ The Leave Reject Request only can be Raise or Approve in **Waiting for Travel** 
 
 - ### **Client_Confirmation:**
 
-    - User requested to get **Client Confirmation** for process the Final Settlement **Payment** to Employee in Retirement.
+    - Waiting to get **Client Confirmation** for process the Settlement **Payment** to Employee.
+
+    - Once the confirmation is complete then it will move to Payment stage.
 
        - *In The action field is following to,*
 
          **1-[Confirm](#payment-3)** - User Complete the request and refer to the [Payment](#payment-3) stage.
 
-         **2-[Move to Clearance](#clearance-process)** - User complete and refer the request to [Clearance Process](#clearance-process) stage. for Recalculate the Payment.
+         **2-[Move to Clearance](#clearance-process)** - User complete and refer the request to [Clearance Process](#clearance-process) stage. for Recalculate the clearance.
 
 - ### **Payment:**
 
-    - Complete the request in Final Settlement after payment status completed in Finance Department,then payment request updated and moved to **Complete** stage.
+    - Payment request will process in Finance Department, Once the Payment is completed in Finance Portal, then request is complete and moved to completed stage.
+
 
       - *In The action field is following to,*
 
-        **1-[Complete](#complete-3)** - User complete the request and moved to [Complete](#complete-3) stage.
+        **1-[Complete](#complete-3)** -  complete the request and moved to [Complete](#complete-3) stage.
 
-        **2-[ReCalculate](#clearance-process)** - User reject and return the request to [Clearance Process](#clearance-process) stage. for Recalculate the Payment for Final Settlement.
+        **2-[ReCalculate](#clearance-process)** - User reject and return the request to [Clearance Process](#clearance-process) stage. for Recalculate the Clearance.
 
 - ### **Client Rejection:**
 
-    - Pending and Rejected Request have showing in this **Client Rejection** stage. and then this rejected request is moved to **Cient_Confirmation** for resume and Resend the request from Reconfirmation of Client.
+    - The Request Rejected by Client is received in this stage and waiting to resend for customer confirmation.
 
       - *In The action field is following to,*
 
-        **[Resend Customer Confirmation](#client_confirmation-1)** - User Resend the Request to Customer for [Client confirmation](#client_confirmation-1) stage to process the Request.
+        **[Resend Customer Confirmation](#client_confirmation-1)** - User Resend the Request to Customer for [Client confirmation](#client_confirmation-1) stage.
 
 - ### **Complete:**
 
-     - All completed Request has to moved in **Complete** Stage, After the Final Settltment process is completed.
+     - All completed Request has to moved in **Complete** Stage, After the Final Settltment process is completed. for use and track the request status.
 
 | [Home](#human-resource-management) | [Main](#employee-retirement) | [Back](#final-settlement) |
 
@@ -1172,14 +1186,15 @@ The Leave Reject Request only can be Raise or Approve in **Waiting for Travel** 
 
 > ## **[Retirement Request:](#employee-retirement)**
 
+Initiate the Request for process the Employee Retirement from case and Task management.
+
 | [New Request](#new-request) > [Arco Approval](#arco-approval-1) > [Customer Approval](#customer-approval-1) > [Under Processing](#under-processing-2) > [Customer Clearance](#customer-clearance-1) > [Arco Clearance](#arco-clearance-1) > [Waiting for Travel](#waiting-for-travel-1) > [RejectedRequest](#rejectedrequest) > [Complete](#complete-4) |
 
 <br>
- 
 
 - ### **New Request:**
 
-    - User Initiate a New Request to process the Retirement for Employee.
+    - New  request is waitin for to take action.
 
       - *In The action field is following to,*
 
@@ -1188,7 +1203,8 @@ The Leave Reject Request only can be Raise or Approve in **Waiting for Travel** 
 
 - ### **Arco Approval:**
 
-    - In this stage, User process the request for **Arco Approval** to Employee Retirement Process.
+    - Waiting for get ARCO approval for Employee retirement. once Arco Approval is completed then request to Customer Approval.
+
 
        - *In The action field is following to,*
 
@@ -1198,7 +1214,9 @@ The Leave Reject Request only can be Raise or Approve in **Waiting for Travel** 
 
 - ### **Customer Approval:**
 
-    - In this stage, User process the request for Customer Approval and then refer the request to [Under Processing](#under-processing) stage.
+
+    - In this stage, Waiting for Customer Approval to process Employee Retirement. Once the Customer Approved then moved to under processing.
+
 
       - *In The action field is following to,*
 
@@ -1208,7 +1226,11 @@ The Leave Reject Request only can be Raise or Approve in **Waiting for Travel** 
 
 - ### **Under Processing:**
 
-    - In this stage, The Employee Settlement related process is begins as Final Settlement in Retirement.
+    - In this stage, Employee Final Settlement process will start for employee.
+    
+    - If the employee request the travel arrangements from ARCO, and then Travel process will start for the employee.
+
+    - If the Employee not requested the travel arrangements from ARCO, then it will move directly to Waiting for travel.
 
     - Also created request for Travel Arrangements
 
@@ -1222,17 +1244,18 @@ The Leave Reject Request only can be Raise or Approve in **Waiting for Travel** 
 
 - ### **Customer Clearance:**
 
-     - User make action to Request the **Customer Clearance** for Final Settlement process.
+     - Waiting for Customer Clerance, once clearance is completed by Customer then it will send for ARCO Clearance.
+
 
        - *In The action field is following to,*
 
          **1-[Complete](#arco-clearance-1)** - User complete and refer the request to [Arco Clearance](#arco-clearance-1) stage.
 
-         **2-[Reject](#rejectedrequest)** - User Reject the request to [RejectedRequest](#rejectedrequest) stage. for holding the request for customer confirmation.
+         **2-[Reject](#rejectedrequest)** - User Reject the request to [RejectedRequest](#rejectedrequest) stage.
 
 - ### **Arco Clearance:**
 
-  - User process the request to Arco
+  - Waiting For ARCO clearance for Customer, once the ARCO clearance is completed then it will send for Waiting for travel.
 
        - *In the Action field is Following to,*
 
@@ -1253,15 +1276,15 @@ The Leave Reject Request only can be Raise or Approve in **Waiting for Travel** 
 
 - ### **RejectedRequest:**
 
-    - In this stage,
+    - In this stage, All rejected request is reject and compete the stage.
 
        - *In the Action field is Following to,*
 
-          **1-Reject** - User reject the request and Complete this stage.
+          **1-Reject** - reject the request and Complete this stage.
 
 - ### **Complete:**
 
-     - In
+     - Completed request are received in this stage. and use to track the status of the request.
 
 | [Home](#human-resource-management) | [Main](#employee-retirement) | [Back](#retirement-request) |
 

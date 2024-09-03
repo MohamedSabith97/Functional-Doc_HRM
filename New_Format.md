@@ -1156,7 +1156,7 @@ User initiate the request for **Settlement** in **Employee Retirement** process 
 
 - ### **Requested:**
 
-     - Initiated request is received from Case and task management for Final settlement is waiting to process.
+     - Waiting to process the initiated request is received from Case and task management for Final settlement.
 
         - *In The action field is following to,*
 

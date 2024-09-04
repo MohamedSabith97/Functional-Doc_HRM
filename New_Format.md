@@ -590,15 +590,15 @@ New request is initiated for ATM card for Employee.
 
     **2- Request Date,**
 
-    - Required the Date of Request on Vacation.
+    - Required the Date of Request for Vacation.
 
     **3- Return Date,**
 
-    - Required the Date of Return on Vacation.
+    - Required the Date of Return from Vacation.
 
     **4- Travel Date,**
 
-    - Required the Date of Travel on Vacation.
+    - Required the Date of Travel for Vacation.
 
     **5- Last Working Date,**
 

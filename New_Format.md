@@ -586,23 +586,23 @@ New request is initiated for ATM card for Employee.
 
     **1-  Labour ID,**
 
-   - Unique Identification number provided by organization to employeee.
+    - Unique Identification number provided by organization to employee.
 
     **2- Request Date,**
 
-    - Required Date of Request on Vacation
+    - Required the Date of Request on Vacation.
 
     **3- Return Date,**
 
-   - Required Date of Return on Vacation
+    - Required the Date of Return on Vacation.
 
     **4- Travel Date,**
 
-    - Date of Travel on Vacation
+    - Required the Date of Travel on Vacation.
 
     **5- Last Working Date,**
 
-    - Leaving Date of on Vacation
+    - Required the Leaving Date for Vacation.
 
 
     **6- Vacation Type,**
@@ -723,7 +723,7 @@ The Leave Request is initiated from Case and Task Management for Employee by use
 
 - ### **Travel Arrangements:**
 
-    - in this stage, waiting for Travel Arrangements for Employee, once Arrangements is competed and it will moved to **Waiting for Travel** stage.
+    - In this stage, waiting for Travel Arrangements for Employee, once Arrangements is competed and it will moved to **Waiting for Travel** stage.
 
     - Travel Arrangements is Applicable for who on accommodate in lodging.
 

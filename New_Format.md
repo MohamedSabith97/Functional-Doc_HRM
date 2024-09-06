@@ -19,10 +19,10 @@
 
 > ## **[Employee List:](#employee)**
 
-User use to update the Employee details and requirements in this stage, like Iqama Reissue, ATM Reissue, Insurance Reissue, Iqama Renewal update mobile number.
+User use to update the Employee details and requirements in this stage, like Iqama, ATM , Insurance , Iqama Renewal update mobile number.
 
 
- - **The action field is following**:
+ - **The Action field is following**:
 
       - **Iqama Reissue** - Reissue the Iqama since it damaged or required reissue for new with uploding the Reissue Attchement.
 
@@ -99,7 +99,7 @@ Using to track the employees profile with Mudad contract status detailed informa
 
     * In this stage Authenticate the Location status of Employee.
 
-        * The action field is following:
+        * The Action field is following:
 
 
 
@@ -171,7 +171,7 @@ Medical Test Request is initiated for New Employee in the Arrival stage.
 
     - All Newly required request for Medical Test is moved in this stage, since initiated to process.
 
-       -  _The action field is following to,_
+       -  _The Action field is following to,_
 
            **1**- **[Complete](#waiting-for-result)** - User Complete the Request and refer to [Waiting for Result](#waiting-for-result).
 
@@ -182,7 +182,7 @@ Medical Test Request is initiated for New Employee in the Arrival stage.
 
     - After processing the medical test then waiting for to update the test result for employee.
 
-      - *The action field is following*:
+      - *The Action field is following*:
 
 
         **1**- [Fit](#complete) - User Complete the request and move to [Complete](#complete) stage.
@@ -196,13 +196,11 @@ Medical Test Request is initiated for New Employee in the Arrival stage.
 
 - ### **Not Fit:**
 
-     - All Rejected request from Medical test is hold in this stage and re-initiate to process yet again,
+     - In this stage, waiting for re-initiate the Medical Test request, which is rejected.
 
-        In case of the request is rejected as Non Fit in this stage also, then complete and reject the request by the user.
+        - *The Action field is following to,*
 
-        - *The action field is following to,*
-
-           **1**-**Complete** – User Reject and complete the request. once complete **Not Fit** stage final exit process will create.
+           **1**-**Complete** – User Reject and complete the request. once complete with **Not Fit** stage final exit process will create.
             
 
            **2**-[Fit](#complete)   –  User Complete the request and refer to [Complete](#complete) Stage.
@@ -213,7 +211,7 @@ Medical Test Request is initiated for New Employee in the Arrival stage.
 
 - ### **Complete:**
 
-    - All Completetd request for Medical Test is visible to see in this stage.
+    - Completetd request is moved to "Complete stage".
     - Then begins the [Labour office](#labour-office) Payment for employee.
 
 <br>
@@ -227,15 +225,17 @@ Medical Test Request is initiated for New Employee in the Arrival stage.
 
    New Employee creation is initiated for Employee in the arrival stage.
 
-| [New](#new) > [Institutional Quarantine](#institutional-quarantine) > [Under Documentation](#under-documentation) > [Under Training](#under-training) > [Waiting for Action](#waiting-for-action) > [Completed](#completed) |
+| [New](#new) > [Institutional Quarantine](#institutional-quarantine) > [Under Documentation](#under-documentation) > [Under Training](#under-training) > [Waiting for Action](#waiting-for-Action) > [Completed](#completed) |
 
 <br>
 
 - ### **New:**
 
-    - Process on New Request for Employee creation in this stage
+    - In This stage, Waiting to process the new request for Medical Test.
 
-       - In The action field is following to,
+    - Then User will move to either Quarantine stage or Under Documentation process.
+
+       - In The Action field is following to,
 
          **1**-[Institutional Quarantine](#institutional-quarantine) - User complete the request and refer to **Institutional Quarantine** stage.
 
@@ -244,31 +244,27 @@ Medical Test Request is initiated for New Employee in the Arrival stage.
 
 
 
-
 - ### **Institutional Quarantine**
 
-     - In this stage, User dicide as per the Quarantine status, and refer to next stage.
+     - In this stage, Waiting for complete the Quarantine status, once completed the Quarantine, then user will move to "Under Documentation" stage.
 
-        - In The action field is following the to,
+        - In The Action field is following the to,
 
           **1**-[New](#new) - User reject the request and refer to [New](#new) stage.
 
           **2**-[Under Docuementation](#under-documentation) - User complete the request and refer to [Under Documentation](#under-documentation) stage.
 
 
-
-
-
 -  ### **Under Documentation:**
 
-    - In this stage, after completetion of Documentation the user refer the request to next stage.
+    - In this stage, Waiting to complete the Documentation for Employee,
 
-     - Completion of Documentation stage and then request refer to Training process.
+    - Once documntation is completed for employee, then it will move to "Under Training" stage.
 
     - **(did'nt process the Documentation for new employee until to complete medical test)**
 
 
-        * In The action field is following to,
+        * In The Action field is following to,
 
           **1-[Complete](#under-training)** - User complete the request and refer [Under Training](#under-training) stage.
 
@@ -278,21 +274,23 @@ Medical Test Request is initiated for New Employee in the Arrival stage.
 
     - **(Under Training process is assign for only individual customer)**
 
+    - **(If customer is Business Employee then Under process is not required forhim)
+
     - After the Training process is completed the request move to Waiting for Action stage.
 
-         - In The action field is following to,
+         - In The Action field is following to,
 
-           **1**-**[Complete](#waiting-for-action)** - User complete the request and refer to [Waiting for Action](#waiting-for-action) stage.
-
-
+           **1**-**[Complete](#waiting-for-Action)** - User complete the request and refer to [Waiting for Action](#waiting-for-Action) stage.
 
 
 
 - ### **Waiting For Action:**
 
-    - In this stage, New Employee status is defines with Work status.
+    - In this stage, Waiting to update the work status for New Employee.
 
-      - *In The action field is following to,*
+    - And then it will move to Completed stage,
+
+      - *In The Action field is following to,*
 
           **1-Ready to Work** – Employee is waiting and ready to work.
 
@@ -301,11 +299,9 @@ Medical Test Request is initiated for New Employee in the Arrival stage.
           **3-Reserved for VIP**- Selected employee will be pre-reserved for an VIP customer.
 
 
-
-
 - ### **Completed:**
 
-    - In this stage, completed request of New employee is visible to track the New request status.
+    - Completed request is moved to Completed stage, and the new employee request is completed.
 
 | [Home](#human-resource-management) | [Main](#on-board) |  [Back](#new-employee-request) |
 
@@ -314,12 +310,11 @@ Medical Test Request is initiated for New Employee in the Arrival stage.
 
 > ## **[Labour Office:](#on-board)**
 
-Labour Office payment is begins in arrival stage of new Employee.
+Labour Office payment process is begins in arrival stage of Employee.
 
-and new request initiating to the Labour Office Payment for new Employee.
+The New Request initiated for Labour Office Payment to Employee.
 
-and this payment process is 
-
+and moved to Newly Required stage.
 
 | [Newly Required](#newly-required-1) > [Payment Requested](#payment-requested) > [On Hold](#on-hold) > [Completed](#completed-1) |
 
@@ -328,9 +323,9 @@ and this payment process is
 
 - ### **Newly Required:**
 
-     - since waiting to process the new request for Labour Office Payment.
+     - In this stage, waiting for procees the new request.
 
-         - *In The action field is following to,*
+         - *In The Action field is following to,*
 
             **1-[Complete](#payment-requested)** - User complete this request and refer to -[Payment requested](#2-payment-requested) stage.
 
@@ -341,10 +336,11 @@ and this payment process is
 
 - ### **Payment Requested:**
 
+    - In this stage, waiting to complete the payment request in Finance portal, once the payment is completed in Finance Portal, the it will move to **"completed"** stage.
 
-    - After completion the payment request in Finance Portal, and requete is completed in Laour Office stage.
+    - Once the payment request is completed in Finance Portal, and then  Labour Office stage is completed.
 
-       - *In The action field is following to,*
+       - *In The Action field is following to,*
 
          **1-[Complete](#completed-1)** - User Complete the request and moved to [Completed](#completed-1)
 
@@ -352,9 +348,9 @@ and this payment process is
 
 - ### **On Hold:**
 
-    - In case of Requirements and query purposes in this request, and then hold the request.
+    - In this stage, In case of need any queries on request, and then request is move to Hold stage.
 
-      - *In The action field is following to,*
+      - *In The Action field is following to,*
 
         **1-[Resume](#newly-required-3)** - User resume and refer to [Newly Required](#newly-required-2) stage.
   
@@ -364,8 +360,7 @@ and this payment process is
 
   - In this stage has received the all completed request is to track in the [Labour office](#labour-office) stage.
 
-  - [IQAMA Issue](#iqama-issue) is the next stage for employee after the Labour office payment request stage has completed.
-
+  - Once payment is completed in Finance Portal, then it will moved to [IQAMA Issue](#iqama-issue) process.
 
 | [Home](#human-resource-management) | [Main](#on-board) | [Back](#labour-office) |
 
@@ -373,9 +368,9 @@ and this payment process is
 
 > ## **[Insurance:](#on-board)**
 
-In Arrival stage of Emplyoee, the Insurance process is begins to new Employee. and this insurace process is complete since the Iqama is issued for Employee.
+In The Arrival stage of Employee, the Insurance process is begins and this insurace process is complete since the Iqama is issued for Employee.
 
-Newly initiating the request for Employee medical insurance and this request created in case and task mangement.
+Newly initiated request for Insurance in moved from Case and Task Management.
 
 
 | [Newly Required](#newly-required-2) > [Under Preparation](#under-preparation) > [Issued and Waiting to be Linked to CCHI](#issued-and-waiting-to-be-linked-to-cchi) > [Linked to CCHI Waiting for Iqama](#linked-to-cchi-waiting-for-iqama) > [Iqama Issued Update Iqama](#iqama-issued-update-iqama) > [Completed](#completed-2) |
@@ -384,18 +379,18 @@ Newly initiating the request for Employee medical insurance and this request cre
 
 - ### **Newly Required:**
 
-   - Initiated new request is waiting to process in this stage.
+   - In this stage, waiting to process the new request which is initiated from Case and Task management.
 
-     - *In The action field is following to,*
+     - *In The Action field is following to,*
 
        **1-[Complete](#under-preparation)** - User complete the request an refer to [Under Preparation](#under-preparation) stage.
 
 
 - ### **Under Preparation:**
 
-  - In this stage is, the request to prepare for Insurance to Employee.
+  - In this stage, waiting to prepare the Insurance for Employee.
 
-     - *In The action field is following to,*
+     - *In The Action field is following to,*
 
        **1-[Complete](#issued-and-waiting-to-be-linked-to-cchi)** - User complete the request and refert to [Issued and waiting to be linked to CCHI](#issued-and-waiting-to-be-linked-to-cchi) stage.
 
@@ -405,9 +400,9 @@ Newly initiating the request for Employee medical insurance and this request cre
 
 - ### **Issued and waiting to be linked to CCHI:**
 
-  - In this stage, insurance policy is Waiting to be link with CCHI.
+  - In this stage, insurance is Waiting to be link with CCHI.
 
-      - *In The action field is following to,*
+      - *In The Action field is following to,*
 
         **1-[Complete](#linked-to-cchi-waiting-for-iqama)** - User Complete the request and moved to [Linked to CCHI waiting for Iqama](#linked-to-cchi-waiting-for-iqama) Stage.
 
@@ -418,7 +413,7 @@ Newly initiating the request for Employee medical insurance and this request cre
     - In this stage, CCHI is waiting to link with Iqama, once IQAMA isuance is completed and then iqama details will be update and linked with CCHI .
 
 
-        - *In The action field is following to,*
+        - *In The Action field is following to,*
 
           **1-[Complete](#iqama-issued-update-iqama)** - User complete the request and refer to [Iqama issued update iqama](#iqama-issued-update-iqama) stage.
 
@@ -431,7 +426,7 @@ Newly initiating the request for Employee medical insurance and this request cre
   - In this stage, Iqama update with CCHI portal.
   
 
-     - *In The action field is following to,*
+     - *In The Action field is following to,*
 
        **1-[Complete](#completed-2)** - User Complete the request and moved into [Completed](#completed-2) stage.
 
@@ -440,6 +435,8 @@ Newly initiating the request for Employee medical insurance and this request cre
 - ### **Completed:**
 
     - In the stage, use to track the all completed request in Insurance stage.
+
+
 
 | [Home](#human-resource-management) | [Main](#on-board) | [Back](#insurance) |
 
@@ -451,12 +448,12 @@ Newly initiating the request for Employee medical insurance and this request cre
 
 > ## **[Iqama Issue:](#on-board)**
 
-In this stage, process the Iqama(Resident Identity) for Employee.
+In This stage,will start the Iqama Isuance process(Resident Identity) for Employee.
 
 
-  **(IQAMA ID is provide for residents as resident permit in KSA Goverment and this Identity is requirement for New employee creation in HRM)**
+  **(IQAMA ID will issue for residents in KSA Goverment and this Identity is essentioal requirement for New employee creation in HRM)**
 
-  **(Insurance, ATM facility and Gosi process is begins after the employee receiving the Iqama ID)**
+  **(Insurance, ATM Card and Gosi process is begins after the employee receiving the Iqama ID)**
 
 | [Iqama Issued](#iqama-issued) > [Waiting to Receive](#waiting-to-receive) > [Put in Envelope](#put-in-envelope) > [Completed](#completed-3) |
 
@@ -464,20 +461,22 @@ In this stage, process the Iqama(Resident Identity) for Employee.
 
 - ### **Iqama Issued:**
 
-   - In this stage, the request is completed with Muqeem integration after iqama issuance. and refer to next stage with Iqama number and Expiry date.
+   - In this stage, waiting for issue the Iqama ID Card, and the request complete with Muqeem integration, Once Iqama Issuance is completed.
 
-   - For track the status of Iqama id issuance to Employee, if the iqama details are issued for employee then the iqama details will upload with excel sheet document with import option into HRM. and move forward the case to the waiting to receive stage.
+   - And it will move to "Waiting to Receive"** stage
 
-     - *In The action field is following to,*
+     - *In The Action field is following to,*
 
        **1-[Complete](#waiting-to-receive)** - User complete the request and refer to [Waiting to Receive](#waiting-to-receive) stage.
 
 
 - ### **Waiting to Receive:**
 
-   - This stage Waiting to collect the Iqama identity card for New Employee.
+   - In This stage, Waiting to collect the Iqama identity card for  Employee. Once employee received the employee card then it will move to **"Put In Envelope"** stage
 
-     - *In The action field is following to,*
+   - If the Iqama ID card is issued and received to employee then Iqama details will upload with excel sheet document with import option into HRM.
+
+     - *In The Action field is following to,*
 
        **1-[Complete](#put-in-envelope)** - User complete and refer to  [Put in Envelope](#put-in-envelope) stage.
 
@@ -487,10 +486,11 @@ In this stage, process the Iqama(Resident Identity) for Employee.
 
 - ### **Put in Envelope:**
 
-   - In this stage, Document Delivery process will start to Employee work location.
+   - In this stage, prepare the document for Delivery to Employee.
 
+   - Once the Document Dispatched from lodging, then it will move to **"completed"** stage.
 
-     - *In The action field is following to,*
+     - *In The Action field is following to,*
 
        **1-[Complete](#completed-3)** - user complete the request and refer to [Completed](#complete-3) stage.
 
@@ -498,7 +498,7 @@ In this stage, process the Iqama(Resident Identity) for Employee.
 
 - ### **Completed:**
 
-    - In this stage, User using to track the all completed request in Iqama issuance stage.
+    - In this stage, User using to track the completed request in Iqama issuance stage.
 
 | [Home](#human-resource-management) | [Main](#on-board) | [Back](#iqama-issue) |
 
@@ -509,7 +509,7 @@ In this stage, process the Iqama(Resident Identity) for Employee.
 
 > ## **[ATM:](#on-board)**
 
-The ATM Card process is initiated after the Iqama issaunce stage is completed for Employee in HRM.
+The ATM Card process is initiated after the Iqama Issaunce is completed for Employee in HRM.
 
 New request is initiated for ATM card for Employee.
 
@@ -519,9 +519,9 @@ New request is initiated for ATM card for Employee.
 
 - ### **Newly Required:**
 
-   - New Request is waiting to process for ATM facility
+   - In this stage, waiting to procees the New Request for ATM Card.
 
-     - *In The action field is following to,*
+     - *In The Action field is following to,*
 
         **1-[Complete](#payment-requested-1)** - User complete the request and refer to [Payment Requested](#payment-requested-1) stage.
 
@@ -529,11 +529,11 @@ New request is initiated for ATM card for Employee.
 
 - ### **Payment Requested:**
 
-   - Use to track the Payment status for ATM. In between ATM and Finance portal.
+   - In this stage, waiting to complete the payment request in Finance portal, once the payment is completed in Finance Portal, the it will move to **"Receive in Lodging"** stage.
 
-  -  Once payment completed in Finace Department and then request is moved to Receive in Lodging stage.
+   - Use to track the Payment request status of ATM, In between ATM and Finance portal.
 
-     - *In The action field is following to,*
+     - *In The Action field is following to,*
 
        **1-[Complete](#receive-in-lodging)** - User complete the request and refer to [Receive in lodging](#receive-in-lodging) stage.
 
@@ -541,10 +541,13 @@ New request is initiated for ATM card for Employee.
 
 - ### **Receive in Lodging:**
 
+    - In this stage, waiting to Receive the ATM Card into Lodging.
 
-    - Once received the ATM Card for Employee in Lodging then ATM card details like card number, Issue and Expiry date is import into HRM portal.
+    - Once Received the ATM Card in Lodging then ATM card details like card number, Issue and Expiry date is import into HRM portal.
 
-         - *In The action field is following to,*
+    - Then it will moved to "Put in Envelope" Stage.
+
+         - *In The Action field is following to,*
 
            **1-[Complete](#put-in-envelope-1)** - User complete the request and refer [Put in Envelope](#put-in-envelope-1) stage.
 
@@ -552,9 +555,11 @@ New request is initiated for ATM card for Employee.
 
 - ### **Put in Envelope:**
 
-   - In this stage, ATM card is prepare for delivery to Employee location.
+   - In this stage, prepare the ATM Card for Delivery to Employee.
 
-     - *In The action field is following to,*
+   - Once the Document is Dispatched from lodging, then it will move to **"completed"** stage.
+
+     - *In The Action field is following to,*
 
        **1-[Complete](#completed-4)** -Complete the request and Moved to **[Completed](#completed-4)** stage.
 
@@ -562,7 +567,7 @@ New request is initiated for ATM card for Employee.
 
 - ### **Completed:**
 
-    - In this stage,User using to track the all completed request in ATM stage.
+    - In this stage, User using to track the completed request in ATM stage.
 
 | [Home](#human-resource-management) | [Main](#on-board) | [Back](#atm) |
 
@@ -599,7 +604,7 @@ New request created in case and task management and then it will moved to ARCO A
 
     - ARCO approval is validate the residence status of employee in this stage. once ARCO Approved then it will move to Customer Approval.
 
-      - *In The action field is following to,*
+      - *In The Action field is following to,*
 
          **1-[Complete](#customer-approval)** - User complete this request and refer to [Customer Approval](#customer-approval) Stage.
 
@@ -615,7 +620,7 @@ New request created in case and task management and then it will moved to ARCO A
 
     - In this stage, waiting for the Customer Approval, Once customer approved then it moved to Under processing.
 
-      - *In The action field is following to,*
+      - *In The Action field is following to,*
 
           **1-[Reject](#rejected-request)** -  reject the request and complete to [Rejected Request](#rejected-request) stage.
 
@@ -634,7 +639,7 @@ New request created in case and task management and then it will moved to ARCO A
 
     - **(Unpaid vacation is not Applicable to apply for Vacation settlement.)**
 
-       - *In The action field is following to,*
+       - *In The Action field is following to,*
 
          **1-[Reject](#rejected-request)** - and reject the request and refer [Rejected Request](#rejected-request) stage.
 
@@ -648,7 +653,7 @@ New request created in case and task management and then it will moved to ARCO A
 
     - Customer Clearance is optional for employee, and it will process only who requested the Clearance for settlement in Case and task management. Otherwise this clearance stage will be skipped and moved to completed stage.
 
-      - *In The action field is following to,*
+      - *In The Action field is following to,*
 
         **1-[Complete](#arco-clearance)** -  complete the stage and refer the [ARCO Clearance](#arco-clearance) stage.
 
@@ -662,7 +667,7 @@ New request created in case and task management and then it will moved to ARCO A
 
     - ARCO Clearance is optional for employee, it will process only who requested the Clearance for settlement in Case and task management. Otherwise this clearance stage will be skipped and moved completed stage.
 
-      - *In The action field is following to,*
+      - *In The Action field is following to,*
 
         **1-[Complete](#waiting-for-travel)** - complete the request and refer [Waiting for Travel](#waiting-for-travel) stage.
 
@@ -678,7 +683,7 @@ New request created in case and task management and then it will moved to ARCO A
 
       In case of the customer required Travel Arrangements by Arco. then Arco organize the Travel Arrangements for Employees.
 
-      - *In The action field is following to,*
+      - *In The Action field is following to,*
 
         **1-[Complete](#waiting-for-travel)** - User complete this task and refer the request into [Waiting for Travel](#waiting-for-travel) stage.
 
@@ -688,7 +693,7 @@ New request created in case and task management and then it will moved to ARCO A
 
     - By system schedule will check if muqueeem status is OnVacation-OutSideKingdom, Complete the Vacation Process with Travel Date.
 
-      - *In The action field is following to,*
+      - *In The Action field is following to,*
 
         **1-[Complete](#completed-5)** - User complete the request and moved to [Completed](#completed-5) Stage.
 
@@ -698,7 +703,7 @@ New request created in case and task management and then it will moved to ARCO A
 
     - In this stage, rejected request is reject and moved to completed stage.
 
-      - *In The action field is following to,*
+      - *In The Action field is following to,*
 
         **1-[Reject](#completed-5)** - User reject and complete the Request to [Completed](#completed-5) stage.
 
@@ -731,11 +736,11 @@ If the Employee not required the settlement in Leave Request then this stage wil
 
 - ### **Requested:**
 
-    - New request initiated from case and task management by user or customer. and then that Request is waiting for action,
+    - New request initiated from case and task management by user or customer. and then that Request is waiting for Action,
 
     - In Case and Task Management, Vacation Process will move to Finance Approval stage.
 
-       - *In The action field is following to,*
+       - *In The Action field is following to,*
 
          **1-[Move to Clearance](#clearance_process)** - User complete the request and refer into [Clearance_Process](#clearance_process) stage.
 
@@ -743,7 +748,7 @@ If the Employee not required the settlement in Leave Request then this stage wil
 
     - In this stage, Clearance Process will start for employee in Clearance Module, once clearance completed then it will send Approval to Finance Departmet Approval.
 
-      - *In The action field is following to,*
+      - *In The Action field is following to,*
 
         **1-[Complete](#approval)** - User complete the task and refer the request for [Approval](#approval) stage.
 
@@ -752,7 +757,7 @@ If the Employee not required the settlement in Leave Request then this stage wil
 
     - In case of customer required settlement, then it will send for approval to client confirmation, otherwise it will moved to complete without payment.
 
-      - *In The action field is following to,*
+      - *In The Action field is following to,*
 
         **1-[Approve](#client_confirmation)** - User complete the request and refer to [Client Confirmation](#client_confirmation) stage.
 
@@ -765,7 +770,7 @@ If the Employee not required the settlement in Leave Request then this stage wil
     -  Once Approved in Case Management, then it will moved to Payment Stage.
 
 
-         - *In The action field is following to,*
+         - *In The Action field is following to,*
 
            **1-[Complete](#payment)** - User complete the request and approve with **Client_Confirmation** then refer the [Payment](#payment) stage.
 
@@ -781,7 +786,7 @@ If the Employee not required the settlement in Leave Request then this stage wil
 
     - User can compare the Payment status of Vacation Settlement in between the **[Vacation Settlement](#vacation-settlement)** and  **Finance Department**.
 
-       - *In The action field is following to,*
+       - *In The Action field is following to,*
 
          **1-[Complete](#complete-1)** - User complete this request and move to [Complete](#complete-1) Stage.
 
@@ -795,7 +800,7 @@ If the Employee not required the settlement in Leave Request then this stage wil
      
         For Re-send to process the **Client Confirmation** and **Re Calculate Clearance** stage.
 
-       - *In The action field is following to,*
+       - *In The Action field is following to,*
 
          **1-[ReSend - CustomerConfirmation](#client_confirmation)** - User return the request, **Resend for Customer Confirmation** to [Client Confirmation](#client_confirmation) stage.
 
@@ -845,7 +850,7 @@ If the Employee not required the settlement in Leave Request then this stage wil
 
      - System will check the muqeem status requlary, until the employee return, and if vacation end date is mentioned then moved to **Return from Vacation** stage.
 
-       - *In The action field is following to,*
+       - *In The Action field is following to,*
 
          **1-[Complete](#return-from-vacation)** - User Complete the Request and refer [Return From Vacation](#return-from-vacation) stage.
 
@@ -859,7 +864,7 @@ If the Employee not required the settlement in Leave Request then this stage wil
 
     - Either User complete the request manually with employee check-in process, vacation and refer to **Return from Vacation** stage.
 
-      - *In The action field is following to,*
+      - *In The Action field is following to,*
 
         **1-[Return](#return-from-vacation)** - User decide to complete this request and refer [Return from Vacation](#return-from-vacation) stage.
 
@@ -867,7 +872,7 @@ If the Employee not required the settlement in Leave Request then this stage wil
 
     - System integration is scheduled the Employee who didn’t arrive on the Date of Return into Lodging is refer to [Waiting For Return](#waiting-for-return) stage.
 
-      - *In The action field is following to,*
+      - *In The Action field is following to,*
 
         **1-[Move to  Waiting for Return](#waiting-for-return)** - User dicided and refer to [Waiting for Return](#waiting-for-return) stage.
 
@@ -882,7 +887,7 @@ If the Employee not required the settlement in Leave Request then this stage wil
    - Once CheckIn Process Completed, Process will moved to Completed.
 
 
-      - *In The action field is following to,*
+      - *In The Action field is following to,*
 
           **1-[Complete](#completed-6)** - User Complete the request and refer to [Completed](#completed-6) Stage.
 
@@ -894,7 +899,7 @@ If the Employee not required the settlement in Leave Request then this stage wil
 
     - And then request moved Iqama Expiry.
 
-        - *In The action field is following to,* decision
+        - *In The Action field is following to,* decision
 
           **1-[Iqama Expired](#iqama-expired)** - User complete and refer the request with [Iqama Expiry](#iqama-expired) stage.
 
@@ -907,7 +912,7 @@ If the Employee not required the settlement in Leave Request then this stage wil
 
      - User validate the Iqama validaty and moved to **Waiting For Return** stage.
 
-        - *In The action field is following to,*
+        - *In The Action field is following to,*
 
           **1-[Waiting for Return](#waiting-for-return)** - User complete the task and moved to [Waiting for Return](#waiting-for-return) stage.
 
@@ -917,7 +922,7 @@ If the Employee not required the settlement in Leave Request then this stage wil
 
     - Validate the Iqama Expiry date and move to **Waiting for Return** stage. if the Iqama validation is expired.
 
-       - *In The action field is following to,*
+       - *In The Action field is following to,*
 
          **1-[Waiting for Return](#waiting-for-return)** - User complete the Task refer to [Waiting for Return](#waiting-for-return) stage.
 
@@ -952,7 +957,7 @@ If the Employee reject the leave request in any stage, that reject process will 
 
     - Waiting to cancel the settelement, and reject the settlement reqest in this stage. once completed the stage then it will move to Visa Request.
 
-       - *In The action field is following to,*
+       - *In The Action field is following to,*
 
           **1-[Complete](#visa-request)** - User complete the request and refer to [Visa Request](#visa-request) stage.
 
@@ -962,7 +967,7 @@ If the Employee reject the leave request in any stage, that reject process will 
 
     - Waiting to reject and cancel the Visa Request in the Leave request, once completed the stage then it will move to Travel Request.
 
-      - *In The action field is following to,*
+      - *In The Action field is following to,*
 
         **1- [Complete](#travel-request)** - User complete the request and Moved to [Travel Request](#travel-request) stage.
 
@@ -972,7 +977,7 @@ If the Employee reject the leave request in any stage, that reject process will 
 
      - Waiting to reject and Cancel the Travel Request in leave request,  once completed the stage then it will move to Completed stage.
 
-       - *In The action field is following to,*
+       - *In The Action field is following to,*
 
          **1-[Complete](#completed-7)** - User complete the request and moved to [Completed](#completed-7) stage.
 
@@ -1011,7 +1016,7 @@ Travel Arrangements is applicable for Who on accommadation in Lodging.
 
   - Newly initiated request for Visa is received to process from Case and Task Management.
 
-      - *In The action field is following to,*
+      - *In The Action field is following to,*
 
            **1-[Requested](#approval-1)** - User complete the request and refer to [Approval](#approval-1) stage.
 
@@ -1019,7 +1024,7 @@ Travel Arrangements is applicable for Who on accommadation in Lodging.
 
      - Waiting for Approval from finance department, once the stage is completed, then it will moved for Payment.
 
-       - *In The action field is following to,*
+       - *In The Action field is following to,*
 
          **1-[Approved](#payment-1)** - User complete and approved this request then refer to [Payment](#payment-1) stage.
 
@@ -1029,7 +1034,7 @@ Travel Arrangements is applicable for Who on accommadation in Lodging.
 
      - User can use to compare the Payment status in between the **Visa Request** and **Finance Department**.
 
-       - *In The action field is following to,*
+       - *In The Action field is following to,*
 
          **1-[Auto](#under-processing-1)** - The request will be completed once **Payment** Request is completed in Finance Department Portal. and Moved to [Under Processing](#under-processing-1) stage.
 
@@ -1037,7 +1042,7 @@ Travel Arrangements is applicable for Who on accommadation in Lodging.
 
     - Visa issuance proccess will start in this stage, once the Visa is completed then it will move to completed stage.
 
-      - *In The action field is following to,*
+      - *In The Action field is following to,*
 
         **1-[Complete](#completed-8)** - User complete this request and moved  [completed](#completed-8) stage.
 
@@ -1047,7 +1052,7 @@ Travel Arrangements is applicable for Who on accommadation in Lodging.
 
     - Incompleted request are Holding for Query in this stage.
 
-      - *In The action field is following to,*
+      - *In The Action field is following to,*
 
         **1-[Release](#under-processing-1)** - User return this request and refer to [Under Processing](#under-processing-1) stage.
 
@@ -1074,9 +1079,9 @@ Travel Arrangements is applicable for Who on accommadation in Lodging.
 
 - ### **Requested:**
 
-     - Newly initiated request is received for take action in this stage.
+     - Newly initiated request is received for take Action in this stage.
 
-       - *In The action field is following to,*
+       - *In The Action field is following to,*
 
          **1-[Complete](#travel-arrangements-1)** - User create and complete the New travel request and moved to for [Travel Arrangements](#travel-arrangements-1) stage.
 
@@ -1089,7 +1094,7 @@ Travel Arrangements is applicable for Who on accommadation in Lodging.
 
   - In this stage, prepare for the travel arrangements employee.
 
-      - *In The action field is following to,*
+      - *In The Action field is following to,*
 
          **1-[Complete](#approval-2)** - User Complete this request and refer to [Approval](#approval-2) Stage.
 
@@ -1099,7 +1104,7 @@ Travel Arrangements is applicable for Who on accommadation in Lodging.
 
      - In this stage waiting for approval from Finanace Departement. once approved in Finance Department, then it will moved to payment stage.
 
-       - *In The action field is following to,*
+       - *In The Action field is following to,*
 
          **1-[Approve](#payment-2)** - User complete this request and refer to [Payment](#payment-2) stage.
 
@@ -1109,7 +1114,7 @@ Travel Arrangements is applicable for Who on accommadation in Lodging.
 
      - User can use to compare the Payment status in between the **Travel Request** and **Finance Department**.
 
-        - *In The action field is following to,*
+        - *In The Action field is following to,*
 
           **1-[Complete](#complete-2)** - User Complete the Request and moved to [Complete](#complete-2) stage.
 
@@ -1119,9 +1124,9 @@ Travel Arrangements is applicable for Who on accommadation in Lodging.
 
 - ### **Hold:**
 
-     - Pending request is waiting for action, and user decide to resume the request from **Hold** Stage.
+     - Pending request is waiting for Action, and user decide to resume the request from **Hold** Stage.
 
-       - *In The action field is following to,*
+       - *In The Action field is following to,*
 
          **1-[Resume](#requested-2)** - User Resume the request and refer to [Requested](#requested-2) stage.
 
@@ -1152,11 +1157,11 @@ Final settlement is initiated from case and Task management by user or customer,
 
 - ### **Requested:**
 
-    - New request initiated from case and task management by user or customer. and then that Request is waiting for action,
+    - New request initiated from case and task management by user or customer. and then that Request is waiting for Action,
 
     - In Case and Task Management, Retirement Process will move to Finance Approval stage.
 
-        - *In The action field is following to,*
+        - *In The Action field is following to,*
 
            **1-[Move to Clearance](#clearance-process)** - User complete the request and *refer for [Clearance process](#clearance-process) stage.
 
@@ -1164,7 +1169,7 @@ Final settlement is initiated from case and Task management by user or customer,
 
     - In this stage, Clearance Process will start for employee in Clearance Module, once clearance completed then it will send Approval to Finance Departmet Approval.
 
-      - *In The action field is following to,*
+      - *In The Action field is following to,*
 
           **1-[Complete](#approval-3)** - User complete the request and refer to [Approval](#approval-3) stage. for **Final Settlement** Clearance.
 
@@ -1174,7 +1179,7 @@ Final settlement is initiated from case and Task management by user or customer,
 
      - If do not have any Final Settlement payment for Employee, then the request complete with **Move without Payment**.
 
-        - *In The action field is following to,*
+        - *In The Action field is following to,*
 
           **1-[Complete](#client_confirmation-1)** - Complete this request and moved For [Client_Confirmation](#client_confirmation-1) stage.
 
@@ -1189,7 +1194,7 @@ Final settlement is initiated from case and Task management by user or customer,
     -  Once Approved in Case Management, then it will moved to Payment Stage.
 
 
-       - *In The action field is following to,*
+       - *In The Action field is following to,*
 
          **1-[Confirm](#payment-3)** - User Complete the request and refer to the [Payment](#payment-3) stage.
 
@@ -1204,7 +1209,7 @@ Final settlement is initiated from case and Task management by user or customer,
     - After payment is completed in Finance Department, then this request has been moved to **Completed** stage.
 
 
-      - *In The action field is following to,*
+      - *In The Action field is following to,*
 
         **1-[Complete](#complete-3)** -  complete the request and moved to [Complete](#complete-3) stage.
 
@@ -1216,7 +1221,7 @@ Final settlement is initiated from case and Task management by user or customer,
 
     - The Request Rejected by Client is received in this stage and waiting to resend for customer confirmation.
 
-      - *In The action field is following to,*
+      - *In The Action field is following to,*
 
         **[Resend Customer Confirmation](#client_confirmation-1)** - User Resend the Request to Customer for [Client confirmation](#client_confirmation-1) stage.
 
@@ -1283,27 +1288,27 @@ Final settlement is initiated from case and Task management by user or customer,
 
 
 
-The Retirement request is initiated from case and task management for Employee.
+- The Retirement request is initiated from case and task management for Employee.
 
-Employee Should not be pending in Vacation or Retirement process.
+- Employee Should not be pending in Vacation or Retirement process.
 
-If employee have ERP access, it should deactivate before request.
+- If employee have ERP access, it should deactivate before request.
 
-Employee not in Outside Kingdom.
+- Employee not in Outside Kingdom.
 
-Employee should not be Iqama Renewal Process.
+- Employee should not be Iqama Renewal Process.
 
-**(Employee Status will change based on EOS Category:**
+- **(Employee Status will change based on EOS Category:**
 
-**--if Category is End of Service, employee status will change as Termianted.**
+    - **--if Category is End of Service, employee status will change as Termianted.**
 
-**--if Category is Escaped, employee status will change as Termianted_Escaped.**
+   - **--if Category is Escaped, employee status will change as Termianted_Escaped.**
 
-**--if Category is Transferred, employee status will change as Transferred.**
+   - **--if Category is Transferred, employee status will change as Transferred.**
 
-**--if Category is LeftNotReturn, employee status will change as Termianted_LeftNotReturn.**
+   - **--if Category is LeftNotReturn, employee status will change as Termianted_LeftNotReturn.**
 
-**--if Category is Dead, employee status will change as Termianted_Dead.)**
+   - **--if Category is Dead, employee status will change as Termianted_Dead.)**
 
 | [New Request](#new-request) > [Arco Approval](#arco-approval-1) > [Customer Approval](#customer-approval-1) > [Under Processing](#under-processing-2) > [Customer Clearance](#customer-clearance-1) > [Arco Clearance](#arco-clearance-1) > [Waiting for Travel](#waiting-for-travel-1) > [RejectedRequest](#rejectedrequest) > [Complete](#complete-4) |
 
@@ -1315,7 +1320,7 @@ Employee should not be Iqama Renewal Process.
 
     - Initiated request is received from Case and task management for retirement waiting is waiting for.
 
-      - *In The action field is following to,*
+      - *In The Action field is following to,*
 
         **1-[Complete](#arco-approval-1)** - User Complete the Request and refer to [Arco Approval](#arco-approval-1) stage.
 
@@ -1327,7 +1332,7 @@ Employee should not be Iqama Renewal Process.
     - Waiting for get ARCO approval for Employee retirement. once Arco Approval is completed then request to Customer Approval.
 
 
-       - *In The action field is following to,*
+       - *In The Action field is following to,*
 
          **1-[Complete](#customer-approval-1)** - User Complete the Request in this Arco Approval stage and then refer to [Customer Approval](#customer-approval-1) Stage.
 
@@ -1340,7 +1345,7 @@ Employee should not be Iqama Renewal Process.
     - In this stage, Waiting for Customer Approval to process Employee Retirement. Once the Customer Approved then moved to under processing stage.
 
 
-      - *In The action field is following to,*
+      - *In The Action field is following to,*
 
         **1-[Reject](#rejectedrequest)** - User Reject complete the request and refer to [RejectedRequest](#rejectedrequest) stage.
 
@@ -1355,7 +1360,7 @@ Employee should not be Iqama Renewal Process.
     - If the Employee not requested for Visa and Travel from ARCO, Then it will moved directly to **Waiting for travel** stage.
 
 
-       - *In The action field is following to,*
+       - *In The Action field is following to,*
 
          **1-[Reject](#rejectedrequest)** - User reject the request and moved to [RejectedRequest](#rejectedrequest) stage.
 
@@ -1372,7 +1377,7 @@ Employee should not be Iqama Renewal Process.
     - Customer Clearance is optional for employee, and it will process only who requested the Clearance for settlement in Case and task management. Otherwise this clearance stage will be skipped and moved to completed stage.
 
 
-       - *In The action field is following to,*
+       - *In The Action field is following to,*
 
          **1-[Complete](#arco-clearance-1)** - User complete and refer the request to [Arco Clearance](#arco-clearance-1) stage.
 
@@ -1463,7 +1468,7 @@ And this request will create from Case and Task Management by users and customer
 
          And also The user can modify and edit the details of Request Creation document.
 
-          - *In The action field is following to,*
+          - *In The Action field is following to,*
 
             **1-[Complete](#followup-department-approval)** - User complete the request and refer to [Followup department Approval](#followup-department-approval) stage.
 
@@ -1479,7 +1484,7 @@ And this request will create from Case and Task Management by users and customer
 
     - In this stage The user can modify and edit the details of Request Creation document.
 
-        - *In The action field is following to,*
+        - *In The Action field is following to,*
 
         **1-[Approve](#manpower-department-approval)** - User Decide to Approve the request and refer to [Manpower dept Approval](#manpower-department-approval) Stage.
 
@@ -1489,7 +1494,7 @@ And this request will create from Case and Task Management by users and customer
 
     - The User in ARCO will validate and verify the request for reissue the Iqama for Employee, thereafter validate the request then it will be moved to Payment Requested for Finance Approval in Finance portal.
 
-      - *In The action field is following to,*
+      - *In The Action field is following to,*
 
         **1-[Approve](#payment-requested)** - User Decide to Approve and refer for [Payment Requested](#payment-requested) stage.
 
@@ -1506,7 +1511,7 @@ And this request will create from Case and Task Management by users and customer
     - After the Payment Request is validate by the user in finance portal and then Payment request will be Completed by user in Finance portal for Reissue the Iqama Card.
 
 
-        - *In The action field is following to,*
+        - *In The Action field is following to,*
 
           **1-[Complete](#waiting-for-issue)** - User Complete the request and refer [Waiting for Issue](#waiting-for-issue) stage.
 
@@ -1526,7 +1531,7 @@ And this request will create from Case and Task Management by users and customer
     - After the Iqama ID Card will be issued by Government, and this stage completed and moved to the Receive in Lodging.
 
 
-      - *In The action field is following to,*
+      - *In The Action field is following to,*
 
         **1-[Complete](#receive-in-lodging)** - User Complete the request and refer [Receive in Lodging](#receive-in-lodging) stage.
 
@@ -1543,7 +1548,7 @@ And this request will create from Case and Task Management by users and customer
 
     - and then Iqama Card is received in Lodging Location of Employee. and it will prepare to send the Employee Location.
 
-      - *In The action field is following to,*
+      - *In The Action field is following to,*
 
         **1-[Complete](#put-in-envelope)** - User Complete the Request and refer [Put in Envelope](#put-in-envelope) stage.
 
@@ -1559,7 +1564,7 @@ And this request will create from Case and Task Management by users and customer
      - The request is processed from Loding Location to Employee location on Courier facility is completed, the Put in Envelope stage is proceed to completed.
 
 
-        - *In The action field is following to,*
+        - *In The Action field is following to,*
 
           **1-[Complete](#completed)** - User Complete the Request and moved to [Completed](#completed) Stage.
 
@@ -1587,9 +1592,9 @@ This Request will create from Case Management by Users and request from customer
 
 - ### **Newly Required Reissue**
 
-   - Newly initiated Request received from Case and Task management and waiting for action.
+   - Newly initiated Request received from Case and Task management and waiting for Action.
 
-       - *In The action field is following to,*
+       - *In The Action field is following to,*
 
          **1-[Complete](#finance-department-approval)** - User Complete this Request and refer [Finance Department Approval](#finance-department-approval) stage.
 
@@ -1600,7 +1605,7 @@ This Request will create from Case Management by Users and request from customer
 
    - Required the Approval from the Finance Dept for processing the request for Reissue ATM Card process to employee. the request move forward Payment Request.
 
-       - *In The action field is following to,*
+       - *In The Action field is following to,*
 
           **1-[Approve](#payment-requested-1)** - User Approve the request and refer to [Payment Requested](#payment-requested-1) stage.
 
@@ -1615,7 +1620,7 @@ This Request will create from Case Management by Users and request from customer
   - After the Payment Request is validate and completed by the user in finance portal for Reissue the ATM Card.
   - user can complete the stage after payment completed.
 
-      - *In The action field is following to,*
+      - *In The Action field is following to,*
 
         **1-[Complete](#receive-in-lodging-1)** - User Complete the request and refer [Receive in Lodging](#receive-in-lodging-1) stage.
 
@@ -1627,7 +1632,7 @@ This Request will create from Case Management by Users and request from customer
 
    - The ATM Card is received in Lodging Location of Employee. and it will prepare to send the Employee Location.
 
-        - *In The action field is following to,*
+        - *In The Action field is following to,*
 
           **1-[Complete](#put-in-envelope-1)** - User Complete the request and refer [Put in Envelope](#put-in-envelope-1)
 
@@ -1636,7 +1641,7 @@ This Request will create from Case Management by Users and request from customer
 
   - In this stage, ATM card is prepare for courier transport to Employee Location.
 
-      - *In The action field is following to,*
+      - *In The Action field is following to,*
 
         **1-[Complete](#complete)** - User Complete the request and moved to [Completed](#complete) stage.
 
@@ -1676,7 +1681,7 @@ For all employee will be renewed Iqama identification in yearly once.
 
      - The user can process the request to move into Payment Request after completed in Newly required.
 
-       - *In The action field is following to,*
+       - *In The Action field is following to,*
 
            **1-[Complete](#customer-approval)** - User complete the request and refer [Customer Approval](#customer-approval) stage.
 
@@ -1684,7 +1689,7 @@ For all employee will be renewed Iqama identification in yearly once.
 
   - The customer and user can creat  e the request for Iqama renewal process in Customer approval and Case and Task management. And the customer or User use to create the request for urgent basis to get Iqama card for employee.
 
-     - *In The action field is following to,*
+     - *In The Action field is following to,*
 
        **1-[Approve](#agree)** - User Approve the request to refer [Agree](#agree) stage.
 
@@ -1701,7 +1706,7 @@ For all employee will be renewed Iqama identification in yearly once.
 
     -*Work Permit* / *Priority Finance Approval*
 
-    - *In The action field is following to,*
+    - *In The Action field is following to,*
 
       **1-[Move to Work permit](#work-permit)** - The User can validate the status and Complete and move the request to [Work Permit](#work-permit) stage.
 
@@ -1714,9 +1719,9 @@ For all employee will be renewed Iqama identification in yearly once.
      - In Iqama renewal will receive for process the request in this stage after completed the request in Newly Required and Customer Approval. And User can validate request in this stage and proceed to agree for payment request or decline.
 
 
-       - *In The action field is following to,*
+       - *In The Action field is following to,*
 
-          **1-[Agree](#work-permit)** -User make action to agree and complete the request to refer **[Work permit](#work-permit)** stage.
+          **1-[Agree](#work-permit)** -User make Action to agree and complete the request to refer **[Work permit](#work-permit)** stage.
 
           **2-[Not Agree](#not-agree)** - User reject to return the request is waiting to confirm the clarification from the customer into [Not Agree](#not-agree) stage.
 
@@ -1729,7 +1734,7 @@ For all employee will be renewed Iqama identification in yearly once.
 
      - **After this stage is completed then request has moved to request on _**Iqama Payment**_.**
 
-       -  *In The action field is following to,*
+       -  *In The Action field is following to,*
 
           **1-[Complete](#iqama-payment)** - User Complete the request and refer [Iqama Payment](#iqama-payment) stage.
 
@@ -1742,7 +1747,7 @@ For all employee will be renewed Iqama identification in yearly once.
 
     - User has to follow and define the status of the request into the Finance department.
 
-      - *In The action field is following to,*
+      - *In The Action field is following to,*
 
           **1-[Approve](#priority-request)** - User approve and complete the request and refer to [Priority Request](#priority-request) stage.
 
@@ -1757,7 +1762,7 @@ For all employee will be renewed Iqama identification in yearly once.
     - The request is received for processing as **Priority Request**, after complete the validation the user will move the request in **Iqama Payment** as next stage to process.
 
 
-      - *In The action field is following to,*
+      - *In The Action field is following to,*
 
         **1-[Payment](#iqama-payment)** - User complete this request and refer the request to [Iqama Payment](#iqama-payment) stage.
 
@@ -1773,7 +1778,7 @@ For all employee will be renewed Iqama identification in yearly once.
 
     - User use to track the status of Waiting for reference number is additional activity of priority request and waiting for create a reference number for Finance approval.
 
-      - *In The action field is following to,*
+      - *In The Action field is following to,*
 
         **1-[Complete](#iqama-payment)** - User Complete the request and refer [Iqama Payment](#iqama-payment) stage.
 
@@ -1784,7 +1789,7 @@ For all employee will be renewed Iqama identification in yearly once.
 
    - User can using to compare the Payment status of renewal for Iqama Card to employee in between the Iqama payment in Renewal and Payment Request in Finance portal.
 
-     - *In The action field is following to,*
+     - *In The Action field is following to,*
 
        **1-[Paid](#iqama-renewal)** - User complete the request and refer to [Iqama Renewal](#iqama-renewal) stage.
 
@@ -1794,7 +1799,7 @@ For all employee will be renewed Iqama identification in yearly once.
     - The employee Iqama will be import to update in HRM portal after the renewal process is completed in Iqama renewal stage
 
 
-      - *In The action field is following to,*
+      - *In The Action field is following to,*
 
 
         **1-[Complete](#complete)** – User complete the request and moved into [Complete](#complete) stage.
@@ -1811,7 +1816,7 @@ For all employee will be renewed Iqama identification in yearly once.
    - The hold request are received from **Iqama Renewal** stage
    - Pending request are waiting to process in **Cases Hold** stage in Iqama renewal process.
 
-     - *In The action field is following to,*
+     - *In The Action field is following to,*
 
        **1-[Resume](#iqama-renewal)** - User complete the request and refer [Iqama Renewal](#iqama-renewal) stage.
 
@@ -1824,7 +1829,7 @@ For all employee will be renewed Iqama identification in yearly once.
 
     - In case of customer confirmed  the requirements then user can proceed the request to **Agree** and move forward to **Iqama renewal** process.
 
-       - *In The action field is following to,*
+       - *In The Action field is following to,*
 
          **1-[Agree](#agree)** - User complete the the request and refer [Agree](#agree) stage.
 
@@ -1846,7 +1851,7 @@ For all employee will be renewed Iqama identification in yearly once.
 
 ## **[ATM:](#renewal)**
 
-ATM card is using for Employee payment transaction through online and other necessities , and after get expired the ATM Card will request start the Renewal Process for ATM Card for Employee.
+ATM card is using for Employee payment transAction through online and other necessities , and after get expired the ATM Card will request start the Renewal Process for ATM Card for Employee.
 
 | [Finance Department Approval](#finance-department-approval) > [Manpower Department Approval](#manpower-department-approval) > [Payment Requested](#payment-requested) > [Receive in Lodging](#receive-in-lodging) > [Put in Envelope](#put-in-envelope) > [Hold](#hold) > [Complete](#complete-1) |
 
@@ -1856,7 +1861,7 @@ ATM card is using for Employee payment transaction through online and other nece
 
     - User create the request to get approval from the Finance department. After the request approved by finance department will start Renewal process of ATM Card for Employee.
 
-      - *In The action field is following to,*
+      - *In The Action field is following to,*
 
         **1-[Approve](#payment-requested)** - User Approve the request and refer to [Payment Requested](#payment-requested) stage.
 
@@ -1867,7 +1872,7 @@ ATM card is using for Employee payment transaction through online and other nece
 
     - In this stage User can proceed the request to processing the ATM Card renewal after validates the request with employee working status and preference.
 
-      - *In The action field is following to,*
+      - *In The Action field is following to,*
 
         **1-[Approve](#payment-requested)** - User approve the request and refer the [Payment Requested](#payment-requested) stage
 
@@ -1881,7 +1886,7 @@ ATM card is using for Employee payment transaction through online and other nece
 
     - User can using to compare the Payment status of renewal for ATM Card to employee in between the **Payment Requested in Renewal and Payment Request in Finance portal.**
 
-      - *In The action field is following to,*
+      - *In The Action field is following to,*
 
         **1-[Paid](#receive-in-lodging)** - User complete the request and refer [Receive in Lodging](#receive-in-lodging) stage.
 
@@ -1893,9 +1898,9 @@ ATM card is using for Employee payment transaction through online and other nece
 
      - The ATM Card have receive in lodging location of employee after **Payment Request** completed by the User is confirm the ATM card received in Lodging and complete the stage.
 
-     - After ATM card received in Lodging location then ATM Card data using to import in HRM for Employee payment transaction purposes.
+     - After ATM card received in Lodging location then ATM Card data using to import in HRM for Employee payment transAction purposes.
 
-        - *In The action field is following to,*
+        - *In The Action field is following to,*
 
           **1-[Complete](#put-in-envelope)** -  User complete this request and refer to [Put in Envelope](#put-in-envelope) stage.
 
@@ -1909,7 +1914,7 @@ ATM card is using for Employee payment transaction through online and other nece
 
    -   In this stage, ATM card is prepare for courier transport to Employee Location.
 
-       - *In The action field is following to,*
+       - *In The Action field is following to,*
 
          **1-[Complete](#complete-1)** - User complete the request and moved to [Complete](#complete-1) stage.
 
@@ -1918,7 +1923,7 @@ ATM card is using for Employee payment transaction through online and other nece
 
     - In this stage, User hold request for requirement and clarication from customer.
 
-      - *In The action field is following to,*
+      - *In The Action field is following to,*
 
          **1-[Move to Approval](#finance-department-approval)** - User complete the request and refer to [Finance Department Aproval](#finance-department-approval) stage.
 

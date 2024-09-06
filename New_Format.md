@@ -588,7 +588,7 @@ New request is initiated for ATM card for Employee.
 
 The Leave Request is initiated from Case and Task Management for Employee by user and customer.
 
-New request created in case and task management and then it will moved to ARCO Approval from case and task management.
+New request created in case and task management and then it will moved to ARCO Approval from Case and Task management.
 
 
 | [ARCO Approval](#arco-approval) > [Customer Approval](#customer-approval) > [Under Processing](#under-processing) > [Customer Clearance](#customer-clearance) > [ARCO Clearance](#arco-clearance) > [Travel Arrangement](#travel-arrangements) > [Waiting for Travel](#waiting-for-travel) > [Rejected Request](#rejected-request) > [Completed](#completed-5) |
@@ -598,15 +598,15 @@ New request created in case and task management and then it will moved to ARCO A
 
 - ### **ARCO Approval:**
 
-    - Initiated new Request from case and task management is moved to ARCO approval .
+    - Initiated New Request from case and task management is moved to ARCO approval .
 
     - Waiting for get ARCO approval for the Leave Request.
 
-    - ARCO approval is validate the residence status of employee in this stage. once ARCO Approved then it will move to Customer Approval.
+    - ARCO approval is validate the status of employee in this stage. once ARCO Approved then it will move to Customer Approval.
 
       - *In The Action field is following to,*
 
-         **1-[Complete](#customer-approval)** - User complete this request and refer to [Customer Approval](#customer-approval) Stage.
+        **1-[Complete](#customer-approval)** - User complete this request and refer to [Customer Approval](#customer-approval) Stage.
 
         **2-[Reject](#rejected-request)** - User reject the request to [Rejected Request](#rejected-request) stage.
 
@@ -616,7 +616,7 @@ New request created in case and task management and then it will moved to ARCO A
 
     - In Case and Task Management, Vacation Process will move to Customer Approval stage, Customer or User will Approve from Case and Task Management.
 
-    - Once Approved in Case and Task Management, it will moved to UnderProcessing Stage.
+    - Once Approved in Case and Task Management, it will moved to **"UnderProcessing"** Stage.
 
     - In this stage, waiting for the Customer Approval, Once customer approved then it moved to Under processing.
 
@@ -631,11 +631,11 @@ New request created in case and task management and then it will moved to ARCO A
 
     - The [Vacation Settlement](#vacation-settlement) process will create and begins from this **Under Processing** stage with System Integration. when the customer request the leave request in Case and Task Management.
 
-    - If the employee request, for Visa and travel from ARCO, and then Visa and Travel process will start for the employee from this stage with system integration.
+    - If employee request, for Visa and travel from ARCO, and then Visa and Travel process will start for the employee from this stage with system integration.
 
     - If the Employee not requested Visa and Travel from ARCO, Then it will moved directly to **Waiting for travel** stage.
 
-    - **(Paid Vacation / Local Vacation / Vacation Encashment have apply to proceed for Vacation settlement.)**
+    - **(Paid Vacation / Local Vacation / Vacation Encashment have to apply and proceed for Vacation settlement.)**
 
     - **(Unpaid vacation is not Applicable to apply for Vacation settlement.)**
 
@@ -651,7 +651,7 @@ New request created in case and task management and then it will moved to ARCO A
 
     - In this stage, Waiting for customer clearance on settlement, Once customer clearance completed on settlement then it will move to ARCO clearance.
 
-    - Customer Clearance is optional for employee, and it will process only who requested the Clearance for settlement in Case and task management. Otherwise this clearance stage will be skipped and moved to completed stage.
+    - Customer Clearance is optional for employee, and it will process only who requested the Clearance on settlement in Case and task management. Otherwise this clearance stage will be skipped and moved to completed stage.
 
       - *In The Action field is following to,*
 
@@ -661,9 +661,9 @@ New request created in case and task management and then it will moved to ARCO A
 
 - ### **Arco Clearance:**
 
-    -   -  In Case and Task Management, Leave Request will move to Approved for Payment stage, User will Approve from Finance Department, Once Approved in Finance Department, it will moved to Visa Requested Stage in Case and Task Management.
+    -    In Case and Task Management, Leave Request will move to Approved for Payment stage, User will Approve from Finance Department, Once Approved in Finance Department, it will moved to Visa Requested Stage in Case and Task Management.
 
-    - In this stage, waiting to get ARCO Clearance on Settlement, Once ARCO complete the clearance then it will moved next stage.
+    - In HRM this stage, waiting to get ARCO Clearance on Settlement, Once ARCO complete the clearance, then it will moved next stage.
 
     - ARCO Clearance is optional for employee, it will process only who requested the Clearance for settlement in Case and task management. Otherwise this clearance stage will be skipped and moved completed stage.
 
@@ -679,9 +679,11 @@ New request created in case and task management and then it will moved to ARCO A
 
     - Travel Arrangements is Applicable for who on accommodate in lodging.
 
-    - Travel Arrangements is not applicable for who do not accommadate in Lodging. Otherwise this stage skippen and moved to Waiting for Travel stage.
-
       In case of the customer required Travel Arrangements by Arco. then Arco organize the Travel Arrangements for Employees.
+
+    - Travel Arrangements is not applicable for who do not accommadate in Lodging. Otherwise this stage skipped and moved to **"Waiting for Travel"** stage.
+
+
 
       - *In The Action field is following to,*
 
@@ -701,7 +703,7 @@ New request created in case and task management and then it will moved to ARCO A
 
 - ### **Rejected Request:**
 
-    - In this stage, rejected request is reject and moved to completed stage.
+    - In this stage, rejected request is moved to completed stage.
 
       - *In The Action field is following to,*
 
@@ -711,7 +713,7 @@ New request created in case and task management and then it will moved to ARCO A
 
     - All completed Request has been moved to Completed Stage, after Travel process is completed for Employee Vacation.
 
-    - Once Vacation Process Complete, Employee Status will change as OnVacation-OutSideKingdom and Vacation Return Process will Start.
+    - Once Vacation Process Complete, Employee Status will change as OnVacation-OutSideKingdom and **"Vacation Return"** Process will Start.
 
 
 | [Home](#human-resource-management) | [Main](#leave-management) | [Back](#leave-request) |
@@ -725,9 +727,9 @@ New request created in case and task management and then it will moved to ARCO A
 
 ## **[Vacation Settlement:](#leave-management)**
 
-Vacation settlement is initiated from case and Task management by user or customer, and then payment is completes in Finance portal. once the payment is completed in finance portal. then settlement process will be complete.
+Vacation settlement is initiated from case and Task management by user or customer, and then payment is complete in Finance portal. once the payment completed in finance portal. then settlement process will be complete.
 
-If the Employee not required the settlement in Leave Request then this stage will complete without Payment.
+If the Employee not required the settlement in Leave Request, then this stage will complete without Payment.
 
 
 | [Requested](#requested) > [Clearance Process](#clearance_process) > [Approval](#approval) > [Client_Confirmation](#client_confirmation) > [Payment](#payment) > [Client Rejection](#client-rejection) > [Completed](#complete-1) |
@@ -767,7 +769,7 @@ If the Employee not required the settlement in Leave Request then this stage wil
 
     - In Case and Task Management, Vacation Process will move to Client Confirmation stage, Customer or User will Approve from Case and Task Management.
 
-    -  Once Approved in Case Management, then it will moved to Payment Stage.
+    -  Once Approved in Case and Task Management, then it will moved to Payment Stage.
 
 
          - *In The Action field is following to,*
@@ -780,9 +782,9 @@ If the Employee not required the settlement in Leave Request then this stage wil
 
     - In Case and Task Management, Vacation Process will move to Approval For Payment stage.
 
-    - In this stage waiting for complete the payment, the payment is process in Finance Department, Once payment is Completed in Finance Department then it will moved to completed stage.
+    - In this stage, waiting to complete the payment, the payment is processing in Finance Department, Once payment is Completed in Finance Department, then it will moved to completed stage.
 
-    - After payment is completed in Finance Department, then this request has been moved to **Completed** stage.
+    - After payment is completed in Finance Department, then request will moved to **Completed** stage.
 
     - User can compare the Payment status of Vacation Settlement in between the **[Vacation Settlement](#vacation-settlement)** and  **Finance Department**.
 
@@ -808,11 +810,11 @@ If the Employee not required the settlement in Leave Request then this stage wil
 
 - ### **Complete:**
 
-    - Completed Request is moved to Completed Stage, After the Vacation Settlement request completed. and use this all completed request for Tracking the status of the request.
+    - Completed Request is moved to Completed Stage, After the Vacation Settlement request is completed. and then use this all completed request for Tracking the status of the request.
 
-    - Once Settlement Completed, if vacation requests for Visa then Visa process will start,
+    - Once Settlement Completed, if Employee Requests, in vacation request for Visa from ARCO, then Visa process will start,
     
-    - And if vacation requests for Ticket then Travel Ticket process will start for Employee.
+    - And if Employee Requests, in vacation request for Ticket then Travel Ticket from ARCO, then Travel Ticket process will start for Employee.
 
 
 | [Home](#human-resource-management) | [Main](#leave-management) | [Back](#vacation-settlement) |
@@ -831,7 +833,7 @@ If the Employee not required the settlement in Leave Request then this stage wil
 
 - If Exit Re Entry date is expired and muqeem is expired, then that request is moved to **Visa Expired** stage.
 
-- If iqama expiry date is less then 10 days, the request will move to **Iqama Approval cancellation** stage,
+- If Iqama expiry date is less then 10 days, the request will move to **Iqama Approval cancellation** stage,
 
 - Then User will register "Left Not Return" in muqeem then move to the **Iqma Expiry** date.
 
@@ -842,7 +844,7 @@ If the Employee not required the settlement in Leave Request then this stage wil
 
 - ### **On Vacation:**
 
-     - When the employee not return after requested return date, system will move to the **Waiting for Return stage**.
+     - When the employee not return, within the requested return date, system will move to the **Waiting for Return stage**.
 
      -  In case of employee is on vacation, the Muqeem status will be update on-vacation **OutsideKingdom** status,
 
@@ -857,8 +859,6 @@ If the Employee not required the settlement in Leave Request then this stage wil
 - ### **Waiting for Return:**
 
     - In this stage, waiting for employees who do not return on requested return date, And if the employee arrived then it will moved to **Return from Vacation** stage.
-
-    - The system check the Muqeem status on reqularly.
 
     - If Employee arrived, muqeem status will change to the valid then vacation return process will move to **Return from Vacation** stage.
 
@@ -893,7 +893,7 @@ If the Employee not required the settlement in Leave Request then this stage wil
 
 - ### **Visa Expired:**
 
-    - In this stage, ERE Visa expired and received to extend the validation
+    - In this stage, ERE Visa expired and received to extend the Visa validity.
 
     - If Exit Re Entry date is expired and muqeem is expired, then that request is moved to **Visa Expired** stage.
 
@@ -908,9 +908,9 @@ If the Employee not required the settlement in Leave Request then this stage wil
 
 - ### **Iqama Approval Cancellation:**
 
-     - If iqama expiry date is less then 10 days, the request will move to Iqama Approval cancellation stage.
+     - If Iqama expiry date is less then 10 days, the request will move to Iqama Approval cancellation stage.
 
-     - User validate the Iqama validaty and moved to **Waiting For Return** stage.
+     - User validate the Iqama validity and moved to **Waiting For Return** stage.
 
         - *In The Action field is following to,*
 
@@ -918,9 +918,9 @@ If the Employee not required the settlement in Leave Request then this stage wil
 
 - ### **Iqama Expired:**
 
-    - User will register "Left Not Return" in muqeem then move to the **Iqma Expiry** date.
+    - User will register "Left Not Return" in muqeem then move to the **Iqama Expiry** date.
 
-    - Validate the Iqama Expiry date and move to **Waiting for Return** stage. if the Iqama validation is expired.
+    - Validate the Iqama Expiry date and moved to **Waiting for Return** stage. if the Iqama validation is expired.
 
        - *In The Action field is following to,*
 
@@ -928,7 +928,7 @@ If the Employee not required the settlement in Leave Request then this stage wil
 
 - ### **LeftNotReturn:**
 
-     - Employee Status will changed as LeftNotReturn-OutSideKingdom.
+     - Employee Status will changed as **"LeftNotReturn-OutSideKingdom"**.
 
      - Retirement Process will start with as **LeftNotReturn** Category for clear the employee settlement.
 
@@ -938,6 +938,8 @@ If the Employee not required the settlement in Leave Request then this stage wil
 
      - Completed Request is moved to Completed Stage, After the Vacation Return process is completed. And use this data for Tracking the status of the request.
 
+     - And Employee is Lefted or Escaped, then Settlement process will start for this category.
+
 | [Home](#human-resource-management) | [Main](#leave-management) | [Back](#vacation-return) |
 
 
@@ -945,7 +947,7 @@ If the Employee not required the settlement in Leave Request then this stage wil
 
 ## **[Leave Reject Request:](#leave-management)**
 
-If the Employee reject the leave request in any stage, that reject process will start in **Waiting for Travel** stage only.
+Employee can reject the leave request in any stage, still that reject process will start only from on **Waiting for Travel** stage.
 
 | [Vacation Settlement](#vacation-settlement-1) > [Visa Request](#visa-request) > [Travel Request](#travel-request) > [Completed](#completed-7) |
 
@@ -953,9 +955,9 @@ If the Employee reject the leave request in any stage, that reject process will 
 
 - ### **Vacation Settlement:**
 
-    - If Vacation Settlement is completed for this request, this stage will start, otherwise it will move to next stage.
+    - If Vacation Settlement process is completed for this request, only then this stage will start for the request, otherwise it will moved to next stage.
 
-    - Waiting to cancel the settelement, and reject the settlement reqest in this stage. once completed the stage then it will move to Visa Request.
+    - Waiting to cancel the settlement, and reject the settlement request in this stage. once completed the stage then it will move to Visa Request.
 
        - *In The Action field is following to,*
 
@@ -963,9 +965,9 @@ If the Employee reject the leave request in any stage, that reject process will 
 
 - ### **Visa Request:**
 
-    - If Visa is completed for this request, this stage will start, otherwise it will move to next stage.
+    - If Visa process is completed for this request, then only this stage will start, otherwise it will moved to next stage.
 
-    - Waiting to reject and cancel the Visa Request in the Leave request, once completed the stage then it will move to Travel Request.
+    - Waiting to reject and cancel the Visa Request in the Leave request, once completed the stage then it will moved to Travel Request.
 
       - *In The Action field is following to,*
 
@@ -973,9 +975,9 @@ If the Employee reject the leave request in any stage, that reject process will 
 
 - ### **Travel Request:**
 
-     - If Vacation Settlement is completed for this request, this stage will start, otherwise it will move to next stage.
+     - If Travel Request process is completed for this request, then only this stage will start, otherwise it will moved to Completed stage.
 
-     - Waiting to reject and Cancel the Travel Request in leave request,  once completed the stage then it will move to Completed stage.
+     - Waiting to reject and Cancel the Travel Request in leave request,  once completed the stage then it will move to next stage.
 
        - *In The Action field is following to,*
 
@@ -983,7 +985,7 @@ If the Employee reject the leave request in any stage, that reject process will 
 
 - ### **Completed:**
 
-   - If these all stages is completes, then Leave reject request is completed.
+   - If these all stages is completes, then Leave reject request completed.
 
    - Completed Request is moved to Completed Stage. And this data is using for Tracking the status of the Request.
 
@@ -997,7 +999,7 @@ If the Employee reject the leave request in any stage, that reject process will 
 
 # **[Travel](#human-resource-management)**
 
-Travel process is begins, when the employee Request Visa from ARCO in the Leave request and Retirement request.
+Travel process will begins, when the employee Request the Visa from ARCO in the Leave request and Retirement request.
 
 Travel Arrangements is applicable for Who on accommadation in Lodging.
 
@@ -1008,7 +1010,7 @@ Travel Arrangements is applicable for Who on accommadation in Lodging.
 > ## **[Visa Request:](#travel)**
 
 
-  Visa Request initiated and begins in Travel Request when the employee request for the Travel Arrangements from Arco, in Leave request and Employee Retirement request.
+  Visa Request initiated and begins, when the employee request for the Visa from Arco, in Leave request and Employee Retirement request.
 
 | [Requested](#requested-1) > [Approval](#approval-1) > [Payment](#payment-1) > [Under Processing](#under-processing-1) > [Hold](#hold) > [Completed](#completed-8) |
 
@@ -1022,7 +1024,7 @@ Travel Arrangements is applicable for Who on accommadation in Lodging.
 
 - ### **Approval:**
 
-     - Waiting for Approval from finance department, once the stage is completed, then it will moved for Payment.
+     - In this stage, Waiting for Approval from Finance Department, once approval stage is completed, then it will moved for Payment.
 
        - *In The Action field is following to,*
 
@@ -1040,7 +1042,7 @@ Travel Arrangements is applicable for Who on accommadation in Lodging.
 
 - ### **Under Processing:**
 
-    - Visa issuance proccess will start in this stage, once the Visa is completed then it will move to completed stage.
+    - Visa issuance process will start in Under Processing stage, once the Visa Issuance is completed, then it will move to completed stage.
 
       - *In The Action field is following to,*
 
@@ -1071,7 +1073,7 @@ Travel Arrangements is applicable for Who on accommadation in Lodging.
 
 > ## **[Travel Request:](#travel)**
 
-The Travel Request will create and begins, When the employee request for the Travel Arrangement from ARCO in Leave Request and Employee Retirement Request.
+Travel Request will create and begins, if employee request for the Travel from ARCO in Leave Request and Employee Retirement Request.
 
 Travel Arrangements is applicable for Who on accommadation in Lodging.
 
@@ -1079,7 +1081,9 @@ Travel Arrangements is applicable for Who on accommadation in Lodging.
 
 - ### **Requested:**
 
-     - Newly initiated request is received for take Action in this stage.
+     - New Request is initiated from Case and Task Managements.
+
+     - And that request is received for take Action in this stage.
 
        - *In The Action field is following to,*
 
@@ -1092,7 +1096,7 @@ Travel Arrangements is applicable for Who on accommadation in Lodging.
 
 - ### **Travel Arrangements:**
 
-  - In this stage, prepare for the travel arrangements employee.
+  - In this stage, prepare for travel arrangements.
 
       - *In The Action field is following to,*
 
@@ -1110,7 +1114,7 @@ Travel Arrangements is applicable for Who on accommadation in Lodging.
 
 - ### **Payment:**
 
-     - After payment completed by user in Finance Department, and then request will complete and moved to **Completed** stage.
+     - After payment completed by user in Finance Department, then request will complete and moved to **Completed** stage.
 
      - User can use to compare the Payment status in between the **Travel Request** and **Finance Department**.
 
@@ -1120,7 +1124,7 @@ Travel Arrangements is applicable for Who on accommadation in Lodging.
 
 - ### **Complete:**
 
-  - Completed Request is received in Completed Stage, After the Travel Request process is completed.
+  - Completed Request moved to Completed Stage, After the Travel Request process is completed.
 
 - ### **Hold:**
 
@@ -1148,7 +1152,7 @@ Travel Arrangements is applicable for Who on accommadation in Lodging.
 
 > ## **[Final Settlement](#employee-retirement):**
 
-Final settlement is initiated from case and Task management by user or customer, and then payment is completes in Finance portal. once the payment is completed in finance portal. then settlement process will be complete.
+Final settlement is initiated by user or customer from case and Task management, and then payment is completes in Finance portal. once the payment is completed in finance portal. then settlement process will be complete.
 
 
 | [Requested](#requested-4)  > [Clearance Process](#clearance-process) > [Approval](#approval-3) > [Client _ Confirmation](#client_confirmation-1) > [Payment](#payment-3) > [Client Rejection](#client-rejection-1) > [Complete](#complete-3) |
@@ -1157,9 +1161,9 @@ Final settlement is initiated from case and Task management by user or customer,
 
 - ### **Requested:**
 
-    - New request initiated from case and task management by user or customer. and then that Request is waiting for Action,
+    - New request initiated by user or customer from case and task management. and then that Request is waiting for Action,
 
-    - In Case and Task Management, Retirement Process will move to Finance Approval stage.
+    - Retirement Process will move to Finance Approval stage in Case and Task Management.
 
         - *In The Action field is following to,*
 
@@ -1167,7 +1171,7 @@ Final settlement is initiated from case and Task management by user or customer,
 
 - ### **Clearance Process:**
 
-    - In this stage, Clearance Process will start for employee in Clearance Module, once clearance completed then it will send Approval to Finance Departmet Approval.
+    - In this stage, Clearance Process will start for employee in Clearance Module, once clearance completed then it will send Approval to Finance Department Approval.
 
       - *In The Action field is following to,*
 
@@ -1175,7 +1179,7 @@ Final settlement is initiated from case and Task management by user or customer,
 
 - ### **Approval:**
 
-     -  Waiting for Finance Approval from Finanace Department for **Final Settlement** to Employee. after Finance Department approved, then user complete the request.
+     - In this stage, Waiting for Finance Approval from Finanace Department for **Final Settlement**. after Finance Department approved, then user complete the request.
 
      - If do not have any Final Settlement payment for Employee, then the request complete with **Move without Payment**.
 
@@ -1189,9 +1193,9 @@ Final settlement is initiated from case and Task management by user or customer,
 
 - ### **Client_Confirmation:**
 
-    - In Case and Task Management, Retirement Process will move to Client Confirmation stage, Customer or User will Approve from Case and Task Management.
+    - Retirement Process will move to Client Confirmation stage in Case and Task Management, Customer or User will Approve from Case and Task Management.
 
-    -  Once Approved in Case Management, then it will moved to Payment Stage.
+    -  Once Approved in Case and Task Management, then it will moved to Payment Stage.
 
 
        - *In The Action field is following to,*
@@ -1204,9 +1208,9 @@ Final settlement is initiated from case and Task management by user or customer,
 
    - In Case and Task Management, Retirement Process will move to Approval For Payment stage.
 
-    - In this stage waiting for complete the payment, the payment is process in Finance Department, Once payment is Completed in Finance Department then it will moved to completed stage.
+    - In this stage, waiting for complete the payment in Finance Department, Once payment is Completed in Finance Department, then it will moved to completed stage.
 
-    - After payment is completed in Finance Department, then this request has been moved to **Completed** stage.
+    - After payment is completed in Finance Department, then request moved to **Completed** stage.
 
 
       - *In The Action field is following to,*
@@ -1217,9 +1221,9 @@ Final settlement is initiated from case and Task management by user or customer,
 
 - ### **Client Rejection:**
 
-     - In Case and Task Management, Vacation Process will move to Customer Rejection stage.
+     - In Case and Task Management, Retirement Process will move to Customer Rejection stage.
 
-    - The Request Rejected by Client is received in this stage and waiting to resend for customer confirmation.
+    - Rejeceted Request by Client is moved to this stage, and waiting for resend to customer confirmation.
 
       - *In The Action field is following to,*
 
@@ -1227,11 +1231,11 @@ Final settlement is initiated from case and Task management by user or customer,
 
 - ### **Complete:**
 
-     - All completed Request has to moved in **Complete** Stage, After the Final Settltment process is completed. for use and track the request status.
+     - Completed Request is moved to **"Complete"** Stage, After the Final Settltment process is completed. for use and track the status of request.
 
-    - Once Settlement Completed, if Retirement requests for Visa then Visa process will start,
+    - Once Settlement Completed, if Employee request in Retirement request for **"Visa"**, then Visa process will start for Employee.
     
-    - And if Retirement requests for Ticket then Travel Ticket process will start for Employee.
+    - And If Employee request in Retirement request for **"Travel"** Ticket, then Travel Ticket process will start for Employee.
 
 | [Home](#human-resource-management) | [Main](#employee-retirement) | [Back](#final-settlement) |
 

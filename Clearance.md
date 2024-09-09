@@ -1,6 +1,13 @@
 
 
+
 # **Clearance**
+
+| [Vacation Clearance](#1-vacation-clearance) | [End of Service Clearance](#2-end-of-service-clearance) | [Customer Clearance](#3-customer-clearance) |
+
+<br>
+
+
 
 ### **Mandatory field to update while request for Clearance:**
 
@@ -58,6 +65,8 @@
 
 
  - Then it will moved to New stage.
+
+| [Home](#clearance) |
 
 <br>
 
@@ -202,6 +211,7 @@
 
        - System will call finance to create Non Monthly Invoice to the customer.
 
+| [Home](#clearance) | [Back](#1-vacation-clearance) |
 
 <br>
 
@@ -311,6 +321,7 @@
 
        - System will call finance to create Non Monthly Invoice to the customer.
 
+| [Home](#clearance) | [Back](#2-end-of-service-clearance) |
 
 <br>
 
@@ -366,7 +377,7 @@ Customer clearance is request clearance from customer on Settlement.
      - User will enter Other Payment amount manually.
 
 
-
+| [Home](#clearance) | [Back](#3-customer-clearance) |
 
 
 

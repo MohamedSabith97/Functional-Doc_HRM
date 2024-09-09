@@ -46,6 +46,8 @@
 
      - This clearance process get clearance from Customer for Employee.
 
+<br>
+
 ### In clearance process:
 
  - User can enable or disable any component by checkbox action in each component.
@@ -57,7 +59,7 @@
 
  - Then it will moved to New stage.
 
-
+<br>
 
 ### **1-Vacation Clearance:**
 
@@ -201,10 +203,10 @@
        - System will call finance to create Non Monthly Invoice to the customer.
 
 
+<br>
 
 
-
-  ### **2-End of Service Clearance:**
+### **2-End of Service Clearance:**
 
 
  - ### **New:**
@@ -312,7 +314,8 @@
 
 <br>
 
-  ### **3-Customer Clearance:**
+
+### **3-Customer Clearance:**
 
 Customer clearance is request clearance from customer on Settlement.
 
@@ -388,43 +391,6 @@ Customer clearance is request clearance from customer on Settlement.
 
 
 
-
-
-[
-
- - **And This Action will impact on finance transaction by following:-**
- 
-     - Due Salary:
-
-         If employee have due salary , salary status will update as **"Settlement Requested"**.
-
-<br>
-
-- **When Payment Completes in Settlement:-**
-
-     - Clearance will move to Approval to Closed stage..
-
-<br>
-
-- **This movement will impact finance transaction following:-**
-
-    - Due Salary:
-
-      - If employee have due salary , salary status will update as **"PaidBySettlement"**.
-
-    - Due Loan:
-
-      - If employee have due loan , loan will settled by clearance.
-
-    - New Salary:
-
-      - New salary will generate and salary status updated as **"PaidBySettlement"**.
-
-    - Customer Charges and Other Charges:
-
-       - System will call finance to create Non Monthly Invoice to the customer.
-
-]
 
 
 

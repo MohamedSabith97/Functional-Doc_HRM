@@ -3,7 +3,7 @@
 
 
 
-| [Employee](#employee) | [On Board](#on-board) | [Leave Management](#leave-management) | [Travel](#travel) | [Employee Retirement](#employee-retirement) | Loan | [Reissue](#reissue) | [Renewal](#renewal) |
+| [Employee](#employee) | [On Board](#on-board) | [Leave Management](#leave-management) | [Travel](#travel) | [Employee Retirement](#employee-retirement) | Loan | [Reissue](#reissue) | [Renewal](#renewal) | [Clearance](#clearance) |
 
 <br>
 
@@ -1243,11 +1243,13 @@ Final settlement is initiated by user or customer from case and Task management,
 
 > ## **[Retirement Request:](#employee-retirement)**
 
+<br>
+
 * ### _Mandatory field to update while request for Leave:_
 
     **1- Labour ID,**
 
-    - Unique Identification number provided by organization to employee.
+    - Unique Identification Number provided by organization to Employee.
 
     **2- Request Date,**
 
@@ -1263,12 +1265,12 @@ Final settlement is initiated by user or customer from case and Task management,
    - _Escaped,_
    - _Deport,_
    - _Transfered,_
-   - _Left not Return,_
+   - _Left Not Return,_
    - _Dead._
 
    **5- Settlement Paid by,**
 
-     Settlement is optional to receive from either-
+     Settlement is optional to receive-
 
    - _ARCO_ -
    - _Customer_ -
@@ -1292,27 +1294,27 @@ Final settlement is initiated by user or customer from case and Task management,
 
 
 
-- The Retirement request is initiated from case and task management for Employee.
+- The Retirement request is initiated from case and task management.
 
 - Employee Should not be pending in Vacation or Retirement process.
 
 - If employee have ERP access, it should deactivate before request.
 
-- Employee not in Outside Kingdom.
+- Employee should not in Outside Kingdom.
 
 - Employee should not be Iqama Renewal Process.
 
 - **(Employee Status will change based on EOS Category:**
 
-    - **--if Category is End of Service, employee status will change as Termianted.**
+    - **--if Category is End of Service, employee status will change as Terminated.**
 
-   - **--if Category is Escaped, employee status will change as Termianted_Escaped.**
+   - **--if Category is Escaped, employee status will change as Terminated_Escaped.**
 
    - **--if Category is Transferred, employee status will change as Transferred.**
 
-   - **--if Category is LeftNotReturn, employee status will change as Termianted_LeftNotReturn.**
+   - **--if Category is LeftNotReturn, employee status will change as Terminated_LeftNotReturn.**
 
-   - **--if Category is Dead, employee status will change as Termianted_Dead.)**
+   - **--if Category is Dead, employee status will change as Terminated_Dead.)**
 
 | [New Request](#new-request) > [Arco Approval](#arco-approval-1) > [Customer Approval](#customer-approval-1) > [Under Processing](#under-processing-2) > [Customer Clearance](#customer-clearance-1) > [Arco Clearance](#arco-clearance-1) > [Waiting for Travel](#waiting-for-travel-1) > [RejectedRequest](#rejectedrequest) > [Complete](#complete-4) |
 
@@ -1320,9 +1322,9 @@ Final settlement is initiated by user or customer from case and Task management,
 
 - ### **New Request:**
 
-    - New request created in case and task management and then it will moved to ARCO Approval from case and task management.
+    - New request created and initiated in case and task management, and then it will moved to ARCO Approval from case and task management.
 
-    - Initiated request is received from Case and task management for retirement waiting is waiting for.
+    - Initiated New request is received from Case and task management for Retirement.
 
       - *In The Action field is following to,*
 
@@ -1331,10 +1333,9 @@ Final settlement is initiated by user or customer from case and Task management,
 
 - ### **Arco Approval:**
 
-    - -In Case and Task Management, Retirement Process will move to Customer Approval stage, Customer or User will Approve from Case Management, Once Approved in Case and Task Management, it will moved to UnderProcessing Stage.
+    -  In this stage, Waiting for get ARCO approval for Employee Retirement. once Arco Approval is completed, then request moved to Customer Approval stage.
 
-    - Waiting for get ARCO approval for Employee retirement. once Arco Approval is completed then request to Customer Approval.
-
+    - In Case and Task Management, Retirement Process will move to Customer Approval stage, Customer or User will Approve from Case and Task Management, Once Approved in Case and Task Management, it will moved to UnderProcessing Stage.
 
        - *In The Action field is following to,*
 
@@ -1344,10 +1345,9 @@ Final settlement is initiated by user or customer from case and Task management,
 
 - ### **Customer Approval:**
 
-    - In Case and Task Management, Retirement Process will move to Customer Approval stage, Customer or User will Approve from Case Management, Once Approved in Case Management, it will moved to UnderProcessing Stage.
+    - In this stage, Waiting for Customer Approval to process Retirement. Once the Customer Approved, then moved to under processing stage.
 
-    - In this stage, Waiting for Customer Approval to process Employee Retirement. Once the Customer Approved then moved to under processing stage.
-
+    - In Case and Task Management, Retirement Process will move to Customer Approval stage, Customer or User will Approve from Case and Task Management, Once Approved in Case and Task Management, it will moved to UnderProcessing Stage.
 
       - *In The Action field is following to,*
 
@@ -1374,9 +1374,9 @@ Final settlement is initiated by user or customer from case and Task management,
 
 - ### **Customer Clearance:**
 
-     -   In Case and Task Management, Retirement Process will move to Customer Confirmation stage, Customer or User will Approve from Case Management, Once Approved in Case Management, it will moved to Approved for payment Stage.
+     - In this stage, Waiting for Customer Clerance, once clearance is completed by Customer then it will send for ARCO Clearance stage.
 
-     - Waiting for Customer Clerance, once clearance is completed by Customer then it will send for ARCO Clearance.
+     -   In Case and Task Management, Retirement Process will move to Customer Confirmation stage, Customer or User will Approve from Case Management, Once Approved in Case Management, it will moved to Approved for payment Stage.
 
     - Customer Clearance is optional for employee, and it will process only who requested the Clearance for settlement in Case and task management. Otherwise this clearance stage will be skipped and moved to completed stage.
 
@@ -1389,9 +1389,10 @@ Final settlement is initiated by user or customer from case and Task management,
 
 - ### **Arco Clearance:**
 
+  - In this stage, Waiting For ARCO clearance for Retirement, once the ARCO clearance is completed then it will send for Waiting for travel stage.
+
   -  In Case and Task Management, Retirement Process will move to Approved for Payment stage, User will Approve from Finance Department, Once Approved in Finance Department, it will moved to Visa Issuance Stage in Case and Task Management.
 
-  - Waiting For ARCO clearance for Customer, once the ARCO clearance is completed then it will send for Waiting for travel.
 
    - ARCO Clearance is optional for employee, it will process only who requested the Clearance for settlement in Case and task management. Otherwise this clearance stage will be skipped and moved completed stage.
 
@@ -1403,9 +1404,9 @@ Final settlement is initiated by user or customer from case and Task management,
 
 - ### **Waiting for Travel:**
 
-    - If Employee went Vacation, Muqueem Status will change as OutSideKingdom in Muqueeem Portal.
+    - If Employee went on Vacation, Muqueem Status will change as OutSideKingdom in Muqueem Portal.
 
-   - By system schedule will check if muqueeem status is Termianted-OutSideKingdom, Complete the Retirment Process with Travel Date.
+   - By system schedule will check if muqueem status is Terminated-OutSideKingdom, and Complete the Retirment Process with Travel Date.
 
       - *In the Action field is Following to,*
 
@@ -1415,16 +1416,17 @@ Final settlement is initiated by user or customer from case and Task management,
 
 - ### **RejectedRequest:**
 
-    - In this stage, All rejected request is reject and compete the stage.
+    - In this stage, rejected request is moved to **"complete"** the stage.
 
        - *In the Action field is Following to,*
 
-          **1-Reject** - reject the request and Complete this stage.
+          **1-Reject** - reject the request and moved to **"Complete"** stage.
 
 - ### **Complete:**
 
-     - Completed request are received in this stage. and use to track the status of the request.
-     - Retirement process will complete with Final Exit visa and Final Settlement to Employee.
+     - Completed request is moved to this **"complete"** stage. and use this date for track the status of request.
+
+     - Retirement process will complete with **"Final Exit Visa**" and **"Final Settlement"** for Employee.
 
 | [Home](#human-resource-management) | [Main](#employee-retirement) | [Back](#retirement-request) |
 
@@ -1438,7 +1440,7 @@ Final settlement is initiated by user or customer from case and Task management,
 # **[REISSUE](#human-resource-management)**
 
 
-Reissue is service have to process for provide the Iqama ID Card, ATM Card and Insurance services for employee as replacement due to missing or damaging the id card or Employee service products.
+Reissue is replace the Damaged or Missing Iqama ID Card, ATM Card and Insurance services for Employee.
 
 
 | [IQAMA Reissue](#iqama) | [ATM Reissue](#atm-1) |
@@ -1446,10 +1448,11 @@ Reissue is service have to process for provide the Iqama ID Card, ATM Card and I
 
 ### **[IQAMA:](#reissue)**
 
-The Iqama is a Residential permit for resident in KSA, and this KSA Government identification for residence.
-In case of missing or damaged the Iqama ID card, then employee can raise a request to reissue the ID card.
+Iqama is Residential Identification for residents in KSA,
 
-And this request will create from Case and Task Management by users and customer from portal.
+In case of missing or damaged the Iqama ID card, then employee can request for reissue the ID card.
+
+And This request will create from Case and Task Management by users and customer from portal.
 
 
 | [Newly Requested Reissue](#newly-requested-reissue) > [Followup Dept Approval](#followup-department-approval) > [Manpower Dept Approval](#manpower-department-approval) > [Payment Requested](#payment-requested) > [Waiting for Issue](#waiting-for-issue) > [Receive in Lodging](#receive-in-lodging) > [Put in Envelope](#put-in-envelope) > [Completed](#completed) |
@@ -1458,9 +1461,10 @@ And this request will create from Case and Task Management by users and customer
 <br>
 
 
+
 - ### **Newly Requested Reissue**
 
-    - New required request is initiated from case and task management. that cases refer to newly required stage to process the request.
+    - New request is initiated from case and task management. that cases refer to newly required stage to process the request.
 
        - *Request Creation for reissue*
 
@@ -1942,6 +1946,412 @@ ATM card is using for Employee payment transAction through online and other nece
 <br>
 <br>
 <br>
+
+
+
+# **Clearance**
+
+| [Vacation Clearance](#1-vacation-clearance) | [End of Service Clearance](#2-end-of-service-clearance) | [Customer Clearance](#3-customer-clearance) |
+
+<br>
+
+
+
+### **Mandatory field to update while request for Clearance:**
+
+ **1- Employee ID,**
+
+ - Unique Identification number provided by organization to employee.
+
+ **2- From Date,**
+
+ - From Date is Arrival date of Employee to Organization.
+
+ **3- To Date,**
+
+ - Completion of service or Relieving Date of service from Organization
+
+ **4- Total Salary,**
+
+  - Total amount of Employee monthly salary.
+
+  **5- Contract Number,**
+
+  - This Contract Number Issued by KSA to Employee, and it will renew once in two year.
+
+ **5-Clerance Type,**
+
+- **_Vacation Clearance,_**
+
+     - This Clearance is process on Vacation Settlement for Employee by Organization.
+
+  - **_End Of Service Clearance,_**
+
+     - This clearance is process on End of Service for Employee Final Settlement by Organization,
+
+  - **_Customer Clearance,_**
+
+     -  Clearance is process for End Contract Clearance from customer.
+
+  - **_Clearance Calculation,_**
+
+     - Clearance Calculation on Vacation Settlement and Retirement Final Settlement.
+
+  - **_Customer Clearance,_**
+
+     - This clearance process get clearance from Customer for Employee.
+
+<br>
+
+### In clearance process:
+
+ - User can enable or disable any component by checkbox action in each component.
+
+ - Sum of all component amount will clearance amount except customer charges.
+
+ - New Clearance request will create in **"Clearance calculation" ** stage for _"Vacation Clearance"_, _"EOS Clearance"_ and _"Customer Clearance"_ from Case and Task Management.
+
+
+ - Then it will moved to New stage.
+
+| [Home](#human-resource-management) | [Main](#clearance) |
+
+<br>
+
+### **1-Vacation Clearance:**
+
+
+ - ### **New**
+
+   In this stage, user update the clearance in each component.
+
+   New request created in Case and Task Management, and then it will moved to **"New"** for update the clearance components to process the clearance for the settlement.
+
+   - ### **Vacation Settlement:**
+
+       In this stage, User process the calculation on Vacation settlement.
+
+     - Vacation Eligible Days will calculate based on Kingdom days till Last Working Date.
+
+     - Vacation Eligible days will calculate as ((Kingdom days*Yearlyvacation/365)-PrevVacationDays).
+
+     - User will enter the Vacation days by manually.
+
+     - Vacation Amount will Calculate based on per days salary.
+
+   - ### **Employee Salary(Due Salary):**
+
+      In this stage, User process the calculation on pending Employee salary like Un paid and Due.
+
+     - Due or Un Paid salary will show as list in this component.
+
+     - Sum of Sue Salary amount will show in Amount field
+
+   - ### **Employee Loans(Due Loans):**
+
+      In this stage, User process the calculation on pending Employee loans,and Deduction.
+
+     - Due or Un Paid loan will show as list in this component.
+
+     - Sum of Due Loan amount will show in Amount field.
+
+     - Due Loan will deduct the Total Clearance Amount.
+
+   - ### **Government Fees:**
+
+      In this stage, User process the calculation on Government fees is paid by ARCO, as expenses list.
+
+     - It will calculate from the Expense list and Expense Period for remaining Iqama Expiry Days.
+
+     - Govt fee will calculate as sum of (Expense AMount/Expense Period days)*Remaning Iqama Days.
+
+     - Amount will deduct from the Total Clearance Amount.
+
+   - ### **Ticket:**
+
+       In this stage, User process the calculation on Travel Ticket.
+
+     - User will enter ticket amount manually.
+
+     - Amount will deduct from the Total Clearance Amount.
+
+   - ### **Other Payment:**
+
+      In this stage, User process the calculation on Other payments is paid by Arco, list to deduct from the Settlement.
+
+     - User will enter Other Payment amount manually
+
+   - ### **Other Deduction:**
+
+       In this stage, User process the calculation on Other Deduction like not listed in this Components.
+
+     - User will enter Other Payment amount manually
+
+   - ### **New Salary:**
+
+      In this stage, User process the calculation on Salary, as pending days on remaining month which is not generated for salary.
+
+     - System will calculate Not generated salary till Last working day.
+
+     - Total Not Generate salary will show in Amount.
+
+   - ### **Customer Vacation Charges:**
+
+       In this stage, User process the calculation on charges for vacation from customer.
+
+     - **System will calculate Vacation days for Last Working Contract days of employee.**
+     
+     - Vacation Eligible days will calculate as ((Last Working Contract days*Yearlyvacation/365)-PrevVacationDays).
+
+     - User will enter the Vacation days by manually.
+
+     - Vacation Amount will Calculate based on per day salary.
+
+     - **(This charges for Customer will not update clearance amount.)**
+
+   - ### **Customer Other Charges:**
+
+     In this stage, User process the calculation on other charges from customer. is not listed in clearance.
+
+     - User will enter Other Charges amount manually.
+
+     - This charges for Customer will not update clearance amount.
+
+
+    And then it moved to Approved stage in Case and Task Management.
+
+ - ### **Approved**
+
+
+
+   - Once Clearance Approved, Clearance Amount and enabled Component Lines details updated to Vacation settlement.
+
+   - In Settlement process, stage will moved clearance process to Approval stage.
+
+   - And This Action will impact on finance transaction by following,
+
+       - Due Salary
+
+          If employee have due salary , salary status will update as "Settlement requested".
+
+
+- **When Payment Completes in Settlement:-**
+
+     - Clearance will move to Approval to Closed stage..
+
+<br>
+
+- **This movement will impact finance transaction following:-**
+
+    - Due Salary:
+
+      - If employee have due salary , salary status will update as **"PaidBySettlement"**.
+
+    - Due Loan:
+
+      - If employee have due loan , loan will settled by clearance.
+
+    - New Salary:
+
+      - New salary will generate and salary status updated as **"PaidBySettlement"**.
+
+    - Customer Charges and Other Charges:
+
+       - System will call finance to create Non Monthly Invoice to the customer.
+
+| [Home](#human-resource-management) | [Main](#clearance) | [Back](#1-vacation-clearance) |
+
+<br>
+
+
+### **2-End of Service Clearance:**
+
+
+ - ### **New:**
+ 
+   In this stage, user update the clearance in each component as below.
+
+      - ### **EOS Settlement:**
+
+        - EOS Settlement will calculate from Kingdom days(Employee Arrival day to last working day).
+
+        - Settlement will calculate based on EOS Profile setup by kingdom days.
+
+        - Settlement will calculate as sum of (Kingdom days EOS Profile Percentage % Monthly Salary).
+
+
+   - ### **Vacation Settlement:**
+
+     - Vacation Eligible Days will calculate based on Kingdom days till Last Working Date.
+
+     - Vacation Eligible days will calculate as ((Kingdom days*Yearlyvacation/365)-PrevVacationDays).
+
+     - User will enter the Vacation days by manually
+
+     - Vacation Amount will Calculate based on per days salary.
+
+   - ### **Employee Salary(Due Salary):**
+
+     - Due or Un Paid salary will show as list in this component.
+
+     - Sum of Sue Salary amount will show in Amount field
+
+   - ### **Employee Loans(Due Loans):**
+
+     - Due or Un Paid loan will show as list in this component.
+
+     - Sum of Due Loan amount will show in Amount field.
+
+     - Due Loan will deduct the Total Clearance Amount.
+
+   - ### **Food:**
+
+      - Food Deduction is applied only for Individual EMployees.
+
+      - It will calculate based on Lodging Days by employee.
+
+      - It will calculate as (Lodging Days * MealAMount(from factor)).
+
+      - Amount will deduct from the Total Clearance Amount.
+
+   - ### **Government Fees:**
+
+     - It will calculate from the Expense list and Expense Period for remaining Iqama Expiry Days.
+
+     - Govt fee will calculate as sum of (Expense AMount/Expense Period days)*Remaning Iqama Days.
+
+     - Amount will deduct from the Total Clearance Amount.
+
+   - ### **Ticket:**
+
+     - User will enter ticket amount manually.
+
+     - Amount will deduct from the Total Clearance Amount.
+
+   - ### **Other Payment:**
+
+     - User will enter Other Payment amount manually.
+
+   - ### **Other Deduction:**
+
+     - User will enter Other Payment amount manually.
+
+   - ### **New Salary:**
+
+     - System will calculate Not generated salary till Last working day.
+
+     - Total Not Generate salary will show in Amount.
+
+
+ - ### **Approved:**
+
+     - Once Clearance Approved, Clearance Amount and enabled Component Lines details updated to Final Settlement.
+
+     - In Settlement process, stage will moved clearance process to Approval stage.
+
+
+     
+- ### **This movement will impact on finance transaction following:-**
+
+    - Due Salary:
+
+      - If employee have due salary , salary status will update as **"PaidBySettlement"**.
+
+    - Due Loan:
+
+      - If employee have due loan , loan will settled by clearance.
+
+    - New Salary:
+
+      - New salary will generate and salary status updated as **"PaidBySettlement"**.
+
+    - Customer Charges and Other Charges:
+
+       - System will call finance to create Non Monthly Invoice to the customer.
+
+| [Home](#human-resource-management) | [Main](#clearance) | [Back](#2-end-of-service-clearance) |
+
+<br>
+
+
+### **3-Customer Clearance:**
+
+Customer clearance is request clearance from customer on Settlement.
+
+- ### **EOS Sttlement:**
+
+  - EOS Settlement will calculate from Kingdom days(Employee Arrival day to last working day).
+
+  - Settlement will calculate based on EOS Profile setup by kingdom days.
+
+  - Settlement will calculate as sum of (Kingdom days Percentage % Monthly Salary).
+
+
+- ### **Vacation settlement:**
+
+     - Vacation Eligible Days will calculate based on Kingdom days till Last Working Date.
+
+     - Vacation Eligible days will calculate as ((Kingdom days*Yearlyvacation/365)-PrevVacationDays).
+
+     - User will enter the Vacation days by manually
+
+     - Vacation Amount will Calculate based on per days salary.
+
+- ### **Governement Fees:**
+
+     - It will calculate from the Expense list and Expense Period for remaining Iqama Expiry Days.
+
+     - Govt fee will calculate as sum of (Expense AMount/Expense Period days)*Remaning Iqama Days.
+
+     - Amount will deduct from the Total Clearance Amount.
+
+
+- ### **Ticket:**
+
+     - User will enter ticket amount manually.
+
+     - Amount will deduct from the Total Clearance Amount.
+
+- ### **Contract Penalty:**
+
+     - In this stage,
+
+- ### **Other Payment:**
+
+     - User will enter Other Payment amount manually
+
+- ### **Other Deduction:***
+
+     - User will enter Other Payment amount manually.
+
+
+| [Home](#human-resource-management) | [Main](#clearance) | [Back](#3-customer-clearance) |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

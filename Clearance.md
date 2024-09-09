@@ -2,7 +2,7 @@
 
 # **Clearance**
 
- ### **Mandatory field to update while request for Clearance:**
+### **Mandatory field to update while request for Clearance:**
 
  **1- Employee ID,**
 
@@ -26,7 +26,7 @@
 
  **5-Clerance Type,**
 
-  - **_Vacation Clearance,_**
+- **_Vacation Clearance,_**
 
      - This Clearance is process on Vacation Settlement for Employee by Organization.
 
@@ -59,7 +59,7 @@
 
 
 
-  ### **1-Vacation Clearance:**
+### **1-Vacation Clearance:**
 
 
  - ### **New**

@@ -79,14 +79,6 @@ This filter is use search and track the employees information by Profile details
 
 | [Home](#human-resource-management) | [Main](#employee) | [Back](#employee-inquiry) |
 
-
-<br>
-
-> ## **[PayGroup Assignment:](#employee)**
-
-| [Home](#human-resource-management) | [Main](#employee) | [Back](#paygroup-assignmenty) |
-
-
 <br>
 <br>
 <br>
@@ -514,6 +506,137 @@ New request is initiated for ATM card for Employee.
 
 | [Home](#human-resource-management) | [Main](#on-board) | [Back](#atm) |
 
+<br>
+
+
+> ## **[Driving License:](#on-board)**
+
+| [Newly Required](#newly-required) | [Medical Checkup](#medical-checkup) | [Application](#application) | [Application Payment](#application-payment) | [Test Drive](#test-drive) | [License Payment](#license-payment) | [Normal Class](#normal-class) | [Computer Test](#computer-test) | [Driving Test](#driving-test) | [Re Test Payment](#re-test-payment) | [Re Test Class](#re-test-class) | [Finger Print](#finger-print) | [Issue License](#issue-license) | [Complete](#complete) |
+
+<br>
+
+- ### **Newly Required:**
+
+   - In This stage, New Request is received to process, then it will moved to **Medical Checkup** stage
+
+        -  _The action field is following to,_
+
+            **1-Complete** - complete this stage and refer to Medical Checkup stage.
+
+- ### **Medical Checkup:**
+
+   - In This stage, waiting to be process the Medical checkup for Employee. Once medical checkup is completed, then it will move to **Application** stage.
+
+        -  _The action field is following to,_
+
+           **1-Complete** - complete this stage and refer the request to **Application** stage.
+
+- ### **Application:**
+
+   - In This stage, Waiting to process on Application for Test Drive, Once Aplication preparation is completed, then it will move to **Application Payment** stage.
+
+        -  _The action field is following to,_
+
+            **1-Complete** - Complete the request and moved to **Application Payment** stage.
+
+- ### **Application Payment:**
+
+   - In This stage, waiting to process the payment in Finance Department, Once the payment is completed in finance portal, then it will moved to **Test Drive** stage.
+
+        -  _The action field is following to,_
+
+           **1-Complete** - Complete the request and moved to **Test Drive** stage.
+
+- ### **Test Drive:**
+
+   - In This stage, waiting to clear the Driving test, once the test is completed then it will moved to **License Payment** Stage.
+
+        -  _The action field is following to,_
+
+           **1-Complete** - Comlpete the request and moved to **License Payment** stage.
+
+- ### **License Payment:**
+
+   - In This stage, waiting to process the Payment in Finance Department, Once the paymrnt is completed in finance department then it will move to **Normal Class** Stage.
+
+        -  _The action field is following to,_
+
+            **1-compelete** - Complete and moved the request to **Normal Class** stage.
+
+- ### **Normal Class:**
+
+   - In This stage, Waiting to process the ----, Once comletes then it will move to **Computer Test** stage.
+
+        -  _The action field is following to,_
+
+            **1-Complete** - Compplete the request and moved to **Computer Test** stage.
+
+- ### **Computer Test:**
+
+   - In This stage, Waiting to process the computer test for employee, Once test is completed then it will moved to **Driving Test** stage.
+
+   - If employee faild in the Computer test then Employee request again for retest the Computer Test.
+
+        -  _The action field is following to,_
+
+           **1-Pass** - Complete the requst and moved to Driving Test stage.
+
+           **2-Fail** - Reject the request and waiting for the Retest the **Computer Test**
+
+- ### **Driving Test:**
+
+   - In This stage, Waiting to process the Driving Test,
+
+   - If Employee is completes the Test, then it will move to Finger Print.
+
+   - If the Employee will fail the Test then it will move to Driving Test.
+
+        -  _The action field is following to,_
+
+           **1-Pass** - Complete the request and moved to Finger Print stage.
+
+           **2-Fail** - Reject the request and waiting for the retest to Driving Test.
+
+- ### **Re Test Payment:**
+
+   - In This stage, Waiting to process the Retest Payment, and the Payment is proceesing in in Finance Department, Once the Payment is Completed in Finance Departement, THen it Will send to Retest Class stage.
+
+        -  _The action field is following to,_
+
+           **1-Complete** - Complete the request and moved to Re-Test Class stage.
+
+- ### **Re Test Class:**
+
+   - In This stage, Waiting to Process the Test class, once the test class is complete then it will move to **Finger Print** stage.
+
+        -  _The action field is following to,_
+
+            **1-Complete** - Complete the request and moved to Finger Print stage.
+
+- ### **Finger Print:**
+
+   - In This stage, Waitiing to process the Finger Print for Employee, once the process is completed then it will move to **Issue License** stage.
+
+        -  _The action field is following to,_
+
+           **1-Complete** - Complete the request and moved to Issue License stage,
+
+- ### **Issue License:**
+
+   - In This stage, waiting for Issue the License for Employee, Once the License is issued, then it will moved to Complete stage.
+
+        -  _The action field is following to,_
+
+            **1-Complete** - Complete the request and moved to **Complete** stage.
+
+- ### **Complete:**
+
+    - Completed rquest is moved to completed stage, For use to track the Request status.
+
+
+| [Home](#human-resource-management) | [Main](#on-board) | [Back](#driving-license) |
+
+<br>
 
 
 
@@ -1088,101 +1211,11 @@ Travel Arrangements is applicable for Who on accommadation in Lodging.
 
 # **[Employee Retirement](#human-resource-management)**
 
-| [Final Settlement](#final-settlement) | [Retirement Request](#retirement-request) |
+| [Retirement Request](#retirement-request) | [Final Settlement](#final-settlement) |
 
 
 <br>
 
-> ## **[Final Settlement](#employee-retirement):**
-
-Final settlement is initiated by user or customer from case and Task management, and then payment is completes in Finance portal. once the payment is completed in finance portal. then settlement process will be complete.
-
-
-| [Requested](#requested-4)  > [Clearance Process](#clearance-process) > [Approval](#approval-3) > [Client _ Confirmation](#client_confirmation-1) > [Payment](#payment-3) > [Client Rejection](#client-rejection-1) > [Complete](#complete-3) |
-
-<br>
-
-- ### **Requested:**
-
-    - New request initiated by user or customer from case and task management. and then that Request is waiting for Action,
-
-    - Retirement Process will move to Finance Approval stage in Case and Task Management.
-
-        - *In The Action field is following to,*
-
-           **1-[Move to Clearance](#clearance-process)** - User complete the request and *refer for [Clearance process](#clearance-process) stage.
-
-- ### **Clearance Process:**
-
-    - In this stage, Clearance Process will start for employee in Clearance Module, once clearance completed then it will send Approval to Finance Department Approval.
-
-      - *In The Action field is following to,*
-
-          **1-[Complete](#approval-3)** - User complete the request and refer to [Approval](#approval-3) stage. for **Final Settlement** Clearance.
-
-- ### **Approval:**
-
-     - In this stage, Waiting for Finance Approval from Finanace Department for **Final Settlement**. after Finance Department approved, then user complete the request.
-
-     - If do not have any Final Settlement payment for Employee, then the request complete with **Move without Payment**.
-
-        - *In The Action field is following to,*
-
-          **1-[Complete](#client_confirmation-1)** - Complete this request and moved For [Client_Confirmation](#client_confirmation-1) stage.
-
-           **2-[Re Calculate Clearance](#clearance-process)** - User reject and return the request [Clearance Process](#clearance-process) stage. for Re Calculate Clearance amount.
-
-           **3-[Move Without Payment](#complete-3)** - User complete this request and **Move Without Payment** to [Complete](#complete-3) Stage.
-
-- ### **Client_Confirmation:**
-
-    - Retirement Process will move to Client Confirmation stage in Case and Task Management, Customer or User will Approve from Case and Task Management.
-
-    -  Once Approved in Case and Task Management, then it will moved to Payment Stage.
-
-
-       - *In The Action field is following to,*
-
-         **1-[Confirm](#payment-3)** - User Complete the request and refer to the [Payment](#payment-3) stage.
-
-         **2-[Move to Clearance](#clearance-process)** - User complete and refer the request to [Clearance Process](#clearance-process) stage. for Recalculate the clearance.
-
-- ### **Payment:**
-
-   - In Case and Task Management, Retirement Process will move to Approval For Payment stage.
-
-    - In this stage, waiting for complete the payment in Finance Department, Once payment is Completed in Finance Department, then it will moved to completed stage.
-
-    - After payment is completed in Finance Department, then request moved to **Completed** stage.
-
-
-      - *In The Action field is following to,*
-
-        **1-[Complete](#complete-3)** -  complete the request and moved to [Complete](#complete-3) stage.
-
-        **2-[ReCalculate](#clearance-process)** - User reject and return the request to [Clearance Process](#clearance-process) stage. for Recalculate the Clearance.
-
-- ### **Client Rejection:**
-
-     - In Case and Task Management, Retirement Process will move to Customer Rejection stage.
-
-    - Rejeceted Request by Client is moved to this stage, and waiting for resend to customer confirmation.
-
-      - *In The Action field is following to,*
-
-        **[Resend Customer Confirmation](#client_confirmation-1)** - User Resend the Request to Customer for [Client confirmation](#client_confirmation-1) stage.
-
-- ### **Complete:**
-
-     - Completed Request is moved to **"Complete"** Stage, After the Final Settltment process is completed. for use and track the status of request.
-
-    - Once Settlement Completed, if Employee request in Retirement request for **"Visa"**, then Visa process will start for Employee.
-    
-    - And If Employee request in Retirement request for **"Travel"** Ticket, then Travel Ticket process will start for Employee.
-
-| [Home](#human-resource-management) | [Main](#employee-retirement) | [Back](#final-settlement) |
-
-<br>
 
 > ## **[Retirement Request:](#employee-retirement)**
 
@@ -1375,6 +1408,98 @@ Final settlement is initiated by user or customer from case and Task management,
 
 
 
+<br>
+
+> ## **[Final Settlement](#employee-retirement):**
+
+Final settlement is initiated by user or customer from case and Task management, and then payment is completes in Finance portal. once the payment is completed in finance portal. then settlement process will be complete.
+
+
+| [Requested](#requested-4)  > [Clearance Process](#clearance-process) > [Approval](#approval-3) > [Client _ Confirmation](#client_confirmation-1) > [Payment](#payment-3) > [Client Rejection](#client-rejection-1) > [Complete](#complete-3) |
+
+<br>
+
+- ### **Requested:**
+
+    - New request initiated by user or customer from case and task management. and then that Request is waiting for Action,
+
+    - Retirement Process will move to Finance Approval stage in Case and Task Management.
+
+        - *In The Action field is following to,*
+
+           **1-[Move to Clearance](#clearance-process)** - User complete the request and *refer for [Clearance process](#clearance-process) stage.
+
+- ### **Clearance Process:**
+
+    - In this stage, Clearance Process will start for employee in Clearance Module, once clearance completed then it will send Approval to Finance Department Approval.
+
+      - *In The Action field is following to,*
+
+          **1-[Complete](#approval-3)** - User complete the request and refer to [Approval](#approval-3) stage. for **Final Settlement** Clearance.
+
+- ### **Approval:**
+
+     - In this stage, Waiting for Finance Approval from Finanace Department for **Final Settlement**. after Finance Department approved, then user complete the request.
+
+     - If do not have any Final Settlement payment for Employee, then the request complete with **Move without Payment**.
+
+        - *In The Action field is following to,*
+
+          **1-[Complete](#client_confirmation-1)** - Complete this request and moved For [Client_Confirmation](#client_confirmation-1) stage.
+
+           **2-[Re Calculate Clearance](#clearance-process)** - User reject and return the request [Clearance Process](#clearance-process) stage. for Re Calculate Clearance amount.
+
+           **3-[Move Without Payment](#complete-3)** - User complete this request and **Move Without Payment** to [Complete](#complete-3) Stage.
+
+- ### **Client_Confirmation:**
+
+    - Retirement Process will move to Client Confirmation stage in Case and Task Management, Customer or User will Approve from Case and Task Management.
+
+    -  Once Approved in Case and Task Management, then it will moved to Payment Stage.
+
+
+       - *In The Action field is following to,*
+
+         **1-[Confirm](#payment-3)** - User Complete the request and refer to the [Payment](#payment-3) stage.
+
+         **2-[Move to Clearance](#clearance-process)** - User complete and refer the request to [Clearance Process](#clearance-process) stage. for Recalculate the clearance.
+
+- ### **Payment:**
+
+   - In Case and Task Management, Retirement Process will move to Approval For Payment stage.
+
+    - In this stage, waiting for complete the payment in Finance Department, Once payment is Completed in Finance Department, then it will moved to completed stage.
+
+    - After payment is completed in Finance Department, then request moved to **Completed** stage.
+
+
+      - *In The Action field is following to,*
+
+        **1-[Complete](#complete-3)** -  complete the request and moved to [Complete](#complete-3) stage.
+
+        **2-[ReCalculate](#clearance-process)** - User reject and return the request to [Clearance Process](#clearance-process) stage. for Recalculate the Clearance.
+
+- ### **Client Rejection:**
+
+     - In Case and Task Management, Retirement Process will move to Customer Rejection stage.
+
+    - Rejeceted Request by Client is moved to this stage, and waiting for resend to customer confirmation.
+
+      - *In The Action field is following to,*
+
+        **[Resend Customer Confirmation](#client_confirmation-1)** - User Resend the Request to Customer for [Client confirmation](#client_confirmation-1) stage.
+
+- ### **Complete:**
+
+     - Completed Request is moved to **"Complete"** Stage, After the Final Settltment process is completed. for use and track the status of request.
+
+    - Once Settlement Completed, if Employee request in Retirement request for **"Visa"**, then Visa process will start for Employee.
+    
+    - And If Employee request in Retirement request for **"Travel"** Ticket, then Travel Ticket process will start for Employee.
+
+| [Home](#human-resource-management) | [Main](#employee-retirement) | [Back](#final-settlement) |
+
+<br>
 
 <br>
 <br>

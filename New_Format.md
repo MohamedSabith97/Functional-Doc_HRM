@@ -3,14 +3,14 @@
 
 
 
-| [Employee](#employee) | [On Board](#on-board) | [Leave Management](#leave-management) | [Travel](#travel) | [Employee Retirement](#employee-retirement) | Loan | [Reissue](#reissue) | [Renewal](#renewal) | [Clearance](#clearance) |
+| [Employee](#employee) | [On Board](#on-board) | [Leave Management](#leave-management) | [Travel](#travel) | [Employee Retirement](#employee-retirement) | [Reissue](#reissue) | [Renewal](#renewal) | [Clearance](#clearance) |
 
 <br>
 
 # **[Employee](#human-resource-management)**
 
 
-| [Employee List](#employee-list) | [Employee Contract](#employee-contract) | [Employee Profile Search](#employee-profile-search) | [Employee Inquiry](#employee-inquiry) | [Mudad Contract Import](#mudad-contract-import) | [Mudad Contract Status](#mudad-contract-status) | [Hourly Assignment](#hourly-assignment) | [PayGroup Assignment](#paygroup-assignment) |
+| [Employee List](#employee-list) | [Employee Contract](#employee-contract) | [Employee Profile Search](#employee-profile-search) | [Employee Inquiry](#employee-inquiry) |
 
 <br>
 
@@ -78,63 +78,6 @@ This filter is use search and track the employees information by Profile details
 * **Search** - Using to filter to search the Employee profile details and Identity Information.
 
 | [Home](#human-resource-management) | [Main](#employee) | [Back](#employee-inquiry) |
-
-
-<br>
-
-> ## **[Mudad Contract Import:](#employee)**
-
--  **Import** - Using to Import the employee mudad contract details document file into HRM portal with selected Employee.
-
-| [Home](#human-resource-management) | [Main](#employee) | [Back](#mudad-contract-import) |
-
-
-<br>
-
-> ## **[Mudad Contract Status:](#employee)**
-
-Using to track the employees profile with Mudad contract status detailed information.
-
- * ### **Authenticated Inside KSA:**
-
-    * In this stage Authenticate the Location status of Employee.
-
-        * The Action field is following:
-
-
-
- * ### **Authenticated Outside KSA:**
-
-     * In this stage Authenticated outside the KSA
-
- * ### **Autenticated but less then 60 days:**
-
-     * In this stage, Authenticated status still Authentication is near to Expire.
-
- * ### **Not Auntenticated:**
-
- Not Authenticated the status and required to authentication for Employee.
-
- * ### **Agreed to Renewal:**
-
-
- 
- * ### **Non Renewal:**
-
-
-
- * ### **InActive:**
-
-| [Home](#human-resource-management) | [Main](#employee) | [Back](#mudad-contract-status) |
-
-
-<br>
-
-
-> ## **[Hourly Assignment:](#employee)**
-
-
-| [Home](#human-resource-management) | [Main](#employee) | [Back](#hourly-assignment) |
 
 
 <br>
@@ -1973,7 +1916,7 @@ ATM card is using for Employee payment transAction through online and other nece
 
  **4- Total Salary,**
 
-  - Total amount of Employee monthly salary.
+  - Details of Employee monthly salary
 
   **5- Contract Number,**
 
@@ -2003,7 +1946,7 @@ ATM card is using for Employee payment transAction through online and other nece
 
 <br>
 
-### In clearance process:
+### Clearance process:
 
  - User can enable or disable any component by checkbox action in each component.
 
@@ -2014,7 +1957,44 @@ ATM card is using for Employee payment transAction through online and other nece
 
  - Then it will moved to New stage.
 
-| [Home](#human-resource-management) | [Main](#clearance) |
+| [Home](#clearance) |
+
+
+### Clearance process Calculation:
+
+
+*	Employee Final Settlement amount is calculated with approximated Kingdom days of Employee.
+
+* And this Final settlement amount calculation is differs as per Working category,
+
+   * 	*(i)* Employee working Type is two category:-
+  
+          [ _Individual Employee | Business Employee_ ]
+
+         * Settlement will calculate as sum of - (Kingdom days EOS Profile Percentage % Monthly Salary)
+
+         *(A)*. _Individual Employee_:
+
+         Employee who work for individual customer
+
+         * Termination in below 4 Years - Settlement is not applicable for below 4 years.
+
+         * Termination in between 4 to 5 years - 25 percentage of montly salary for every 1 year.
+
+         * Termination above 5 years - 25 percentage of montly salary for every 1 year.
+
+
+
+        *(B)*. _Business Employee_:
+
+         * Below 5 years - 50 percentage of monthly salary for every 1 year.
+
+         * Above 5 years - 100 percentage of monthly salary for every 1 year.
+
+
+
+     * *(ii)*	Employee work or contract period - Number of Years worked.
+
 
 <br>
 
@@ -2159,7 +2139,7 @@ ATM card is using for Employee payment transAction through online and other nece
 
        - System will call finance to create Non Monthly Invoice to the customer.
 
-| [Home](#human-resource-management) | [Main](#clearance) | [Back](#1-vacation-clearance) |
+| [Home](#clearance) | [Back](#1-vacation-clearance) |
 
 <br>
 
@@ -2169,7 +2149,7 @@ ATM card is using for Employee payment transAction through online and other nece
 
  - ### **New:**
  
-   In this stage, user update the clearance in each component as below.
+   In this stage, user create and update the clearance in each component as below.
 
       - ### **EOS Settlement:**
 
@@ -2269,25 +2249,30 @@ ATM card is using for Employee payment transAction through online and other nece
 
        - System will call finance to create Non Monthly Invoice to the customer.
 
-| [Home](#human-resource-management) | [Main](#clearance) | [Back](#2-end-of-service-clearance) |
+| [Home](#clearance) | [Back](#2-end-of-service-clearance) |
 
 <br>
 
 
+
 ### **3-Customer Clearance:**
 
-Customer clearance is request clearance from customer on Settlement.
+Customer clearance is request clearance from customer on Employee Settlement.
 
-- ### **EOS Sttlement:**
+ ### **New:**
 
-  - EOS Settlement will calculate from Kingdom days(Employee Arrival day to last working day).
+In this stage, user create and update the clearance in each component as below.
 
-  - Settlement will calculate based on EOS Profile setup by kingdom days.
+ *  **EOS Settlement:**
 
-  - Settlement will calculate as sum of (Kingdom days Percentage % Monthly Salary).
+      - EOS Settlement will calculate from Kingdom days(Employee Arrival day to last working day).
+
+     - Settlement will calculate based on EOS Profile setup by kingdom days.
+
+     - Settlement will calculate as sum of (Kingdom days Percentage % Monthly Salary).
 
 
-- ### **Vacation settlement:**
+-  **Vacation settlement:**
 
      - Vacation Eligible Days will calculate based on Kingdom days till Last Working Date.
 
@@ -2297,63 +2282,48 @@ Customer clearance is request clearance from customer on Settlement.
 
      - Vacation Amount will Calculate based on per days salary.
 
-- ### **Governement Fees:**
+-  **Government Fees:**
 
      - It will calculate from the Expense list and Expense Period for remaining Iqama Expiry Days.
 
      - Govt fee will calculate as sum of (Expense AMount/Expense Period days)*Remaning Iqama Days.
 
-     - Amount will deduct from the Total Clearance Amount.
+     - Government Amount will deduct from the Total Amount of Clearance.
 
 
-- ### **Ticket:**
+-  **Ticket:**
 
-     - User will enter ticket amount manually.
+     - User will enter ticket amount manually for clearance.
 
-     - Amount will deduct from the Total Clearance Amount.
+     - Travel ticket Amount will deduct from the Total Amount of Clearance.
 
-- ### **Contract Penalty:**
+-  **Contract Penalty:**
 
-     - In this stage,
+     - In this stage, calculate the clearance on Contract Penalty.
 
-- ### **Other Payment:**
+-  **Other Payment:**
 
      - User will enter Other Payment amount manually
 
-- ### **Other Deduction:***
+-  **Other Deduction:**
 
-     - User will enter Other Payment amount manually.
+     - User will enter Other Deductions amount manually.
 
+### **Approved:**
 
-| [Home](#human-resource-management) | [Main](#clearance) | [Back](#3-customer-clearance) |
+  - Once Clearance Approved, Clearance Amount and enabled Component Lines details updated to Final Settlement.
 
+  - In Settlement process, stage will moved clearance process to Approval stage.
 
+### Re-Calculate Requested:
 
-
-
-
-
-
-
+  - If the clearance request will return to customer for recalculation, then it will send for **"Credit notes"** from Finance Department.
 
 
 
+| [Home](#clearance) | [Back](#3-customer-clearance) |
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br>
+<br>
+<br>

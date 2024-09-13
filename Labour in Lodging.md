@@ -107,14 +107,15 @@ Tracking purpose for Employee status with Lodging Locations.
 
 # Labour Movement
 
-| [Labour Checkin](#labour-checkin) | [Labour Checkout](#labou) |
-## **Labour Checkin:**
+| [Labour Check-in](#labour-checkin) | [Labour Check-out](#labou) |
+
+## **Labour Check-in:**
 
 When Ever Employee returned to Lodging, from below Listed category will start the Checkin process manually or start and complete by system integration.
 
 <br>
 
-### **In Checkin**:
+### **In Check-in**:
 
    The Checkin request will create from the following sources.
 
@@ -156,25 +157,25 @@ When Ever Employee returned to Lodging, from below Listed category will start th
    - User can cancel the checkin request to Employee,  When the checkin type of Employee is **"CheckIn_Without_End_Contract"**.
 
 
-- ### Waiting For Checkin:
+- ### Waiting For Check-in:
 
-   - Checkin Request will created for "Business Employee", who already **"End from Contract"** in Business.
+   - Check-in Request will created for "Business Employee", who already **"End from Contract"** in Business.
 
-   - The Checkin Request will create with Current Date.
+   - The Check-in Request will create with Current Date.
 
    - In this stage, Employee Status is changed to "Waiting For Action-Lodging".
 
       <br>
 
-   - **Once Checkin created for Employee, will update following action based on checkin types:**
+   - **Once Check-in created for Employee, will update following action based on check-in types:**
 
       - _**End the Employee from on contract**_
 
-         - _**Return From Customer**_, - Checkin will created, If the Employee Return from Customer and End the Employee from contract.
+         - _**Return From Customer**_, - Check-in will created, If the Employee Return from Customer and End the Employee from contract.
 
-         - _**From Business**_, - Checkin will created, If the Employee Return from Business and End the Employee from contract.
+         - _**From Business**_, - Check-in will created, If the Employee Return from Business and End the Employee from contract.
 
-         - _**In Contract**_, - Checkin will created from Contract, When Employee return from on contract and End from the contract.
+         - _**In Contract**_, - Check-in will created from Contract, When Employee return from on contract and End from the contract.
 
 
 
@@ -240,9 +241,9 @@ When Ever Employee returned to Lodging, from below Listed category will start th
 
 <br>
 
-## **Labour Checkout Request:**
+## **Labour Check-out Request:**
 
-### **Checkout Request will create by following source.**
+### **Check-out Request will create by following source.**
 
 * When Employee will delivered to customer, and same time check-out will create for Employee with based on contract.
 
@@ -262,24 +263,24 @@ When Ever Employee returned to Lodging, from below Listed category will start th
 
 * Check-Out will create for Employee with system integration, When the Employee is return from the Hospital.
 
-* Checkout will Create from Labour Transfer with system integrtion, when Employee return from Labour Transfer.
+* Check-out will Create from Labour Transfer with system integrtion, when Employee return from Labour Transfer.
 
 <br>
 
-### **Checkout Workflow stages:**
+### **Check-out Workflow stages:**
 
 - ### Requested:
 
   - The newly required request will move to process into ***Waiting For Check-out*** stage.
 
 
-- ### Waiting For Checkout:
+- ### Waiting For Check-out:
 
   - When complete this stage, checkout date updated with current date.
 
   - Employee status will changed based on checkout type.
 
-  - ___Once checkout updated for Employee, then will update the following action, based on checkout type.___
+  - ___Once check-out updated for Employee, then will update the following action, based on checkout type.___
 
     - If The Employee delivered to Customer, then the process will complete with required stage.
 
@@ -308,7 +309,7 @@ When Ever Employee returned to Lodging, from below Listed category will start th
 
 - Rest Process will start based on subcatory as follows
 
- - ReservedFor VIP
+ - Reserved For VIP
 
    - Process starts with ReservedFor VIP stage.
    - Employee status changed to ReservedFor VIP.
@@ -318,7 +319,7 @@ When Ever Employee returned to Lodging, from below Listed category will start th
    - Process starts with ReservedFor Sales stage
    - Employee status changed to ReservedFor Sales
 
- - Other Subcategory
+ - Other Sub-category
 
    - process starts with New stage
    - Employee status changed to Rest
@@ -333,35 +334,35 @@ When Ever Employee returned to Lodging, from below Listed category will start th
 
 - **Rest:**
 
-  - User can move to following stage
+  - User can move to following stage.
 
-- **ReservedFor VIP:**
+- **Reserved For VIP:**
 
-  - Employee status changed to ReservedFor VIP
+  - Employee status changed to ReservedFor VIP.
 
-  - Complete-WaitingFor Action,employee status changed to Rest
+  - Complete-WaitingFor Action,employee status changed to Rest.
 
-- **ReservedFor Sales:**
+- **Reserved For Sales:**
 
-   - Employee status changed to ReservedFor Sales
+   - Employee status changed to ReservedFor Sales.
 
-   - Complete-WaitingFor Action,employee status changed to Rest
+   - Complete-Waiting For Action, employee status changed to Rest.
 
 "**Hourly Reserved(removed)**"
 
 - **WaitingForAction:**
 
-  - Ready to work =>employee status changed to Ready to work
-  - Refuse to work =>Investigation process will start
-  - Leave=> leave request will create with required data
-  - Final Exit=> retirement request will create with required data
+  - Ready to work =>employee status changed to Ready to work.
+  - Refuse to work =>Investigation process will start.
+  - Leave=> leave request will create with required data.
+  - Final Exit=> retirement request will create with required data.
 
 <br>
 
 Investigation Process
 
 - Transaction will creates with SubCategory in different sources
--Rest Process will start based on Return Reason(subcategory) as follows
+-Rest Process will start based on Return Reason(sub-category) as follows.
 
 --_**Request For Vacation**_
 
@@ -381,6 +382,109 @@ _**--Other Subcategory**_
 ---Employee status changed to Under_Investigation
 
 <br>
+
+
+
+{{{}}}
+
+
+# **Labour Case**
+
+### _**Rest**_
+
+ Rest Transaction will creates with Sub-Category from different sources
+
+Rest Process will start based on sub-category as follows:
+
+****Reserved For VIP***
+
+   - Process starts with Reserved for VIP stage.
+   - Employee status changed to "**Reserved For VIP**".
+
+<br>
+
+****Reserved For Sales***
+
+   - Process starts with Reserved for Sales stage
+   - Employee status changed to **Reserved For Sales**
+
+<br>
+
+****Other Subcategory***
+
+   - Process starts with ***New*** stage
+   - Employee status changed to **Rest**
+
+   <br>
+   <br>
+
+
+### ***Rest Workflow:***
+
+- ### **New:**
+
+  - Newly initiated Request is moved to Rest or Reserved for VIP.
+
+       * _In The Action fields are Following:_
+
+         ***1.Rest*** - User will move to Rest stage
+
+         ***2.Reserved For VIP*** - User will move to Reserved For VIP..
+
+- ### **Rest:**
+
+  - User can move to following stage
+
+     *  _In The Action fields are Following:_
+
+        ***1.Reserved For VIP*** -
+
+        ***2.Waiting For Action*** -
+
+- ### **Reserved For VIP:**
+
+  - Employee status changed to Reserved for VIP
+
+  - Complete-Waiting For Action, employee status changed to Rest
+
+     * _In The Action fields are Following:_
+
+       **1.Complete** -
+
+       **2.Move to Hourly** -
+
+- ### **Reserved For Sales:**
+
+   - Employee status changed to Reserved for Sales
+
+   - Complete - Waiting For Action, employee status changed to Rest
+
+    "**Hourly Reserved (removed)**"
+
+- ### **Waiting For Action:**
+
+
+  - Ready to work =>employee status changed to Ready to work
+
+  - Refuse to work =>Investigation process will start
+
+  - Leave=> leave request will create with required data
+
+  - Final Exit=> retirement request will create with required data
+
+
+    * In The Action fields are Following:
+
+       ***1.Ready to Work*** - User move to process with Required stage.
+
+       ***2.Refuse to Work*** - User move to process with **Refuse To Work** stage.
+
+       ***3.Leave*** - User move to process with **Leave Request** stage.
+
+       ***4.Final Exit*** - User move to process with **Retirement** stage.
+
+
+}}}}}}{{{}}}
 
 Investigation flow
 
@@ -697,28 +801,10 @@ Deport
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 Investigation Process
 Dead
 Jail
 Hospital
 Escape
 
-
-
-    
-
-        
 
